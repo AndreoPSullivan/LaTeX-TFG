@@ -310,20 +310,24 @@ Hasta hace unos años, la mayoría de las representaciones de enfermedades menta
 
 
 \section{Objetivos principales}
-    Los objetivos principales de este trabajo son investigar y analizar cuál es la situación actual con respecto a los videojuegos y la representación que hacen de las enfermededades mentales. Se comprobará también qué enfermedades suelen representarse y de qué forma. Además, se observará cómo ha ido variando a lo largo del tiempo esta representación.
+
+    Los objetivos principales de este trabajo son investigar y analizar cuál es la situación actual con respecto a los videojuegos y la representación que hacen de las enfermededades mentales, dado que a primera vista se considera insuficiente. Se comprobará también qué enfermedades suelen representarse y de qué forma. Además, se observará cómo ha ido variando a lo largo del tiempo esta representación.
     
-    A raíz del análisis de la representación de las enfermedades mentales, se investigará también cómo puede afectar una mejor o peor representación para la sociedad. Aparte de esto, cómo pueden ayudar en general los videojuegos y qué puede hacerse para desarrollar videojuegos más correctos al tratar este tema.  
+    De ese modo se tendrá una base para realizar un prototipo de una experiencia jugable donde se apliquen los conocimientos obtenidos, se traten las enfermedades mentales menos representadas o que requieran más representación, y se mostrará una nueva forma de representar enfermedades mentales en videojuegos. En este caso, con una experiencia jugable que se centra en la enfermedad en sí.
     
    
     \section{Objetivos secundarios}
     
-    Una vez analizados los resultados obtenidos, se creará un prototipo de una experiencia jugable donde se apliquen los conocimientos obtenidos, se traten las enfermedades mentales menos representadas o que requieran más representación, y se mostrará una nueva forma de representar enfermedades mentales en videojuegos. En este caso, con una experiencia jugable que se centra en la enfermedad en sí. 
-    
-
-
-
+     Se analizará tanto el estado del arte de los videojuegos, en general, como la opinión de una serie de encuestados, para conocer la frecuencia con la que se conocen videojugeos que muestren enfermedades mentales y cómo se sienten con respecto a estas representaciones. Esto se podrá encontrar, tanto en la sección \ref{sec:estadoArte} como en la sección \ref{sec:encuestaVid}.       
+       
+     A raíz del análisis de la representación de las enfermedades mentales, se investigará también cómo puede afectar una mejor o peor representación para la sociedad. Aparte de esto, cómo pueden ayudar en general los videojuegos y qué puede hacerse para desarrollar videojuegos más correctos al tratar este tema.   
+     
+     Para el desarrollo del prototipo se realizará un diseño del videojuego, que se puede encontrar en la sección \ref{sec:diseño} tanto software como de las artes, diseñando los personajes su historia, motivo de su creación, trasfondo, etc. en base a los estudios previamente realizados. 
+     
+     Finalmente, se creará una evaluación del prototipo para corregir los defectos reportados así como las mejoras propuestas por los encuestados, que se puede encontrar en la sección \ref{sec:encuestaDemo}. 
+  
 \chapter{Estado del arte}
-
+\label{sec:estadoArte}
 \section{Análisis de videojuegos}
 
 Para el análisis de videojuegos se han escogido videojuegos desde los años 80 a la actualidad donde se represente algún tipo de enfermedad o trastorno mental, bien de forma explícita o implícita, bien estando la historia basada en la propia enfermedad o apareciendo en personajes secundarios, etc. Esta selección se ha hecho en base al conocimiento sobre ellos, la información que se ha podido recabar, su importancia, y otros motivos. Seguro que se quedan muchos otros videojuegos fuera del estudio, no obstante, el análisis se hará finalmente sobre 56 títulos, siendo uno de ellos la demo desarrollada para este TFG, para la cual se han tenido en consideración los resultados del análisis sobre el resto de videojuegos. 
@@ -828,16 +832,19 @@ En este caso, parece que hicieron un buen trabajo, pues recibieron una gran cant
 
 \chapter{Metodología}
 
-En primer lugar, la planificación seguida ha sido aproximadamente la siguiente \ref{fig:planificacion}. 
 
 \begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{TGF/Extra/Planificación.png}
-    \caption{Planificación del TFG}
-    \label{fig:planificacion}
+	\centering
+	\includegraphics[width=1\linewidth]{TGF/Extra/Planificación.png}
+	\caption{Planificación del TFG}
+	\label{fig:planificacion}
 \end{figure}
 
 
+En primer lugar, la planificación seguida ha sido aproximadamente la siguiente \ref{fig:planificacion}. 
+
+
+\section{Herramientas utilizadas}
 En cuanto a las herramientas utilizadas, el proyecto ha sido realizado en Unity \cite{unity}, un motorde videojuegos multiplataforma creado por Unity Technologies. La programación que ofrece este entorno se realiza en C\#. La licencia utilizada ha sido Unity Education. 
 
 Por otro lado se ha utilizado 3dsMax 2022 \cite{3dsmax} para la creación y modificación de algún modelo 3D. 3dsMax es un programa de Autodesk para la creación de gráficos y animación 3D. La licencia utilizada ha sido la educacional, que ofrece un año gratuito en el uso del software. 
@@ -865,19 +872,32 @@ Para la recogida de información y organización se han utilizado tanto Google D
 
 Con respecto a la integración continua en el proyecto, se ha hecho uso de Github \cite{github}, una herramienta de control de versiones, que hace uso de Git \cite{git}, donde se ha ido subiendo periódicamente el código y configuración del proyecto para que se tuviera acceso en todo momento. Se ha utilizado la versión de uso libre. 
 
-Se ha utilizado Github Desktop \cite{githubdesk} para hacer las subidas a Github con un mayor control sobre los archivos que se subían, mayor facilidad a la hora de hacerlo, etc. 
+Se ha utilizado Github Desktop \citetitle{githubdesk} para hacer las subidas a Github con un mayor control sobre los archivos que se subían, mayor facilidad a la hora de hacerlo, etc. 
 
-Por último, para la búsqueda de recursos se ha utilizado Turbosquid \cite{turbo}, freepik \cite{freepik} y CGTrader \cite{CGTrader}, entre otros. 
-
-
+Por último, para la búsqueda de recursos se ha utilizado Turbosquid \citetitle{turbo}, freepik \citetitle{freepik} y CGTrader \citetitle{CGTrader}, entre otros. 
 
 
-\chapter{Diseño de la demo}
 
+
+\chapter{Diseño y desarrollo de ``Insania''}
+
+Gracias a la información recabada durante la investigación, que puede encontrarse tanto en la sección \ref{sec:estadoArte} como en la encuesta realizada que se puede encontrar en la sección \ref{sec:encuestaVid}, se ha diseñado y desarrollado un prototipo de videojuego que trata diferentes enfermedades mentales. 
+
+En este prototipo, llamado ``Insania'', por su significado en latín, ``locura'', se podrá experimentar un poco cómo es vivir con determinados trastornos mentales, un trastorno de la conducta alimentaria, el trastorno de ansiedad social y la depresión. 
+
+La finalidad es la representación y validación de las experiencias de estos personajes, de forma que los jugadores puedan sentirse identificados y, de ese modo, validados, por ellos mismos. En algunos casos puede ser duro enfrentarse a ciertos comentarios si se han llegado a tener o se tienen en algún momento, pero otras personas podrán considerar a estos personajes unos compañeros de batallas que pueden darles fuerza.
+
+Se quiere, además, concienciar de que, pese a que no seamos psicólogos, podemos darnos cuenta de algunos detalles que pueden hacer saltar las alarmas y dar apoyo a quien creamos que puede estar pasando por algún mal momento. 
+
+Es frecuente escuchar a la gente hacer comentarios sobre ``lo poco que come alguien'', escuchar un ``no voy a hablar por ti, si lo quieres, entra tú y lo pides'', cuando una persona probablemente tiene pánico a entrar en sitios con gente y hablar con desconocidos o ``pero por qué estás triste, si todo te va bien''. Invalidar los problemas de los demás o no percibir que algo puede estar pasando puede hacer que esos trastornos vayan a más y las personas se recluyan aún más y lo sufran en soledad al sentirse atacados ``en público''. 
+
+Además, el problema muchas veces no viene simplemente de la falta de empatía o de querer hacer daño, viene de la falta de información, de no saber que ese comentario puede hacer sentir mal, de que, que una persona nunca quiera comer con gente puede significar algo más que ``que no tenga hambre''. Sin conocimiento se pueden decir muchas palabras dañinas sin saber que lo son, por eso cuanto más se hable de salud mental, mejor será para todos. 
+
+\label{sec:diseño}
 \section{Diseño general}
-Partiendo del estudio previo realizado, analizando qué enfermedades se representan en videojuegos, de qué forma se hace y cómo es percibido por el público, tanto gente que las sufre como quienes no saben nada sobre ellas, se ha realizado una demo tratando de plasmar algunas de las enfermedades de las que menos se habla. 
+Partiendo del estudio previo realizado, analizando qué enfermedades se representan en videojuegos, de qué forma se hace y cómo es percibido por el público, tanto gente que las sufre como quienes no saben nada sobre ellas, se ha realizado un prototipo de videojuego, tratando de plasmar algunas de las enfermedades de las que menos se habla. 
 
-Por ese motivo en la demo se tratan tres enfermedades diferentes, y se muestra en cierta medida cómo es vivir con ellas. Estas enfermedades son un TCA, que, volviendo al estudio de videojuegos previamente realizado en la seccion \ref{sec:enfermedades}, sólo se mostraba en dos videojuegos, siendo uno de ellos esta misma demo y el otro, en \citetitle{darkest15}, donde los personajes pueden padecer bulimia, que les hace es recuperar menos vida cuando acampan. (\citetitle{darkest15} es un videojuego donde el jugador selecciona un grupo de personajes que deben ir de expedición a una mazmorra, en la cual se tienen que enfrentar a enemidos en un combate por turnos. Si la mazmorra es muy grande podrán descansar en un campamento donde pueden recuperar vida y cordura utilizando habilidades o comida, de ahí el hecho de que un personaje bulímico recupere menos vida en un campamento). Sin embargo no se trata la enfermedad como tal, sólo se hace un pequeño guiño. 
+Por ese motivo en la demo se tratan tres enfermedades diferentes, y se muestra en cierta medida cómo es vivir con ellas. Estas enfermedades son un TCA, que, volviendo al estudio de videojuegos previamente realizado en la seccion \ref{sec:enfermedades}, sólo se mostraba en dos videojuegos, siendo uno de ellos esta misma demo y el otro, en \citetitle{darkest15}, donde los personajes pueden padecer bulimia, que les hace es recuperar menos vida cuando acampan. (\citetitle{darkest15} es un videojuego donde el jugador selecciona un grupo de personajes que deben ir de expedición a una mazmorra, en la cual se tienen que enfrentar a enemidgs en un combate por turnos. Si la mazmorra es muy grande podrán descansar en un campamento donde pueden recuperar vida y cordura utilizando habilidades o comida, de ahí el hecho de que un personaje bulímico recupere menos vida en un campamento). Sin embargo no se trata la enfermedad como tal, sólo se hace un pequeño guiño. 
 
 En el caso de la segunda enfermedad seleccionada, es el TAS (Trastorno de Ansiedad Social), enfermedad presente en tan sólo 4 de los videojuegos analizados, de nuevo siendo uno esta misma demo. Algunos de los videojuegos donde se representa son \citetitle{sym15} o \citetitle{lifeisstrange18}. Por ejemplo, \citetitle{sym15}, es un videojuego que explora la ansiedad social, representando al personaje en un laberinto dividido en dos submundos, uno que representa la vida normal y otro el lugar donde escapar de sus miedos. 
 
@@ -885,25 +905,15 @@ Por último, se ha escogido la depresión, en este caso no por la falta de repre
 
 Las representaciones de la depresión suelen ser exageraciones de la realidad, de los síntomas, y de quienes lo padecen. Sin embargo, es una enfermedad que se sufre de muchas formas diferentes, y mucha gente la vive en silencio, sin saber que la padece, con mucho sufrimiento y sin pedir ningún tipo de ayuda, pues consideran que ``no están tan mal para tener depresión'', otros que ``eso es de flojos'' o incluso no consideran que sus problemas sean realmente importantes comparado con los de los demás y no tienen derecho a estar mal y quejarse. Mucha de esta gente acaba con tentativas de suicidio o sucumbiendo a él, y es por ello que ninguna representación es suficiente, y cuanta más representación y más diversa ésta sea, más gente se podrá ver reflejado y podrá entender qué le pasa y que la mejor solución es pedir ayuda y que no pasa nada por no estar bien y que se puede hablar de ello. 
 
-Con esta demo, en definitiva, se quiere tratar de hablar de otras enfermedades, que quienes la jueguen experimenten experiencias que pueden haber vivido si no por ellos mismos, por gente a la que conocen pero desconocían que podía deberse a algún problema. Se quiere concienciar de que, pese a que no seamos psicólogos, podemos darnos cuenta de algunos detalles que pueden hacer saltar las alarmas y dar apoyo a quien creamos que puede estar pasando por algún mal momento. 
-
-Es frecuente escuchar a la gente hacer comentarios sobre ``lo poco que come alguien'', escucuchar un ``no voy a hablar por ti, si lo quieres, entra tú y lo pides'', cuando una persona probablemente tiene pánico a entrar en sitios con gente y hablar con desconocidos o ``pero por qué estás triste, si todo te va bien''. Invalidar los problemas de los demás o no percibir que algo puede estar pasando puede hacer que esos trastornos vayan a más y las personas se recluyan aún más y lo sufran en soledad al sentirse atacados ``en público''. 
-
-Además, el problema muchas veces no viene simplemente de la falta de empatía o de querer hacer daño, viene de la falta de información, de no saber que ese comentario puede hacer sentir mal, de que, que una persona nunca quiera comer con gente puede significar algo más que ``que no tenga hambre''. Sin conocimiento se pueden decir muchas palabras dañinas sin saber que lo son, por eso cuanto más se hable de salud mental, mejor será para todos. 
 
 
-
-\subsection{Descripción breve}
-En esta demo se podrá experimentar un poco cómo es vivir con cada uno de los tratornos mencionados, un trastorno de la conducta alimentaria, trastorno de ansiedad social y depresión. 
-
-No se pretende generalizar y considerar como únicas estas vivencias, simplemente dar una nueva perspectiva. 
 
 \subsection{Personajes y trastornos}
 
 
-La demo cuenta con tres personajes diferentes, cada uno de ellos seleccionable para disfrutar de una diferente experiencia de juego. Cada personaje padece un trastorno o enfermedad mental diferente, de forma que vivirán las situaciones que se le plantean y tendrá un comportamiento diferente teniendo esto en cuenta.  
+El prototipo cuenta con tres personajes diferentes, cada uno de ellos seleccionable para disfrutar de una diferente experiencia de juego. Cada personaje padece un trastorno o enfermedad mental diferente, de forma que vivirán las situaciones que se le plantean y tendrá un comportamiento diferente teniendo esto en cuenta.  
 
-\textbf{Personaje 1}: (nombre). Este personaje padecerá un trastorno de la conducta alimentaria (TCA). 
+\textbf{Personaje 1}: Este personaje padecerá un trastorno de la conducta alimentaria (TCA). Su diseño puede encontrarse en la sección \ref{sec:diseñoPersonajes}.
 
 \begin{itemize}
     \item {\textbf{Descripción del trastorno:}   Estas enfermedades ``se caracterizan por una conducta alterada frente a la ingesta alimentaria o la aparición de conductas para controlar el peso'' \cite{tcasdescripcion}. Estos trastornos están relacionados, generalmente, con la autopercepción y la distorsión de la imagen corporal \cite{tcaCM}. Los diferentes tipos de trastornos de la conducta alimentaria son los siguientes: 
@@ -947,7 +957,7 @@ La demo cuenta con tres personajes diferentes, cada uno de ellos seleccionable p
 
 
 
-\textbf{Personaje 2}: (nombre). Este personaje padecerá un trastorno de ansiedad social (TAS). 
+\textbf{Personaje 2}: Este personaje padecerá un trastorno de ansiedad social (TAS). Su diseño puede encontrarse en la sección \ref{sec:diseñoPersonajes}.
 
 \begin{itemize}
     \item {\textbf{Descripción del trastorno:}
@@ -1000,14 +1010,14 @@ Al enseñar este trastorno se pretende dar visibilidad al sufrimiento de muchas 
 
 
 
-\textbf{Personaje 3}: (nombre). Este personaje padecerá depresión
+\textbf{Personaje 3}: Este personaje padecerá depresión. Su diseño puede encontrarse en la sección \ref{sec:diseñoPersonajes}.
 
 \begin{itemize}
     \item {\textbf{Descripción del trastorno:}
      La depresión es un trastorno del estado del ánimo, transitorio o permanente, que se caracteriza por un sentimiento de tristeza o pérdida de interés en realizar cualquier tipo de actividad. Existe la posibilidad de tener dificultad incluso para realizar las actividades cotidianas. Entre los síntomas, se encuentran una gran cantidad y variedad de ellos, pese a que no tengan por qué sufrirse todos ellos. Algunos de esos síntomas son el sentimiento de tristeza o vacío, pérdida de interés en cualquier tipo de actividad, alteraciones del sueño, cansancio y falta de energía, trastornos en la conducta alimentaria, bien por la falta del apetito o por los antojos de comida, que suponen una pérdida o ganancia de peso. También puede sentirse ansiedad (de hecho, es típico sufrir de este trastorno junto con el trastorno de ansiedad generalizada), dificultad de concentración o en la toma de decisiones, dolores físicos, e incluso pensamientos o intentos suicidas. Es una enfermedad que suele presentarse con una frecuencia que es casi el doble en el caso de las mujeres que en el de los hombres. 
      Existen diferentes tipos de depresión, entre ellas se encuentran: 
          \begin{itemize}
-            \item {\textbf{Trastorno depresivo mayor:} previo a este episodio pueden experimentarse otros síntomas como la ansiedad, fobias, o ataques de pánico. En función de si existe un único episodio o más, se considerará, “trastorno depresivo mayor de episodio único”, o bien “trastorno depresivo mayor recurrente”. Se caracteriza por la presencia de algunos o todos los siguientes síntomas durante, al menos, dos semanas:  un bajo estado de ánimo durante la mayor parte del día y de los días, pérdida o aumento del apetito, disminución de la capacidad de disfrute, sensación de debilidad, sentimientos de inutilidad o culpa, insomnio o hipersomnio (dormir más o menos de lo habitual), etc. }
+            \item {\textbf{Trastorno depresivo mayor:} previo a este episodio pueden experimentarse otros síntomas como la ansiedad, fobias, o ataques de pánico. En función de si existe un único episodio o más, se considerará, ``trastorno depresivo mayor de episodio único'', o bien ``trastorno depresivo mayor recurrente''. Se caracteriza por la presencia de algunos o todos los siguientes síntomas durante, al menos, dos semanas:  un bajo estado de ánimo durante la mayor parte del día y de los días, pérdida o aumento del apetito, disminución de la capacidad de disfrute, sensación de debilidad, sentimientos de inutilidad o culpa, insomnio o hipersomnio (dormir más o menos de lo habitual), etc. }
             \item {\textbf{Trastorno distímico:} los criterios o síntomas son similares al caso anterior, con la mayor diferencia de que se poseen durante un mínimo de dos años, pudiendo no existir alguno de ellos durante no más de dos meses seguidos. Además, se considera este tipo de trastorno si no existen antecedentes de otras enfermedades o se presentan los criterios de otras enfermedades como trastorno bipolar, esquizofrenia, etc.}
             \item {\textbf{Trastorno adaptativo o depresión reactiva (ansiedad y ánimo depresivo:} la aparición de la sintomatología suele venir en respuesta a un acontecimiento estresante, siendo esta respuesta “desproporcionada” para ese factor estresante. }    
              \item {\textbf{Trastorno depresivo no especificado: }  se considerará aquella situación en la que se presentan algunos de los síntomas depresivos, pero no suficientes para el diagnóstico de ninguno de los otros trastornos. A veces por el solapamiento con un trastorno por ansiedad, un trastorno disfórico premenstrual, trastorno afectivo estacional, etc. }
@@ -1030,7 +1040,7 @@ Este tiempo de mayor soledad le ha hecho tener tiempo para encontrarse con sus p
 Desde que va a terapia, está intentando averiguar cuáles han podido ser los motivos que hayan desencadenado el sentirse así y no encontrar nada que mejore su estado de ánimo. Han empezado a hablar de su infancia, la cual recuerda como una infancia feliz, de no ser por un par de recuerdos en el colegio que le produjeron cierto malestar. Tuvo una familia estructurada, nunca le faltó de nada, estudió siempre lo que quiso. Tenía amigos, en algunas épocas más que en otras, pero nunca se sintió alejada de los demás. Ahora mismo se encuentra trabajando, quizá no en el trabajo que más satisfacción le causa, pero se siente agradecida de haber encontrado ese trabajo donde hay buenos compañeros y con el que puede pagar el alquiler. 
 Además, comparte piso con su mejor amigo, que es la única persona a la que ve últimamente, aunque poco porque sus horarios son muy diferentes. Pese a no descubrir la razón, la terapeuta le está dando recomendaciones e indicaciones para que siga preguntándose cosas e intente deshacer el nudo que tiene dentro y volver a tener y sentir que tiene una vida plena y feliz. De momento no ha sido derivada a psiquiatría y no está tomando medicación, pero no se descarta su uso si el problema continúa y la terapia cognitivo conductual sigue sin funcionar. 
 
-    Pese a que ( ) lo desconozca, la depresión es una enfermedad que lleva navegando entre generaciones en su familia por parte de madre a lo largo de los años. Su abuela la tenía, dos de sus tíos la tienen, su propia madre ha tenido episodios depresivos en algunos momentos de su vida. Como es un tema del que no hablan, desconoce este aspecto, lo cual le ha llevado a culparse aún más de sentirse mal ``teniendo todo en la vida''. 
+    Pese a que el personaje lo desconozca, la depresión es una enfermedad que lleva navegando entre generaciones en su familia por parte de madre a lo largo de los años. Su abuela la tenía, dos de sus tíos la tienen, su propia madre ha tenido episodios depresivos en algunos momentos de su vida. Como es un tema del que no hablan, desconoce este aspecto, lo cual le ha llevado a culparse aún más de sentirse mal ``teniendo todo en la vida''. 
    
     }
     
@@ -1118,17 +1128,16 @@ El diagrama de flujo puede encontrarse en la figura \ref{fig:diagramaflujo}.
 \section{Diseño de las artes}
 \subsection{Diseño gráfico y HUD}
 
-Para el diseño del juego se ha elegido una paleta de colores pastel, donde predomina el rosa claro. Esto es así por tratar un tema más ``suave'' o ``delicado''. La imagen principal se ha obtenido de \cite{imgInicio}. En cuanto al resto de elementos utilizados, se han creado con Photoshop, los botones, los iconos del diario, el diario abierto, las notas, etc. (Ver Figura \ref{fig:diarioNotas}). 
-
-Como se puede ver en las figuras, se ha intentado tener un diseño sencillo y claro, que no enturbie demasiado la pantalla de juego y que proporcione la información necesaria en cada momento. Además, se ofrecen botones para poder cambiar el idioma, haciendo el juego más accesible, poder encender o apagar la música, para garantizar un mayor control por parte del jugador, y para salir del juego en cualquier momento o reanudarlo, gracias al menú de pausa. 
-
 \begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{TGF/Artes/diarioNotas.png}
-    \caption{Diario con todas las notas}
-    \label{fig:diarioNotas}
+	\centering
+	\includegraphics[width=.8\linewidth]{TGF/Artes/diarioNotas.png}
+	\caption{Diario con todas las notas}
+	\label{fig:diarioNotas}
 \end{figure}
 
+Para el diseño del juego se ha elegido una paleta de colores pastel, donde predomina el rosa claro. Esto es así por tratar un tema más ``suave'' o ``delicado''. La imagen principal se ha obtenido de \cite{imgInicio}. En cuanto al resto de elementos utilizados, se han creado con Photoshop, los botones, los iconos del diario, el diario abierto, las notas, etc. (Ver Figura \ref{fig:diarioNotas}). 
+
+Como se puede ver en las figuras \ref{fig:UXInicio}, \ref{fig:UXSelec}, \ref{fig:UXPausa}, \ref{fig:UXHUD} y \ref{fig:UXHUD2}, se ha intentado tener un diseño sencillo y claro, que no enturbie demasiado la pantalla de juego y que proporcione la información necesaria en cada momento. Además, se ofrecen botones para poder cambiar el idioma, haciendo el juego más accesible, también para poder encender o apagar la música, para garantizar un mayor control por parte del jugador, y para salir del juego en cualquier momento o reanudarlo, gracias al menú de pausa. 
 
 Pantalla de inicio (Ver Figura \ref{fig:UXInicio})
 
@@ -1225,7 +1234,7 @@ En cuanto a las texturas, en algunos casos se han preservado la de los modelos o
   \caption{Mapa de UVs de la tarta}
 \end{subfigure}
 \caption{Mapas de UVs}
-\label{fig:texBed}
+\label{fig:texUvs}
 \end{figure}
 
 
@@ -1258,10 +1267,10 @@ En cuanto a las texturas, en algunos casos se han preservado la de los modelos o
 \end{figure}
 
 \subsubsection{Personajes}
+\label{diseñoPersonajes}
+Para los personajes, se ha partido de el modelado y animaciones del personaje \citetitle{refCharacter}, así como de las texturas a partir de las cuales se han diseñado la de los personajes utilizados. 
 
-Para los personajes, se ha partido de el modelado y animaciones de \cite{refCharacter}, así como de las texturas a partir de las cuales se han diseñado la de los personajes utilizados. 
-
- (   ) - Personaje con TCA 
+ Personaje 1 - Personaje con TCA 
  
  Mapa de UVs (Ver Figura \ref{fig:ArtesTCA1})
  
@@ -1301,7 +1310,7 @@ Para los personajes, se ha partido de el modelado y animaciones de \cite{refChar
 \end{figure}
 
 
- (   ) - Personaje con TAS
+Personaje 2 - Personaje con TAS
  
  Mapa de UVs (Ver Figura \ref{fig:ArtesTAS1})
  
@@ -1341,7 +1350,7 @@ Para los personajes, se ha partido de el modelado y animaciones de \cite{refChar
 \end{figure}
 
 
- (   ) - Personaje con Depresión
+Personaje 3 - Personaje con Depresión
  
  Mapa de UVs (Ver Figura \ref{fig:ArtesDEP1})
  
@@ -1380,7 +1389,7 @@ Para los personajes, se ha partido de el modelado y animaciones de \cite{refChar
 \end{figure}
 
 
- (   ) - Personajes extra
+Personajes extra
  
  Mapa de UVs (Ver Figura \ref{fig:ArtesEVIL1})
  
@@ -1869,10 +1878,10 @@ Finalmente, los comentarios sobre la encuesta pueden encontrarse en \hyperref[co
 
 
 \section{Encuesta sobre la demo}
+\label{sec:encuestaDemo}
+Cuando hubo un prototipo jugable, se realizó una encuesta para intentar mejorar ciertos aspectos que los encuestados encontraran problemáticos. 
 
-Cuando hubo una demo jugable, se realizó una encuesta para intentar mejorar ciertos aspectos que los encuestados encontraran problemáticos. 
-
-El link a la encuesta puede encontrarse en \citetitle{encuestaDemo}. 
+El link a la encuesta puede encontrarse en el link de la bibliografía \citetitle{encuestaDemo}. 
 
 En primer lugar se preguntó sobre el entendimiento del juego, si eran necesarios los controles, la adecuación de la música y efectos de sonido y por qué, la adecuación de los elementos del HUD y por qué o si han tenido algún problema durante la experiencia. 
 
@@ -1889,15 +1898,15 @@ Dado el bajo número de respuestas, no se cree necesario el uso de gráficas par
 
 De estos se obtuvo la necesidad de añadir los controles en el juego, dado que hay quienes lo consideraron muy necesario. Pese a que otros probadores no lo necesitaban, en el momento en que uno lo necesita es suficiente para añadirlos, pues no afecta a la jugabilidad de los demás y los que los necesitan pueden sacar provecho de ello. 
 
-En cuanto a la música, generalmente se consideró un uso adecuado, pero se echó en falta un control para poder quitarla si se quería. 
+En cuanto a la música, generalmente se consideró un uso adecuado, pero se echó en falta un control para poder quitarla si se quería, además se consideró que había que regular mejor el volumen de la música y los efectos de sonido, cosa que se hizo tras analizar la encuesta. 
 
-Por ese motivo, se añadió en el menú de pausa la opción de activar o desactivar la música del juego. 
+Dada la solicitud del control de la música, se añadió en el menú de pausa la opción de activar o desactivar la música del juego. 
 
-En cuanto al HUD, nadie ha tenido ningún problema con él y lo han considerado perfectamente adecuado. 
+En cuanto al HUD, nadie ha tenido ningún problema con él y lo han considerado perfectamente adecuado, a excepción del reloj, cuando este aún se mostraba permanentemente y no sólo en el momento de la visita, todavía no se había terminado de desarrollar ese aspecto del juego. 
 
-Tampoco ninguno se perdió durante la experiencia con el videojuego. 
+En cuanto a perderse en el juego, solo una de las personas consideró sentirse perdida por no tener claro al principio en qué consiste la experiencia o qué hacer. Sin embargo, reconoce que pudo seguir avanzando en el juego gracias a las tareas que aparecen en la esquina superior izquierda, por lo que no se considera un elemento a arreglar dado que es la intención buscada, que en un principio haya cierto desconcierto sobre qué se le presenta al jugador, pueda investigar el entorno y prestar atención a los mensajes del personaje.
 
-Por otro lado, encontraron varios problemas en el juego como que se podía atravesar la pared en un punto del escenario o que la luz tardaba mucho en enceder. Ambos se han tratado de resolver añadiendo más dureza al material y colocando otro objeto detrás de la pared, para resolver el primer problema, y acelerando la velocidad de encendido y apagado de las luces, para el segundo. 
+Por otro lado, encontraron varios problemas en el juego como que se podía atravesar la pared en un punto del escenario o que la luz tardaba mucho en encender. Ambos se han tratado de resolver añadiendo más dureza al material y colocando otro objeto detrás de la pared, para resolver el primer problema, y acelerando la velocidad de encendido y apagado de las luces, para el segundo. 
 
 La temática que han considerado que trata el juego es sobre trastornos o enfermedades mentales, ``Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresión'', comentaba uno de los encuestados. 
 
