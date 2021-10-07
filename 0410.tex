@@ -843,6 +843,19 @@ En este caso, parece que hicieron un buen trabajo, pues recibieron una gran cant
 
 En primer lugar, la planificación seguida ha sido aproximadamente la siguiente \ref{fig:planificacion}. 
 
+Se comenzó con la organización del trabajo, planteando qué se iba o no hacer y de qué manera. Se continuó con la investigación sobre el tema, se leyeron muchos artículos, tanto científicos como reportajes o artículos de opinión, así como valoraciones personales. Se vieron también vídeos de YouTube y demás recursos que trataran el tema del que se iba a hablar, la relación entre las enfermedades mentales y su representación en videojuegos o bien el efecto que tiene esta representación en quienes lo juegan. 
+
+A continuación se comenzó con el análisis de la información recabada, que se puede consultar en la sección \ref{sec:estadoArte}. A la par, se creó la encuesta que posteriormente iba a compartirse por todos los medios posibles: familiares, redes sociales, amigos, etc. llegando a un total de 254 personas. Esta encuesta se creó tanto en castellano como en inglés, pudiendo llegar así a un mayor número de personas. Los resultados pueden consultarse en \ref{sec:encuestaVid} y en su totalidad en el anexo \ref{sec:anexo}. 
+
+Con los datos recabados tanto en el análisis previo como en la encuesta, se empezó a diseñar y desarrollar un prototipo de videojuego que tratara ciertas enfermedades mentales. En este caso, habiendo comprobado la falta de representación que tenían algunas enfermedades y la cantidad de gente que las padece, se eligió representar un trastorno de la conducta alimentaria, un trastorno de ansiedad social y la depresión. El diseño de este prototipo, finalmente llamado ``Insania'', puede encontrarse en la sección \ref{sec:diseñoInsania}. 
+
+Una vez creado un ejecutable jugable, se compartió con un equipo de probadores a los cuales se mandó una encuesta para la evaluación del mismo. Con los resultados obtenidos se modificó el prototipo corregiendo los problemas encontrados así como aplicando las mejoras consideradas, como mayor solidez en los objetos que se estaban traspasando o añadiendo los controles de movimiento. El resultado de esta encuesta puede encontrarse en la sección \ref{sec:encuestaDemo} y en su totalidad en el anexo \ref{sec:anexo2}. 
+
+
+
+
+
+
 
 \section{Herramientas utilizadas}
 En cuanto a las herramientas utilizadas, el proyecto ha sido realizado en Unity \cite{unity}, un motorde videojuegos multiplataforma creado por Unity Technologies. La programación que ofrece este entorno se realiza en C\#. La licencia utilizada ha sido Unity Education. 
@@ -880,7 +893,7 @@ Por último, para la búsqueda de recursos se ha utilizado Turbosquid \citetitle
 
 
 \chapter{Diseño y desarrollo de ``Insania''}
-
+\label{sec:diseñoInsania}
 Gracias a la información recabada durante la investigación, que puede encontrarse tanto en la sección \ref{sec:estadoArte} como en la encuesta realizada que se puede encontrar en la sección \ref{sec:encuestaVid}, se ha diseñado y desarrollado un prototipo de videojuego que trata diferentes enfermedades mentales. 
 
 En este prototipo, llamado ``Insania'', por su significado en latín, ``locura'', se podrá experimentar un poco cómo es vivir con determinados trastornos mentales, un trastorno de la conducta alimentaria, el trastorno de ansiedad social y la depresión. 
@@ -1939,7 +1952,7 @@ Finalmente, en las observaciones extra, algún encuestado ha indicado ``Me gusta
 
 
 \chapter{Encuesta sobre videojuegos y enfermedades mentales}
-
+\label{sec:anexo}
 \section{Encuesta general}
 
 \subsection{Control demográfico}
@@ -3293,7 +3306,111 @@ Respuestas: 56
 
 
 
-\chapter{Encuesta sobre la demo}
+\chapter{Encuesta sobre el prototipo}
+\label{sec:anexo2}
+
+Respuestas: 5
+
+\begin{enumerate}[label=\textbf{\arabic*}.]
+     \item \textbf{¿Cómo de bien entiendes el funcionamiento del juego?}\\
+	 
+	 \item \textbf{¿Cómo de necesario consideras añadir los controles?}\\
+	 
+	 \item \textbf{¿Cómo de adecuado consideras el uso de la música y efectos de sonido?}\\
+	 
+	 
+	 \item \textbf{ Indica por qué, si no consideras que es completamente adecuado}\\
+	 
+	 
+	 \item \textbf{¿Cómo de apropiados consideras que son los elementos del HUD (información en pantalla)?}\\
+	 
+	 
+	 \item \textbf{En el caso de no considerarlos completamente adecuados, ¿por qué motivo?}\\
+	 
+	 
+	 \item \textbf{¿En algún momento te has perdido durante la experiencia con el videojuego?}\\
+	 
+	 \item \textbf{En el caso de haber seleccionado sí, ¿cuándo y por qué?}\\
+		Al iniciar no queda claro en qué consiste el juego o cuál es el objetivo. En ciertas "tareas" que aparecen en la parte superior izquierda tampoco queda demasiado claro qué hacer.
+	 
+	 \item \textbf{¿Ha ocurrido algún problema mientras probabas el juego? En tal caso, indica qué ha pasado.}\\
+		Un fallo en la Matrix que me hacia atravesar paredes aunque me encantaría darle explicación o inventármela (eso sería sin duda más divertido que solo decir que es un ``fallo'')
+		
+		No habia forma de bajar la musica en las opciones!!
+		
+		La luz tarda en encenderse y atraviesa la pared el n° 2
+		
+		En algún momento los personajes han atravesado una pared
+		
+		He clipeado siempre en la esquina superior derecha, entre la pared de la derecha y la lámpara. A veces, al salir de la cama, el modelo del personaje aparece tumbado en el suelo y no de pie. A veces no logro interactuar bien con los objetos del entorno. 
+	 
+	 \item \textbf{Indica qué temática consideras que tiene el videojuego y por qué has llegado a esa conclusión.}\\
+	 
+		La depresión o la ansiedad son problemas que rodean a la persona constantemente y no se pueden evitar, solo tratar de controlar. Es fácil ponerse en la piel del personaje pero difícil seguir jugando por la dureza del mensaje. Estos personajes desarrollan su día a día con una discusión interna constante, una temática tan necesaria de ser representada como ausente en el mundo de los videojuegos.
+		
+		Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresion.
+		
+		Habla de transtornos o enfermedades mentales.
+		
+		Enfermedades mentales, por los comentarios que tienen los personajes sobre sí mismos.
+		
+		Creo que se intenta plasmar diferentes trastornos o enfermedades mentales dando a entender los pensamientos y la manera de procesar información o hechos por parte del ``enfermo''. He llegado a esta conclusión gracias a los textos que aparecen en la parte inferior de la pantalla y al propio título del juego.
+		
+		
+	 \item \textbf{¿Crees que la estética del juego acompaña la temática representada?}\\
+
+	 \item \textbf{Indica en qué nivel te has sentido representado con cada uno de los personajes}\\
+	 \item \textbf{Indica por qué}\\
+	 
+		 Etapa de adolescente, el último personaje camina más despacio, toda su sala está más apagada, es fácil sentir que nadie te entiende en esa etapa de crecimiento y la tensión que aquello genera.
+		 
+		 Con el personaje 3, que me parecio el depresivo, a veces me siento asi de lento y sin ganas de nada.
+		 
+		 El tercero creo que tiene depresión.
+		 
+		 En algún momento de mi vida he tenido pensamientos similares a los del primer personaje y los del último me han resultado frecuentes en ciertos momentos de mi vida.
+		 
+		 El personaje 3, sobretodo, por tener unos patrones de conducta y pensamientos similares a los míos en la actualidad.
+	 
+	 \item \textbf{¿Qué aspectos modificarías? }\\
+	 
+		 Ninguno
+		 
+		 No he entendido bien el sistema del reloj/tiempo
+		 
+		 opciones para bajar la musica!!
+		 
+		 Control de la música
+	 
+	 \item \textbf{¿Cómo llamarías a este juego o experiencia jugable?}\\
+	 
+		 Hay muchos factores que determinan que es un juego, como los dos mensajes distintos del cuaderno que cambian además según el personaje, me da la impresión que tiene más objetivos de los que he logrado cumplir
+		 
+		 Broken people
+		 
+		 El nombre que tiene me gusta
+		 
+		 No sé
+		 
+		 Myaló (mente en griego)
+	 
+	 \item \textbf{Añade cualquier otra observación}\\
+
+		Me gusta que los tres tengan distintos mensajes en el mismo entorno y con los mismos objetivos, defiende mejor lo que les une realmente
+		
+		te hace imaginar como vive la gente con estas enfermedades, es diferente
+		
+		Ninguna
+		
+		No tengo
+		
+		-
+	 
+	
+\end{enumerate}
+
+
+
 \newpage
 
 
