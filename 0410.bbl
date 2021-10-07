@@ -41,11 +41,45 @@
   \endentry
 
   \entry{photoshop}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Adobe Systems Incorporated}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{{1990-2021}}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{title}{Adobe Photoshop}
+    \field{note}{\url{https://www.adobe.com/es/products/photoshop.html}.
+  Último acceso Octubre 2021}
+    \field{title}{{Adobe Photoshop}}
+    \field{year}{{1990-2021}}
+  \endentry
+
+  \entry{adobeacrobat}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Adobe Systems Incorporated}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{{1994-2018}}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{\url{https://get.adobe.com/es/reader/}. Último acceso Octubre
+  2021}
+    \field{title}{{Adobe Acrobat Reader DC}}
+    \field{year}{{1994-2018}}
   \endentry
 
   \entry{jekyll88}{misc}{}
@@ -55,8 +89,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1988}
@@ -103,8 +137,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A3}
-    \strng{fullhash}{A3}
+    \strng{namehash}{A4}
+    \strng{fullhash}{A4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
@@ -127,8 +161,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{extradate}{1}
@@ -146,8 +180,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{extradate}{2}
@@ -165,8 +199,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{extradate}{3}
@@ -184,16 +218,18 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{Disponible en \url{}. Último acceso Junio 2021}
-    \field{title}{{EL MÍO}}
+    \field{note}{Disponible en
+  \url{https://github.com/AndreoPSullivan/TFG-Videojuegos}. Último acceso
+  Octubre 2021}
+    \field{title}{{Insania}}
     \field{year}{2021}
   \endentry
 
@@ -204,8 +240,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
+    \strng{namehash}{A6}
+    \strng{fullhash}{A6}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
@@ -226,8 +262,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A6}
-    \strng{fullhash}{A6}
+    \strng{namehash}{A7}
+    \strng{fullhash}{A7}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{{1990-2020}}
@@ -238,29 +274,6 @@
   acceso Octubre 2021}
     \field{title}{{3dsMax}}
     \field{year}{{1990-2020}}
-  \endentry
-
-  \entry{bibex}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={Autores},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A7}
-    \strng{fullhash}{A7}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{3081}
-    \field{labeldatesource}{}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Cómo escribir TFG}
-    \verb{url}
-    \verb http://una.url
-    \endverb
-    \field{journaltitle}{IEEE Informática}
-    \field{year}{3081}
   \endentry
 
   \entry{daysgone19}{misc}{}
@@ -284,6 +297,26 @@
     \field{year}{2019}
   \endentry
 
+  \entry{texstudio}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Benito van der Zander}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B2}
+    \strng{fullhash}{B2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{{2009-2021}}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{\url{https://www.texstudio.org/}. Último acceso Octubre 2021}
+    \field{title}{{TeXstudio}}
+    \field{year}{{2009-2021}}
+  \endentry
+
   \entry{layers16}{misc}{}
     \name{author}{1}{}{%
       {{hash=B}{%
@@ -291,8 +324,8 @@
          familyi={B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{B2}
-    \strng{fullhash}{B2}
+    \strng{namehash}{B3}
+    \strng{fullhash}{B3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
@@ -606,6 +639,30 @@
     \field{year}{2018}
   \endentry
 
+  \entry{articuloIntroVideojuegos2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={FinancesOnline},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Number of Gamers Worldwide 2021/2022: Demographics,
+  Statistics, and Predictions}
+    \verb{url}
+    \verb https://financesonline.com/number-of-gamers-worldwide/
+    \endverb
+    \field{journaltitle}{FinancesOnline}
+    \field{year}{2021}
+  \endentry
+
   \entry{articuloIntro1}{article}{}
     \name{author}{1}{}{%
       {{hash=FMB}{%
@@ -640,8 +697,8 @@
          familyi={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{F1}
-    \strng{fullhash}{F1}
+    \strng{namehash}{F2}
+    \strng{fullhash}{F2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
@@ -662,8 +719,8 @@
          familyi={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{F2}
-    \strng{fullhash}{F2}
+    \strng{namehash}{F3}
+    \strng{fullhash}{F3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2008}
@@ -1238,8 +1295,8 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{title}{Celeste y el potencial del videojuego para tratar la
-  ansiedad}
+    \field{title}{{Celeste y el potencial del videojuego para tratar la
+  ansiedad}}
     \verb{url}
     \verb https://as.com/meristation/2018/09/17/reportajes/1537172088_704714.ht
     \verb ml
@@ -1652,6 +1709,31 @@
   2021}
     \field{title}{{Last Day of June}}
     \field{year}{2017}
+  \endentry
+
+  \entry{articuloIntroVideojuegos}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PW}{%
+         family={PC},
+         familyi={P\bibinitperiod},
+         given={We},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PW1}
+    \strng{fullhash}{PW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Video Game Industry Statistics, Trends and Data In 2021}
+    \verb{url}
+    \verb https://www.wepc.com/news/video-game-statistics/
+    \endverb
+    \field{journaltitle}{We PC}
+    \field{year}{2021}
   \endentry
 
   \entry{refBedBath}{misc}{}
