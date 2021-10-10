@@ -154,25 +154,6 @@
     \field{year}{2016}
   \endentry
 
-  \entry{encuestaVidESP}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{Andrea Rodríguez}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{extradate}{1}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLSfoQZGcruSAhPp0GxhNVturg7y0eN43jQsST7tYLiamifBmmA/viewform}}
-    \field{title}{{Encuesta enfermedades mentales en videojuegos (ESP)}}
-  \endentry
-
   \entry{encuestaVidING}{misc}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -184,12 +165,32 @@
     \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{extradate}{2}
     \field{labeldatesource}{nodate}
     \field{sortinit}{A}
     \field{sortinithash}{A}
   \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLSeH_JfFJx0Oiv1XNx24Q4_GLGzWhgLxjzE0lNdu_xb_xYS6mg/viewform}}
     \field{title}{{Encuesta enfermedades mentales en videojuegos (ING)}}
+  \endentry
+
+  \entry{encuestaVidESP}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Andrea Rodríguez}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+  \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLSfoQZGcruSAhPp0GxhNVturg7y0eN43jQsST7tYLiamifBmmA/viewform}}
+    \field{title}{{Encuesta enfermedades mentales en videojuegos (ESP)}}
+    \field{year}{2021}
   \endentry
 
   \entry{encuestaDemo}{misc}{}
@@ -203,12 +204,14 @@
     \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{extradate}{3}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2021}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
   \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLScsfhqQPVyKExokLorGE_s1wyomi5zfJK0Fa6J0ey9XOR35Tg/viewform}}
     \field{title}{{Encuesta experiencia jugable}}
+    \field{year}{2021}
   \endentry
 
   \entry{elmio}{misc}{}
@@ -223,6 +226,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
+    \field{extradate}{3}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
@@ -593,6 +597,34 @@
   2021}
     \field{title}{{Fractured Minds}}
     \field{year}{2017}
+  \endentry
+
+  \entry{datosINEsuicidio}{article}{}
+    \name{author}{1}{}{%
+      {{hash=dEIN}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Estadística},
+         familyi={E\bibinitperiod},
+         given={Instituto\bibnamedelima Nacional},
+         giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EINd1}
+    \strng{fullhash}{EINd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Estadística de defunciones según la causa de muerte (Avance
+  enero-mayo 2020)}
+    \verb{url}
+    \verb https://www.ine.es/jaxi/Tabla.htm?tpx=45874&L=0
+    \endverb
+    \field{journaltitle}{Instituto Nacional de Estadística}
+    \field{year}{2020}
   \endentry
 
   \entry{beginners15}{misc}{}
@@ -2429,6 +2461,33 @@
   Junio 2021}
     \field{title}{{Juggernaut}}
     \field{year}{1998}
+  \endentry
+
+  \entry{datosEnfJovenes}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TA}{%
+         family={Torices},
+         familyi={T\bibinitperiod},
+         given={Alfonso},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TA1}
+    \strng{fullhash}{TA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{La pandemia dispara el número de jóvenes con problemas
+  mentales en urgencias}
+    \verb{url}
+    \verb https://www.heraldo.es/noticias/salud/2021/05/07/la-pandemia-dispara-
+    \verb el-numero-de-jovenes-con-problemas-mentales-en-urgencias-1490283.html
+    \endverb
+    \field{journaltitle}{Heraldo}
+    \field{year}{2021}
   \endentry
 
   \entry{articuloIntro2}{article}{}
