@@ -45,86 +45,88 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.3}Situaciones}{51}{subsection.5.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Diseño software}{51}{section.5.2}%
+\contentsline {subsection}{\numberline {5.1.4}Progresión del juego}{51}{subsection.5.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}UML}{51}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.2}Diseño software}{53}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Casos de uso}{56}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.1}UML}{53}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Diagrama de flujo}{56}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.2}Casos de uso}{58}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Diseño de las artes}{56}{section.5.3}%
+\contentsline {subsection}{\numberline {5.2.3}Diagrama de flujo}{58}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Diseño gráfico y HUD}{56}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.3}Diseño de las artes}{58}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Escenario y personajes}{57}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.1}Diseño gráfico y HUD}{58}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Escenario}{57}{section*.41}%
+\contentsline {subsection}{\numberline {5.3.2}Escenario y personajes}{59}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Personajes}{62}{section*.48}%
+\contentsline {subsubsection}{Escenario}{59}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluación}{69}{chapter.6}%
+\contentsline {subsubsection}{Personajes}{64}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Encuestra sobre videojuegos y enfermedades mentales}{69}{section.6.1}%
+\contentsline {chapter}{\numberline {6}Evaluación}{71}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Resultados obtenidos}{70}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.1}Encuestra sobre videojuegos y enfermedades mentales}{71}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Encuesta sobre la demo}{88}{section.6.2}%
+\contentsline {subsection}{\numberline {6.1.1}Resultados obtenidos}{72}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Resultados obtenidos}{89}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.2}Encuesta sobre el prototipo de ``Insania''}{90}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusiones y trabajos futuros}{91}{chapter.7}%
+\contentsline {subsection}{\numberline {6.2.1}Resultados obtenidos}{91}{subsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografía}{93}{section*.78}%
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajos futuros}{93}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Encuesta sobre videojuegos y enfermedades mentales}{101}{appendix.Alph1}%
+\contentsline {chapter}{Bibliografía}{95}{section*.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Encuesta general}{101}{section.Alph1.1}%
+\contentsline {chapter}{\numberline {A}Encuesta sobre videojuegos y enfermedades mentales}{103}{appendix.Alph1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Control demográfico}{101}{subsection.Alph1.1.1}%
+\contentsline {section}{\numberline {A.1}Encuesta general}{103}{section.Alph1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Representación de enfermedades mentales}{101}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.1}Control demográfico}{103}{subsection.Alph1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.3}Videojuegos y enfermedades mentales}{105}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.2}Representación de enfermedades mentales}{103}{subsection.Alph1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.4}Enfermedades mentales}{109}{subsection.Alph1.1.4}%
+\contentsline {subsection}{\numberline {A.1.3}Videojuegos y enfermedades mentales}{107}{subsection.Alph1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.5}Enfermedades mentales}{112}{subsection.Alph1.1.5}%
+\contentsline {subsection}{\numberline {A.1.4}Enfermedades mentales}{112}{subsection.Alph1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.6}Representación de enfermedades mentales en videojuegos}{112}{subsection.Alph1.1.6}%
+\contentsline {subsection}{\numberline {A.1.5}Enfermedades mentales}{114}{subsection.Alph1.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.7}Comentarios}{118}{subsection.Alph1.1.7}%
+\contentsline {subsection}{\numberline {A.1.6}Representación de enfermedades mentales en videojuegos}{114}{subsection.Alph1.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Encuesta en castellano}{119}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.1.7}Comentarios}{114}{subsection.Alph1.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Control demográfico}{119}{subsection.Alph1.2.1}%
+\contentsline {section}{\numberline {A.2}Encuesta en castellano}{120}{section.Alph1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Representación de enfermedades mentales}{119}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.1}Control demográfico}{120}{subsection.Alph1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Videojuegos y enfermedades mentales}{120}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.2}Representación de enfermedades mentales}{120}{subsection.Alph1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Enfermedades mentales}{129}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.3}Videojuegos y enfermedades mentales}{121}{subsection.Alph1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Enfermedades mentales}{133}{subsection.Alph1.2.5}%
+\contentsline {subsection}{\numberline {A.2.4}Enfermedades mentales}{130}{subsection.Alph1.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Representación de enfermedades mentales en videojuegos}{133}{subsection.Alph1.2.6}%
+\contentsline {subsection}{\numberline {A.2.5}Enfermedades mentales}{134}{subsection.Alph1.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.7}Comentarios}{137}{subsection.Alph1.2.7}%
+\contentsline {subsection}{\numberline {A.2.6}Representación de enfermedades mentales en videojuegos}{134}{subsection.Alph1.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Encuesta en inglés}{141}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {A.2.7}Comentarios}{138}{subsection.Alph1.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Demographic control}{141}{subsection.Alph1.3.1}%
+\contentsline {section}{\numberline {A.3}Encuesta en inglés}{142}{section.Alph1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Mental diseases representation}{144}{subsection.Alph1.3.2}%
+\contentsline {subsection}{\numberline {A.3.1}Demographic control}{142}{subsection.Alph1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.3}Videogames and mental disorders}{147}{subsection.Alph1.3.3}%
+\contentsline {subsection}{\numberline {A.3.2}Mental diseases representation}{142}{subsection.Alph1.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.4}Mental disorders}{151}{subsection.Alph1.3.4}%
+\contentsline {subsection}{\numberline {A.3.3}Videogames and mental disorders}{143}{subsection.Alph1.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.5}Mental disorders}{151}{subsection.Alph1.3.5}%
+\contentsline {subsection}{\numberline {A.3.4}Mental disorders}{150}{subsection.Alph1.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.6}Mental disorders representation in video games}{151}{subsection.Alph1.3.6}%
+\contentsline {subsection}{\numberline {A.3.5}Mental disorders}{153}{subsection.Alph1.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.7}Comments}{156}{subsection.Alph1.3.7}%
+\contentsline {subsection}{\numberline {A.3.6}Mental disorders representation in video games}{153}{subsection.Alph1.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Encuesta sobre el prototipo}{159}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {A.3.7}Comments}{158}{subsection.Alph1.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Encuesta sobre el prototipo}{161}{appendix.Alph2}%

@@ -915,9 +915,9 @@ Además, el problema muchas veces no viene simplemente de la falta de empatía o
 
 \label{sec:diseño}
 \section{Diseño general}
-Partiendo del estudio previo realizado, analizando qué enfermedades se representan en videojuegos, de qué forma se hace y cómo es percibido por el público, tanto gente que las sufre como quienes no saben nada sobre ellas, se ha realizado un prototipo de videojuego, tratando de plasmar algunas de las enfermedades de las que menos se habla. 
+Partiendo del estudio previo realizado, analizando qué enfermedades se representan en videojuegos, de qué forma se hace y cómo es percibido por el público, tanto gente que las sufre como quienes no saben nada sobre ellas, se ha realizado un prototipo de videojuego, tratando de plasmar algunas de las enfermedades de las que menos se habla. Este prototipo será un juego en 3D realizado en Unity, pensado para ser jugado en PC, con los controles típicos de un juego de ordenador, donde se mueve el personaje con WASD o las flechas, se interactúa con la tecla del espacio y se accedé al menú de pausa con Esc. El target de este prototipo es para mayores de 12 años, por los temas que trata y la crudeza de algunos comentarios.  
 
-Por ese motivo en la demo se tratan tres enfermedades diferentes, y se muestra en cierta medida cómo es vivir con ellas. Estas enfermedades son un TCA (Trastorno de la Conducta Alimentaria), que, volviendo al estudio de videojuegos previamente realizado en la seccion \ref{sec:enfermedades}, sólo se mostraba en dos videojuegos, siendo uno de ellos esta misma demo y el otro, en \citetitle{darkest15}, donde los personajes pueden padecer bulimia, que les hace es recuperar menos vida cuando acampan. (\citetitle{darkest15} es un videojuego donde el jugador selecciona un grupo de personajes que deben ir de expedición a una mazmorra, en la cual se tienen que enfrentar a enemigos en un combate por turnos. Si la mazmorra es muy grande podrán descansar en un campamento donde pueden recuperar vida y cordura utilizando habilidades o comida, de ahí el hecho de que un personaje bulímico recupere menos vida en un campamento). Sin embargo no se trata la enfermedad como tal, sólo se hace un pequeño guiño. 
+En el prototipo se tratan tres enfermedades diferentes, y se muestra en cierta medida cómo es vivir con ellas. Estas enfermedades son un TCA (Trastorno de la Conducta Alimentaria), que, volviendo al estudio de videojuegos previamente realizado en la seccion \ref{sec:enfermedades}, sólo se mostraba en dos videojuegos, siendo uno de ellos esta misma demo y el otro, en \citetitle{darkest15}, donde los personajes pueden padecer bulimia, que les hace es recuperar menos vida cuando acampan. (\citetitle{darkest15} es un videojuego donde el jugador selecciona un grupo de personajes que deben ir de expedición a una mazmorra, en la cual se tienen que enfrentar a enemigos en un combate por turnos. Si la mazmorra es muy grande podrán descansar en un campamento donde pueden recuperar vida y cordura utilizando habilidades o comida, de ahí el hecho de que un personaje bulímico recupere menos vida en un campamento). Sin embargo no se trata la enfermedad como tal, sólo se hace un pequeño guiño. 
 
 En el caso de la segunda enfermedad seleccionada, es el TAS (Trastorno de Ansiedad Social), enfermedad presente en tan sólo 4 de los videojuegos analizados, de nuevo siendo uno esta misma demo. Algunos de los videojuegos donde se representa son \citetitle{sym15} o \citetitle{lifeisstrange18}. Por ejemplo, \citetitle{sym15}, es un videojuego que explora la ansiedad social, representando al personaje en un laberinto dividido en dos submundos, uno que representa la vida normal y otro el lugar donde escapar de sus miedos. 
 
@@ -1104,7 +1104,7 @@ Con este caso se quiere enseñar que no tiene que haber ningún estigma con resp
 
 
 \subsection{Entorno}
-Para el entorno se ha decidido utilizar un escenario reducido, una única habitación, que será la habitación del personaje seleccionado. De ese modo se pueden controlar mejor los eventos que ocurren y se puede ver en mayor medida cómo los sufren los personajes.  
+Para el entorno se ha decidido utilizar un escenario reducido, una única habitación, que será la habitación del personaje seleccionado. De ese modo se pueden controlar mejor los eventos que ocurren y se puede ver en mayor medida cómo los sufren los personajes. Puede verse el escenario creado en la sección \ref{sec:diseñoArtes}. 
 
 Además, por el hecho de ser un entorno controlado, tendrán menos limitaciones a la hora de expresar cómo se sienten o los comportamientos que en otros sitios tratarían de controlar. Pese a que en lugares desconocidos esta sintomatología se podría ver acentuada, sobre todo en el caso del TCA y el TAS, se ha preferido utilizar este entorno controlado y conocido.  
 
@@ -1113,25 +1113,55 @@ Las situaciones presentadas son situaciones cotidianas, eventos que podrían ocu
 
 Entre ellas se encuentran tener una fiesta de cumpleaños con amigos y familiares, o simplemente levantarse de la cama y pasar el día en casa. 
 
-\section{Diseño software}
+\subsection{Progresión del juego}
+En primer lugar, haciendo un análisis de la navegación inicial hasta llegar a la parte jugable, sustentado en el diagrama de flujo que puede encontrase en la sección \ref{sec:diseñoSw}, una vez se accede al juego, se encontrará la pantalla de inicio, (ver Figura \ref{fig:UXInicio}) de la cual sólo puede navegarse a la selección de personajes. En esta pantalla se podrán elegir entre los tres personajes disponibles, apareciendo una imagen de cada uno de ellos (ver figura \ref{fig:UXSelec}). No aparecerá más información sobre ellos, para experimentar su trastorno se tendrá que acceder directamente a jugar con ellos. También en esta selección de personaje se podrá editar el idioma de juego, pudiendo seleccionar entre castellano o inglés. 
 
+Una vez se selecciona el personaje se accede a la experiencia jugable. Se haya seleccionado el personaje que se haya seleccionado, se aparece en medio del escenario, en el cual se podrá investigar, probar a interactuar con los elementos que se pueda (entre los que se encuentra una tarta que se puede ir comiendo (no todos los personajes podrán hacerlo de la misma forma, sólo el que padece un TCA podrá comer sin parar), un espejo al que acercarse (algunos personajes tendrán comentarios al hacerlo), un lavabo en el que lavarse, y otros elementos que sólo podrán ser interactuados cuando las tareas lo indiquen, como son las luces, la puerta y la cama, por ejemplo). 
+
+El personaje con depresión, además, tendrá una capa gris por encima del escenario, las paredes de la habitación serán también grises y percibirá el mundo más lento, caminará a menor velocidad y el tiempo pasará más despacio. 
+
+Después de investigar por el escenario y conocer los elementos, ver el HUD, donde se puede abrir un diario que en un principio aparecerá vacío pero que cada noche se irá rellenando con una nota con pensamientos (ver figura \ref{fig:diarioNotas}, diferentes para cada personaje), y leer los comentarios que va teniendo el personaje a lo largo del día, aparecerá la primera tarea. 
+
+Estas tareas aparecen en la esquina superior izquierda e indicarán al personaje lo que debe hacer a continuación, pueden ir desde encender o apagar la luz, a irse a dormir o abrir la puerta. Todas las tareas serán igual para todos los personajes, lo único que va modificando es su reacción frente a ellas o cómo se van desarrollando. En primer lugar, dado que ya habrá pasado el primer día investigando el escenario, se indicará que se apaguen las luces, para lo cual habrá que acercarse a uno de los focos de luz e interactuar con él. Una vez están apagadas, la tarea indicará que es hora de dormir. Del mismo modo, habrá que dirigirse a la cama e interactuar con ella para dormirse. Será en este momento en el que se añadirá una nueva entrada al diario, que se podrá consultar en cualquier momento. 
+
+Cuando se considere oportuno, el jugador se podrá levantar de la cama, tras lo cual se le indicará que debe encender las luces y esperar a la siguiente tarea, que será abrir la puerta. Una vez se abre la puerta aparecen dos personajes, invitados a la fiesta. Será en este momento en el que aparecerá un controlador de tiempo que irá más despacio en el caso del personaje con TAS dada la incomodidad que siente y el que padece depresión, ya que para él todo el mundo va más despacio, desde su forma de caminar al paso del tiempo en general.
+
+En el caso del personaje con TAS sentirá que los invitados le miran todo el tiempo, y cada vez que se acerque a ellos le saludarán y se irán haciendo más grandes, se notará así cómo le intimida la presencia de las personas. Al mismo tiempo comentará que quiere que le dejen de mirar, que ojalá se vayan ya y que pese a que son familiares, no aguanta su presencia. Como se ha indicado, será el personaje que más tiempo estará sufriendo la presencia de estos personajes. En cuanto se acabe el tiempo, se dirigirán de nuevo a la puerta y el día de nuevo se acabará. 
+
+Cabe mencionar que en cualquier momento se puede acceder al menú de pausa presionando la tecla Esc del teclado. 
+ 
+En principio esto sería el fin del prototipo, que podría seguir ampliándose con nuevos eventos, tareas y el paso de más días. 
+
+
+\section{Diseño software}
+\label{sec:diseñoSw}
 \subsection{UML}
 
-El UML del juego puede encontrarse en la figura \ref{fig:UML}. Debe tenerse en cuenta que todas las clases a excepción de los Enumerate y la clase Sound, heredan de MonoBehaviour, por lo que heredan los métodos, atributos y propiedades, etc., pese a que no se utilicen. En el UML aparecen sólo aquellas funciones que se han utilizado. También se asume que los objetos tienen acceso a los elementos del UX, como son los botones, el menú, el diario, los diferentes textos, etc. Del mismo modo, al heredar de MonoBehaviour, los objetos tienen acceso al gameObject, del cual pueden obtener, entre otras cosas, su posición, rotación, etc. 
+El UML del juego puede encontrarse en la figura \ref{fig:UML}. En este puede verse como hay un controlador del juego, el encargado de conocer con qué personaje se está jugando, el idioma del juego, si está o no pausado el juego, controla la tarea por la que va el personaje, es también el encargado de resetear el juego en el caso de salir y seleccionar otro personaje, o el control de la música gracias al MusicManager. Por ese motivo, el controlador está unido a prácticamente todos los elementos del juego. 
 
-Por otro lado, las lámparas utilizan el componente Light, propio de Unity, con el cual se ha controlado la intensidad, radio, color y tipo de luz. 
+Por otro lado, el siguiente elemento más importante es el SimpleSampleCharacterControl, el personaje controlable. Este está unido también a diferentes elementos del escenario para controlar la distancia a estos, diferentes eventos al interactuar con ellos, etc. También tiene relación el controlador del lenguaje para seleccionar el texto al mostrar. 
+
+Los elementos del escenario tienen algunos relación con el controlador del lenguaje (LanguageManager) por el mismo motivo. Este controlador además está preparado para alojar nuevos idiomas sin ningún tipo de dificultad pues los textos de cada idioma van por separado, simplemente habría que añadir las traducciones y añadir un nuevo elemento al enumerado de idiomas para poder seleccionarlo (además de un nuevo botón en la selección de personajes y menú de pausa para poder cambiar de idioma). 
+
+Algunos elementos del escenario tienen también relación con el controlador del audio (AudioManager), donde también podrían añadirse nuevos sonidos sin ningún tipo de problema pues simplemente hay que añadirlos al array de sonidos y ejecutarlo desde donde se quisiera con la función ``Play''. Al interactuar con algunos de los objetos se activan sonidos, como puede ser al comer tarta o utilizar el lavabo. Estos tienen un controlador de tiempo para que tenga que pasar un tiempo mínimo entre veces que se efectúa la acción y se reproduce el sonido. 
+
+En cuanto a los ``Intrusos'', son los invitados a la fiesta, que tienen muchas propiedades similares al SimpleSampleCharacterControl pero, en este caso, el control de la dirección no lo hace el jugador, sino que tienen un agente de NavMesh para dirigirse automáticamente hacia la posición seleccionada como destino, que es alrededor de la mesa. Además ejecutan la animación de saludo cada cierto tiempo si el personaje jugable se les acerca. En el caso de que el personaje seleccionado sea el que padece TAS, escalarán su tamaño cada vez que esto ocurra y rotarán permanentemente para estar siempre mirando al personaje.  
+
+ Debe tenerse en cuenta que todas las clases a excepción de los Enumerate y la clase Sound, heredan de MonoBehaviour, por lo que heredan los métodos, atributos y propiedades, etc., pese a que no se utilicen. En el UML aparecen sólo aquellas funciones que se han utilizado. También se asume que los objetos tienen acceso a los elementos del UX, como son los botones, el menú, el diario, los diferentes textos, etc. Del mismo modo, al heredar de MonoBehaviour, los objetos tienen acceso al gameObject, del cual pueden obtener, entre otras cosas, su posición, rotación, etc. 
+
+Por otro lado, las lámparas utilizan el componente Light, propio de Unity, con el cual se ha controlado la intensidad, radio, color y tipo de luz, propiedades que se modifican al encender o apagar la luz, es decir, cuando el personaje interactúa con ellas. 
 
 Todos los objetos tienen sus propios materiales (Material), algunos de ellos utilizan el componente RigidBody (el personaje principal y los ``intrusos''), otros el componente Collider (Capsule collider, Box Collider, etc.) para que los objetos no se traspasen entre ellos y el MeshRenderer para que sean visibles.
 
 La cámara utilizada es una cámara fija a la que se le han modificado los planos de clipping, profundidad y field of view, aparte de la posición. 
 
-Para el UX se han utilizado los componentes propios de Unity, como el TextMeshPro, Text, Image, Button, etc. 
+Para el UX se han utilizado los componentes propios de Unity, como el TextMeshPro, Text, Image, Button, etc., a los que se les han modificado tamaño, posición, imágenes, acciones a realizar al clickar en ellos, se les modifica el texto dinámicamente en función del lenguaje utilizado, etc. 
 
 \begin{landscape}
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{TGF/Extra/UML.png}
-    \caption{Escenario completo}
+    \caption{UML del prototipo}
     \label{fig:UML}
 \end{figure}
 \end{landscape}
@@ -1148,7 +1178,7 @@ Para el UX se han utilizado los componentes propios de Unity, como el TextMeshPr
 \begin{figure}
 	\centering
 	\includegraphics[width=.8\linewidth]{TGF/Extra/Flow.png}
-	\caption{Casos de uso}
+	\caption{Diagrama de flujo}
 	\label{fig:diagramaflujo}
 \end{figure}
 \end{landscape}
@@ -1170,6 +1200,7 @@ El diagrama de flujo puede encontrarse en la figura \ref{fig:diagramaflujo}.
 
 
 \section{Diseño de las artes}
+\label{sec:diseñoArtes}
 \subsection{Diseño gráfico y HUD}
 
 \begin{figure}
@@ -1692,24 +1723,25 @@ Estos resultados son muy similares en ambas encuestas, ver Figuras~\ref{fig:ESPE
  
 Algunas de las justificaciones a estas respuestas en la encuesta en castellano:
 
-``No creo que estigmaticen, si está bien hecho te ayudan a empatizar con la psicopatología del/de la protagonista'' (nivel 1)
-``La representación es exageradamente estereotipada.'' (nivel 3) 
+\textit{``No creo que estigmaticen, si está bien hecho te ayudan a empatizar con la psicopatología del/de la protagonista''} (nivel 1)
 
-``En los juegos de terror o los villanos suelen tener enfermedades mentales'' (nivel 3)
+\textit{``La representación es exageradamente estereotipada.''} (nivel 3) 
 
-``Dando a representar a personas enfermas como locos o personas que no se pueden controlar'' (nivel 4) 
+\textit{``En los juegos de terror o los villanos suelen tener enfermedades mentales''} (nivel 3)
+
+\textit{``Dando a representar a personas enfermas como locos o personas que no se pueden controlar''} (nivel 4) 
 
 Se pueden encontrar el resto de respuestas en el \hyperref[estigmaCastellano]{anexo}.
 
 En el caso de la encuesta en inglés, algunas de las justificaciones son las siguientes:
 
-``I don't think they do. To a large extent, due to the interactive nature, there is more approach, which if any way reduces stigma.'' (nivel 1) (No creo que lo hagan. En gran medida, debido a la naturaleza interactiva, hay un mayor enfoque, que de algún modo, reduce el estigma)  
+\textit{``I don't think they do. To a large extent, due to the interactive nature, there is more approach, which if any way reduces stigma.}'' (nivel 1) (No creo que lo hagan. En gran medida, debido a la naturaleza interactiva, hay un mayor enfoque, que de algún modo, reduce el estigma)  
 
-``They promote the stereotype of those illnesses'' (nivel 3) (Promueven el estereotipo de esas enfermedades)
+\textit{``They promote the stereotype of those illnesses''} (nivel 3) (Promueven el estereotipo de esas enfermedades)
 
-``Tend to use sensationalized extreme cases of the mental disorder'' (nivel 3) (Tienden a utilizar casos extremos y sensacionalistas del trastorno mental)
+\textit{``Tend to use sensationalized extreme cases of the mental disorder''} (nivel 3) (Tienden a utilizar casos extremos y sensacionalistas del trastorno mental)
 
-``They often make the mentally ill characters violent enemies'' (nivel 3) (Normalmente hacen a los personajes con enfermedades mentales, enemigos violentos)
+\textit{``They often make the mentally ill characters violent enemies''} (nivel 3) (Normalmente hacen a los personajes con enfermedades mentales, enemigos violentos)
 
 El resto de las respuestas pueden encontrarse en el \hyperref[estigmaIngles]{anexo}.
 
@@ -1752,19 +1784,19 @@ De entre estos encuestados que conocen videojuegos donde se traten las enfermeda
 
 Entre las justificaciones con respecto a estas respuestas, en castellano podemos encontrar algunas como: 
 
-``En general se le está dando más visibilidad a la salud mental que hace una/dos décadas y eso repercute en toda forma artística ya sea música, películas, series, teatro, videojuegos…'' (Sí)
+\textit{``En general se le está dando más visibilidad a la salud mental que hace una/dos décadas y eso repercute en toda forma artística ya sea música, películas, series, teatro, videojuegos…''} (Sí)
 
-``La aparición de nuevos estudios abre las puertas al incremento de la riqueza en cuanto a la temática de los videojuegos.'' (Sí)
+\textit{``La aparición de nuevos estudios abre las puertas al incremento de la riqueza en cuanto a la temática de los videojuegos.''} (Sí)
 
-``Creo que especialmente el mundo de los indies, con desarrolladores más jóvenes, visiones más personales y uso del ``art game'' como forma de expresión y no solo ocio, suponen una plataforma que poquito a poco se está usando''. (Sí)
+\textit{``Creo que especialmente el mundo de los indies, con desarrolladores más jóvenes, visiones más personales y uso del ``art game'' como forma de expresión y no solo ocio, suponen una plataforma que poquito a poco se está usando''.} (Sí)
 
-``No tengo mucha confianza en que los AAA salgan de su estanca visibilidad en relación a las enfermedades mentales, ya que son mainstream y no se arriesgan. Por otro lado, sí tengo confianza en los juegos indie, ya que se arriesgan y hacen historias magníficas, visibilizando muchas realidades alternativas.'' (No lo sé) 
+\textit{``No tengo mucha confianza en que los AAA salgan de su estanca visibilidad en relación a las enfermedades mentales, ya que son mainstream y no se arriesgan. Por otro lado, sí tengo confianza en los juegos indie, ya que se arriesgan y hacen historias magníficas, visibilizando muchas realidades alternativas.''} (No lo sé) 
 
-``Al final se usan personajes con trastornos para para seguir fomentando el estereotipo''. (No lo sé) 
+\textit{``Al final se usan personajes con trastornos para para seguir fomentando el estereotipo''.} (No lo sé) 
 
-``Se sigue representado de forma terrorífica y otorgándole el papel de enemigo.'' (No)
+\textit{``Se sigue representado de forma terrorífica y otorgándole el papel de enemigo.''} (No)
 
-``Apenas hay concienciación del colectivo por ejemplo ``orgullo loco'' en general, ni siquiera entre grupos activistas feministas, pues entre la sociedad media para la que se crean la mayoría de videojuegos, aún menos.'' (No) 
+\textit{``Apenas hay concienciación del colectivo por ejemplo ``orgullo loco'' en general, ni siquiera entre grupos activistas feministas, pues entre la sociedad media para la que se crean la mayoría de videojuegos, aún menos.''} (No) 
 
 El resto de respuestas pueden encontrarse en el   \hyperref[mejorCastellano]{anexo}\\
 
@@ -1772,11 +1804,11 @@ El resto de respuestas pueden encontrarse en el   \hyperref[mejorCastellano]{ane
  
 En el caso de la encuesta en inglés, algunas de las respuestas obtenidas son las siguientes: 
 
-``People are becoming aware of the negative effect stereotypical representation has on people with those illnesses'' (Sí) (La gente se está dando cuenta del efecto negativo que tiene la representación estereotípica en la gente con esas enfermedades mentales)
+\textit{``People are becoming aware of the negative effect stereotypical representation has on people with those illnesses''} (Sí) (La gente se está dando cuenta del efecto negativo que tiene la representación estereotípica en la gente con esas enfermedades mentales)
 
-``I think more indie developers have been making games with a focus on mental illness.'' (Sí) (Creo que más desarrolladores indies han estado haciendo videojuegos con el foco en las enfermedades mentales).
+\textit{``I think more indie developers have been making games with a focus on mental illness.''} (Sí) (Creo que más desarrolladores indies han estado haciendo videojuegos con el foco en las enfermedades mentales).
 
-``More people are playing games, more games are being made, more subjects are being brought to gaming, so we are getting more attention on these toppics over time'' (Sí) (Más gente está jugando juegos, más juegos se están creando, más temas se están llevando a los juegos así que estamos consiguiendo más atención a esos temas con el paso del tiempo).
+\textit{``More people are playing games, more games are being made, more subjects are being brought to gaming, so we are getting more attention on these toppics over time''} (Sí) (Más gente está jugando juegos, más juegos se están creando, más temas se están llevando a los juegos así que estamos consiguiendo más atención a esos temas con el paso del tiempo).
 
 El resto de respuestas pueden encontrarse en el \hyperref[mejorIngles]{anexo}
 
@@ -1862,7 +1894,7 @@ También es destacable el porcentaje de TLP en el caso del género no binario, d
 
 \begin{figure}
 \centering
- \includegraphics[width=.9\linewidth]{Imagenes Form GEN/Enfermedadesgeneros} 
+ \includegraphics[width=1\linewidth]{Imagenes Form GEN/Enfermedadesgeneros} 
  \caption{GEN: Padecimiento de enfermedades mentales por géneros}
  \label{fig:Enfgeneros}
  \end{figure}
@@ -1908,26 +1940,26 @@ El conjunto de todas las respuestas puede encontrarse en el \hyperref[representa
 
 En el caso de la encuesta en inglés se puede encontrar respuestas como las siguientes: 
 
-\textit{``if they focus more on the symptoms and why they happen''} (\textit{si se centran más en los síntomas y en por qué pasan})
+\textit{``if they focus more on the symptoms and why they happen''} (si se centran más en los síntomas y en por qué pasan)
 
-\textit{``There is not enough detail on specific disorders''} (\textit{No hay suficiente detalle en determinados trastornos}).
+\textit{``There is not enough detail on specific disorders''} (No hay suficiente detalle en determinados trastornos).
 
 Otros que, no obstante, sí consideran haberse visto representados opinan lo siguiente: 
 
-\textit{``With Hellblade: Senua's Sacrifice, I really felt understood with my struggle with psychosis. It was great.'' }(\textit{Con Hellblade: Senua’s Sacrifice realmente me sentí entendido con mi problema con psicosis. Fue increíble}) 
+\textit{``With Hellblade: Senua's Sacrifice, I really felt understood with my struggle with psychosis. It was great.'' }(Con Hellblade: Senua’s Sacrifice realmente me sentí entendido con mi problema con psicosis. Fue increíble) 
 
-\textit{``the Cat Lady was a pretty accurate portrayal of how I felt with depression at the time I first played it''} (\textit{The Cat Lady fue una representación bastante precisa sobre como me sentía con depression en el momento que lo jugué por primera vez}) 
+\textit{``the Cat Lady was a pretty accurate portrayal of how I felt with depression at the time I first played it''} (The Cat Lady fue una representación bastante precisa sobre como me sentía con depression en el momento que lo jugué por primera vez) 
 
-\textit{``I'm not sure, Celeste and Gris were clearly created by people who have dealt with their own struggles and I don't know if I really should be represented more than the creators.''} (\textit{No estoy seguro/a, Celeste y Gris fueron claramente creados por gente que ha sufrido sus propios problemas y no sé si debería ser representado/a más que los creadores}). 
+\textit{``I'm not sure, Celeste and Gris were clearly created by people who have dealt with their own struggles and I don't know if I really should be represented more than the creators.''} (No estoy seguro/a, Celeste y Gris fueron claramente creados por gente que ha sufrido sus propios problemas y no sé si debería ser representado/a más que los creadores). 
 
 El conjunto de respuestas puede encontrarse en el \hyperref[representacionIngles]{anexo}.
 
-Finalmente, los comentarios sobre la encuesta pueden encontrarse en \hyperref[comentariosCastellano]{Comentarios en castellano} y \hyperref[comentariosIngles]{Comentarios en inglés}.
+Finalmente, los comentarios sobre la encuesta pueden encontrarse en \hyperref[comentariosCastellano]{Comentarios en castellano} y \hyperref[comentariosIngles]{Comentarios en inglés}, también en el anexo 1, \ref{sec:anexo}. 
 
 
 
 
-\section{Encuesta sobre la demo}
+\section{Encuesta sobre el prototipo de ``Insania''}
 \label{sec:encuestaDemo}
 Cuando hubo un prototipo jugable, se realizó una encuesta para intentar mejorar ciertos aspectos que los encuestados encontraran problemáticos. 
 
@@ -1942,29 +1974,35 @@ Finalmente, se preguntó sobre los aspectos que se modificarían, el nombre que 
 
 \subsection{Resultados obtenidos}
 
-Los resultados obtenidos fueron de un total de 5 personas, dado que esta encuesta no querería de resultados en cantidad sino en calidad, gente que dedicara un rato a probar bien la demo. 
+Los resultados obtenidos fueron de un total de 5 personas, dado que esta encuesta no querería de resultados en cantidad sino en calidad, gente que dedicara un rato a probar bien el prototipo. 
 
 Dado el bajo número de respuestas, no se cree necesario el uso de gráficas para un análisis más detallado sino que se pueden analizar los resultados directamente. 
 
-De estos se obtuvo la necesidad de añadir los controles en el juego, dado que hay quienes lo consideraron muy necesario. Pese a que otros probadores no lo necesitaban, en el momento en que uno lo necesita es suficiente para añadirlos, pues no afecta a la jugabilidad de los demás y los que los necesitan pueden sacar provecho de ello. 
+De estos se obtuvo la necesidad de añadir los controles en el juego, dado que hay quienes lo consideraron muy necesario, como puede verse en la figura \ref{fig:anexControl}. Pese a que otros probadores no lo necesitaban, en el momento en que uno lo necesita es suficiente para añadirlos, pues no afecta a la jugabilidad de los demás y los que los necesitan pueden sacar provecho de ello. 
 
-En cuanto a la música, generalmente se consideró un uso adecuado, pero se echó en falta un control para poder quitarla si se quería, además se consideró que había que regular mejor el volumen de la música y los efectos de sonido, cosa que se hizo tras analizar la encuesta. 
+En cuanto a la música, generalmente se consideró un uso adecuado, pero se echó en falta un control para poder quitarla si se quería, además se consideró que había que regular mejor el volumen de la música y los efectos de sonido, cosa que se hizo tras analizar la encuesta. (Ver figuras \ref{fig:anexMusic}, \ref{fig:anexRazonmusic}). 
+
 
 Dada la solicitud del control de la música, se añadió en el menú de pausa la opción de activar o desactivar la música del juego. 
 
-En cuanto al HUD, nadie ha tenido ningún problema con él y lo han considerado perfectamente adecuado, a excepción del reloj, cuando este aún se mostraba permanentemente y no sólo en el momento de la visita, todavía no se había terminado de desarrollar ese aspecto del juego. 
+\comm{añadir imagen de la mejora}
 
-En cuanto a perderse en el juego, solo una de las personas consideró sentirse perdida por no tener claro al principio en qué consiste la experiencia o qué hacer. Sin embargo, reconoce que pudo seguir avanzando en el juego gracias a las tareas que aparecen en la esquina superior izquierda, por lo que no se considera un elemento a arreglar dado que es la intención buscada, que en un principio haya cierto desconcierto sobre qué se le presenta al jugador, pueda investigar el entorno y prestar atención a los mensajes del personaje.
+
+En cuanto al HUD, nadie ha tenido ningún problema con él y lo han considerado perfectamente adecuado, a excepción del reloj, cuando este aún se mostraba permanentemente y no sólo en el momento de la visita, todavía no se había terminado de desarrollar ese aspecto del juego. (Ver figuras \ref{fig:anexHUD}). 
+
+En cuanto a perderse en el juego, solo una de las personas consideró sentirse perdida por no tener claro al principio en qué consiste la experiencia o qué hacer. (Ver figura \ref{fig:anexPerd}. Sin embargo, reconoce que pudo seguir avanzando en el juego gracias a las tareas que aparecen en la esquina superior izquierda, por lo que no se considera un elemento a arreglar dado que es la intención buscada, que en un principio haya cierto desconcierto sobre qué se le presenta al jugador, pueda investigar el entorno y prestar atención a los mensajes del personaje.
 
 Por otro lado, encontraron varios problemas en el juego como que se podía atravesar la pared en un punto del escenario o que la luz tardaba mucho en encender. Ambos se han tratado de resolver añadiendo más dureza al material y colocando otro objeto detrás de la pared, para resolver el primer problema, y acelerando la velocidad de encendido y apagado de las luces, para el segundo. 
 
-La temática que han considerado que trata el juego es sobre trastornos o enfermedades mentales, ``Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresión'', comentaba uno de los encuestados. 
+La temática que han considerado que trata el juego es sobre trastornos o enfermedades mentales, ``Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresión'', comentaba uno de los encuestados, el resto de respuestas puede encontrarse en el anexo. 
 
-Todos ellos consideran que la estética acompaña la temática del juego, y el nivel de representación con respecto a los personajes sólo es "Nada" en uno de los casos con el personaje que padece TAS. Por ello parece intuirse que son personajes con los que la gente podría sentirse identificados por los comentarios y comportamientos que tienen. Uno de los encuestados indicaba ``El tercero creo que tiene depresión'', haciendo referencia a que él o ella también lo había padecido en algún momento. 
+Todos ellos consideran que la estética acompaña la temática del juego, y el nivel de representación con respecto a los personajes sólo es "Nada" en uno de los casos con el personaje que padece TAS. (Ver figura \ref{fig:anexRepre}). Por ello parece intuirse que son personajes con los que la gente podría sentirse identificados por los comentarios y comportamientos que tienen. Uno de los encuestados indicaba ``El tercero creo que tiene depresión'', haciendo referencia a que él o ella también lo había padecido en algún momento. 
 
 En cuanto a los aspectos a modificar, se volvía a repetir la necesidad de un control sobre la música o no entender el sistema del reloj/tiempo. Este comportamiento se modificó más adelante, apareciendo únicamente en el momento en que entran los invitados a casa para saber en qué momento acaba la visita. 
 
 Finalmente, en las observaciones extra, algún encuestado ha indicado ``Me gusta que los tres tengan distintos mensajes en el mismo entorno y con los mismos objetivos, defiende mejor lo que les une realmente''. 
+
+Todas las respuestas pueden encontrarse en el anexo, en la sección \ref{sec:anexo2}. 
 
 \chapter{Conclusiones y trabajos futuros}
 
@@ -1994,6 +2032,33 @@ Finalmente, en las observaciones extra, algún encuestado ha indicado ``Me gusta
 
 \subsection{Control demográfico}
 Respuestas: 254
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/1AnexGENGen}
+	\caption{GEN: Género}
+	\label{fig:GENGenero}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/2AnexGENEdad}
+	\caption{GEN: Edad}
+	\label{fig:GENEdad}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO Gen/3AnexGENFrecALL}
+	\caption{GEN: Frecuencia de juego por géneros}
+	\label{fig:GENFrec}
+\end{figure}
+
+
 \begin{enumerate}[label=\textbf{\arabic*}.]
      \item \textbf{Género}\\
      \ref{fig:GENGenero}
@@ -2004,29 +2069,6 @@ Respuestas: 254
      \item \textbf{¿A qué tipo de videojuegos sueles jugar? }\\
      \ref{fig:GENFrecgen}
 \end{enumerate}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/1AnexGENGen}
-    \caption{GEN: Género}
-    \label{fig:GENGenero}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/2AnexGENEdad}
-    \caption{GEN: Edad}
-    \label{fig:GENEdad}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO Gen/3AnexGENFrecALL}
-    \caption{GEN: Frecuencia de juego por géneros}
-    \label{fig:GENFrec}
-\end{figure}
 
 
 
@@ -2052,7 +2094,7 @@ Respuestas: 254
      \item \textbf{¿Consideras que hay suficiente representación de las enfermedades mentales en los siguientes medios?} \\
      \ref{fig:GENMedios}
      \item \textbf{¿Cuánto consideras que sabes sobre cada una de estas enfermedades mentales? }\\
-     \ref{fig:GENCon}
+     \ref{fig:GENCon}, \ref{fig:GENConfem}, \ref{fig:GENConmasc}, \ref{fig:GENConnb}
      \item \textbf{¿Conoces algún videojuego donde se represente alguna enfermedad mental? }\\
      \ref{fig:GENVid}
 \end{enumerate}
@@ -2076,20 +2118,20 @@ Respuestas: 254
     \centering
     \includegraphics[width=1\linewidth]{ANEXO Gen/11AnexGENCongfem}
     \caption{GEN: Conocimiento sobre enfermedades mentales; Género femenino}
-   
+   \label{fig:GENConfem}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{ANEXO Gen/12AnexGENCongmasc}
     \caption{GEN: Conocimiento sobre enfermedades mentales; Género masculino}
-  
+  \label{fig:GENConmasc}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{ANEXO Gen/13AnexGENConnb}
     \caption{GEN: Conocimiento sobre enfermedades mentales; Género no binario}
-    
+    \label{fig:GENConnb}
 \end{figure}
 
 
@@ -2110,8 +2152,46 @@ Respuestas: 254
 %%\comm{JAH: en lugar de referenciar una parte del texto referencia la   subsección -- quita Sección 3 del encabezado, es redundante y si cambias el orden de las secciones tienes que revisar la numeración}
 
 Respuestas: 77
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/15AnexGENEnfvid}
+	\caption{GEN: Enfermedades mentales representadas en videojuegos}
+	\label{fig:GENEnfvid}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/16AnexGENEst}
+	\caption{GEN: Nivel de preservación del estigma sobre las enfermedades mentales en videojuegos}
+	\label{fig:GENEstigma}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{ANEXO Gen/17AnexGENCorr}
+		\caption{GEN: Conocimiento de videojuegos donde se representen enfermedades mentales correctamente}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{ANEXO Gen/18AnexGENCorr56}
+		\caption{GEN: Conocimiento de videojuegos donde se representen enfermedades mentales correctamente; Jugadores con frecuencia de juego 5-6}
+		
+	\end{subfigure}
+	\caption{GEN:Conocimiento de videojuegos donde se representen enfermededades mentales correctamente}
+	\label{fig:GENCorrecto}
+\end{figure}
+
+
+
 \begin{enumerate}[label=\textbf{\arabic*}.]
      \item \textbf{Indica qué videojuegos conoces que representen alguna enfermedad mental}
+     
     \label{listadoVid}
     Actual Sunlight             \\
     Alice: Madness Returns\\
@@ -2191,6 +2271,7 @@ Respuestas: 77
      \ref{fig:GENCorrecto}
      \item \textbf{En el caso de haber respondido que sí, ¿podrías indicar alguno?}
      \label{listadoVidCorr}
+     
     Actual Sunlight \\
     Alice Madness Returns\\
     Amnesia\\
@@ -2222,38 +2303,6 @@ Respuestas: 77
 \end{enumerate}
 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/15AnexGENEnfvid}
-    \caption{GEN: Enfermedades mentales representadas en videojuegos}
-    \label{fig:GENEnfvid}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/16AnexGENEst}
-    \caption{GEN: Nivel de preservación del estigma sobre las enfermedades mentales en videojuegos}
-    \label{fig:GENEstigma}
-\end{figure}
-
-\begin{figure}
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{ANEXO Gen/17AnexGENCorr}
-  \caption{GEN: Conocimiento de videojuegos donde se representen enfermedades mentales correctamente}
-  
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{ANEXO Gen/18AnexGENCorr56}
-  \caption{GEN: Conocimiento de videojuegos donde se representen enfermedades mentales correctamente; Jugadores con frecuencia de juego 5-6}
-  
-\end{subfigure}
-\caption{GEN:Conocimiento de videojuegos donde se representen enfermededades mentales correctamente}
-\label{fig:GENCorrecto}
-\end{figure}
 
 \begin{figure}
     \centering
@@ -2291,63 +2340,70 @@ Respuestas: 254
 
 \subsection{Enfermedades mentales}
 Respuestas: 141
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO Gen/22AnexGENDiag}
+	\caption{GEN: Diagnóstico de las enfermedades mentales}
+	\label{fig:GENDiag}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/23AnexGENEnf}
+	\caption{GEN: Frecuencia enfermedades mentales}
+	\label{fig:GENFrecenf}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/24AnexGENEnf}
+	\caption{GEN: Enfermedades mentales}
+	\label{fig:GENFrecenfpoc}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{ANEXO Gen/25AnexGENEnffem}
+		\caption{GEN: Frecuencia de enfermedades mentales con diagnóstico}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{ANEXO Gen/26AnexGENEnffem}
+		\caption{GEN: Frecuencia de enfermedades mentales sin diagnóstico}
+	\end{subfigure}
+	\caption{GEN:Comparación de frecuencia de enfermedades mentales con/sin diagnóstico}
+	\label{fig:GENFrecenfdiag}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO Gen/27AnexGENEnf}
+	\caption{GEN: Enfermedades mentales por género}
+	\label{fig:GENFrecgener}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{ANEXO Gen/28AnexGENVidenf}
+	\caption{GEN: Conocimiento de videojuegos que representen la enfermedad mental padecida}
+	\label{fig:GENVidtenidas}
+\end{figure}
+
+
 \begin{enumerate}[label=\textbf{\arabic*}.]
      \item \textbf{¿Están diagnosticadas? }\\
      \ref{fig:GENDiag}
      \item \textbf{¿Cuál de las siguientes enfermedades tienes o has tenido?}\\
-     \ref{fig:GENFrecenf}
+     \ref{fig:GENFrecenf}, \ref{fig:GENFrecenfpor}, \ref{fig:GENFrecenfdiag}, \ref{fig:GENFrecenfgener}
      \item \textbf{¿Conoces algún videojuego que represente alguna de las enfermedades o trastornos que tienes o has tenido?}\\
      \ref{fig:GENVidtenidas}
 \end{enumerate}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO Gen/22AnexGENDiag}
-    \caption{GEN: Diagnóstico de las enfermedades mentales}
-    \label{fig:GENDiag}
-\end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/23AnexGENEnf}
-    \caption{GEN: Frecuencia enfermedades mentales}
-    \label{fig:GENFrecenf}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/24AnexGENEnf}
-    \caption{GEN: Enfermedades mentales}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{ANEXO Gen/25AnexGENEnffem}
-  \caption{GEN: Frecuencia de enfermedades mentales con diagnóstico}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.95\linewidth]{ANEXO Gen/26AnexGENEnffem}
-  \caption{GEN: Frecuencia de enfermedades mentales sin diagnóstico}
-\end{subfigure}
-\caption{GEN:Comparación de frecuencia de enfermedades mentales con/sin diagnóstico}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO Gen/27AnexGENEnf}
-    \caption{GEN: Enfermedades mentales por género}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\linewidth]{ANEXO Gen/28AnexGENVidenf}
-    \caption{GEN: Conocimiento de videojuegos que representen la enfermedad mental padecida}
-    \label{fig:GENVidtenidas}
-\end{figure}
 
 
 \subsection{Representación de enfermedades mentales en videojuegos}
@@ -2395,7 +2451,7 @@ Respuestas: 198
      \item \textbf{¿Con qué frecuencia juegas videojuegos?}\\
      \ref{fig:ESPFrec}
      \item \textbf{¿A qué tipo de videojuegos sueles jugar? }\\
-     \ref{fig:ESPFrecgen}
+     \ref{fig:ESPFrecgen}, \ref{fig:ESPFrecgen56}
 \end{enumerate}
 
 
@@ -2446,6 +2502,7 @@ Respuestas: 198
   \caption{ESP: Género de los jugadores con frecuencia de juego nivel 5-6}
 \end{subfigure}
 \caption{ESP: Frecuencia de juego por géneros de juego; Jugadores con frecuencia de juego 5-6}
+\label{fig:ESPFrecgen56}
 \end{figure}
 
 
@@ -2454,38 +2511,41 @@ Respuestas: 198
 
 \subsection{Representación de enfermedades mentales}
 Respuestas: 198
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO ESP/7AnexESPMedios}
+	\caption{ESP: Representación de enfermedades mentales en medios}
+	\label{fig:ESPMedios}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO ESP/8AnexESPCon}
+	\caption{ESP: Conocimiento sobre enfermedades mentales}
+	\label{fig:ESPCon}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{ANEXO ESP/9AnexESPConfem}
+	\caption{ESP: Conocimiento sobre enfermedades mentales; Género femenino}
+	\label{fig:ESPConfem}
+\end{figure}
+
+
 \begin{enumerate}[label=\textbf{\arabic*}.]
      \item \textbf{¿Consideras que hay suficiente representación de las enfermedades mentales en los siguientes medios? }\\
      \ref{fig:ESPMedios}
      \item \textbf{¿Cuánto consideras que sabes sobre cada una de estas enfermedades mentales? }\\
-     \ref{fig:ESPCon}
+     \ref{fig:ESPCon}, \ref{fig:ESPConfem}, \ref{fig:ESPConmasc}, \ref{fig:ESPConnb}
      \item \textbf{¿Conoces algún videojuego donde se represente alguna enfermedad mental? }\\
-     \ref{fig:ESPConvid}
+     \ref{fig:ESPConvid},   \ref{fig:ESPConvid56}
 \end{enumerate}
 
 
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO ESP/7AnexESPMedios}
-    \caption{ESP: Representación de enfermedades mentales en medios}
-    \label{fig:ESPMedios}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO ESP/8AnexESPCon}
-    \caption{ESP: Conocimiento sobre enfermedades mentales}
-    \label{fig:ESPCon}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{ANEXO ESP/9AnexESPConfem}
-    \caption{ESP: Conocimiento sobre enfermedades mentales; Género femenino}
-    \label{fig:ESPConfem}
-\end{figure}
 
 \begin{figure}
     \centering
@@ -2513,7 +2573,7 @@ Respuestas: 198
     \centering
     \includegraphics[width=.7\linewidth]{ANEXO ESP/13AnexESPConvid56}
     \caption{ESP: Conocimiento de videojuegos donde se representen enfermedades mentales; Jugadores con frecuencia de juego 5-6}
-    
+     \label{fig:ESPConvid56}
 \end{figure}
 
 
@@ -2744,7 +2804,7 @@ Respuestas: 95
       \item \textbf{¿Están diagnosticadas? }\\
       \ref{fig:ESPDiag}
      \item \textbf{¿Cuál de las siguientes enfermedades tienes o has tenido?}\\
-     \ref{fig:ESPTenidas}
+     \ref{fig:ESPTenidas},   \ref{fig:ESPTenidaspor},   \ref{fig:ESPTenidasdiag},   \ref{fig:ESPTenidasgen}
      \item \textbf{¿Conoces algún videojuego que represente alguna de las enfermedades o trastornos que tienes o has tenido?}\\
      \ref{fig:ESPVidenf}
 \end{enumerate}
@@ -2768,6 +2828,7 @@ Respuestas: 95
     \centering
     \includegraphics[width=.8\linewidth]{ANEXO ESP/23AnexESPEnf}
     \caption{ESP: Enfermedades mentales}
+    \label{fig:ESPTenidaspor}
 \end{figure}
 
 
@@ -2784,6 +2845,7 @@ Respuestas: 95
   \caption{ESP: Frecuencia de enfermedades mentales sin diagnóstico}  \
 \end{subfigure}
 \caption{ESP:Comparación de frecuencia de enfermedades mentales con/sin diagnóstico}
+\label{fig:ESPTenidasdiag}
 \end{figure}
 
 
@@ -2791,7 +2853,7 @@ Respuestas: 95
     \centering
     \includegraphics[width=1\linewidth]{ANEXO ESP/26AnexESPEnf}
     \caption{ESP: Enfermedades mentales por género}
-    
+    \label{fig:ESPTenidasgen}
 \end{figure}
 
 \begin{figure}
@@ -2911,10 +2973,10 @@ Respuestas: 56
      \ref{fig:INGGen}
      \item \textbf{Age}\\
      \ref{fig:INGEdad}
-     \item \textbf{How often do you play video games?}
+     \item \textbf{How often do you play video games?}\\
      \ref{fig:INGFrec}
-     \item \textbf{What kind of games do you usually play?}
-     \ref{fig:INGFrecgen}
+     \item \textbf{What kind of games do you usually play?}\\
+     \ref{fig:INGFrecgen}, \ref{fig:INGFrecgen56}
 \end{enumerate}
 
 
@@ -2965,6 +3027,7 @@ Respuestas: 56
   \caption{ING: Género de los jugadores con frecuencia de juego nivel 5-6}
 \end{subfigure}
 \caption{ING:Frecuencia de juego por géneros de juego; Jugadores con frecuencia de juego de nivel 5-6}
+ \label{fig:INGFrecgen56}
 \end{figure}
 
 
@@ -2977,10 +3040,10 @@ Respuestas: 56
      \item \textbf{Do you consider there is enough representation of mental health in each of this media?}\\
      \ref{fig:INGMedios}
      \item \textbf{How much do you consider you know about this mental disorders?}\\
-     \ref{fig:INGCon}
+     \ref{fig:INGCon},  \ref{fig:INGConfem}, \ref{fig:INGConmasc}, and
+     \ref{fig:INGConnb}
      \item \textbf{Do you know any video game which represents any mental disorder?}\\
-       \ref{fig:INGConfem}, \ref{fig:INGConmasc}, and
-       \ref{fig:INGConnb},
+      \ref{fig:INGConvid} and \ref{fig:INGConvid56}
 \end{enumerate}
 
 
@@ -3034,6 +3097,7 @@ Respuestas: 56
     \centering
     \includegraphics[width=.7\linewidth]{ANEXO ING/123AnexINGConvid}
     \caption{ING: Conocimiento de videojuegos donde se representen enfermedades mentales; Jugadores con frecuencia de juego de nivel 5-6}
+     \label{fig:INGConvid56}
 \end{figure}
 
 
@@ -3218,7 +3282,7 @@ Respuestas: 46
      \item \textbf{Are they diagnosed?}\\
      \ref{fig:INGDiag}
      \item \textbf{Which of these disorders do you have or have had? }\\
-     \ref{fig:INGTenidas}
+     \ref{fig:INGTenidas}, \ref{fig:INGTenidaspor}, \ref{fig:INGTenidasdiag} and \ref{fig:INGTenidasgen}
      \item \textbf{Do you know any video game which represents any of the diseases you have or have had?}\\
      \ref{fig:INGVidenf}
 \end{enumerate}
@@ -3242,6 +3306,7 @@ Respuestas: 46
     \centering
     \includegraphics[width=.8\linewidth]{ANEXO ING/22AnexINGEnf}
     \caption{ING: Enfermedades mentales}
+      \label{fig:INGTenidaspor}
 \end{figure}
 
 
@@ -3258,6 +3323,7 @@ Respuestas: 46
   \caption{ING: Frecuencia de enfermedades mentales sin diagnóstico}
 \end{subfigure}
 \caption{ING:Comparación de frecuencia de enfermedades mentales con/sin diagnóstico}
+  \label{fig:INGTenidasdiag}
 \end{figure}
 
 
@@ -3265,6 +3331,7 @@ Respuestas: 46
     \centering
     \includegraphics[width=1\linewidth]{ANEXO ING/25AnexINGEnfgene}
     \caption{ING: Enfermedades mentales por género}
+      \label{fig:INGTenidasgen}
 \end{figure}
 
 \begin{figure}
@@ -3312,7 +3379,7 @@ Respuestas: 13
 \subsection{Comments}
 Respuestas: 56
 \begin{enumerate}[label=\textbf{\arabic*}.]
-     \item \textbf{Añade cualquier otro comentario u opinión que tengas al respecto del tema, estaré encantada de leera. Si no tienes nada que añadir, ¡simplemente saluda!}\\
+     \item \textbf{Add any comment or opinion you have about this topic, I'll be happy to read it. If you have nothing to add, just say hello!}\\
      \label{comentariosIngles}
      
         Hadn’t really thought about how mental health is represented in video games! I feel like there’s a lot of conversations around mental health awareness in tv and film but video games are such a big part of people’s lives it seems silly not to think about
