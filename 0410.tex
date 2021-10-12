@@ -221,6 +221,13 @@ textsize=footnotesize,color=red!20!white]{todonotes}
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
+Los videojuegos son una de las industrias en mayor auge. Lo mismo ocurre, desgraciadamente, con las enfermedades mentales. Cada vez son más las personas que padecen trastornos mentales y sin embargo su representación en medios aún no es equiparable a la realidad. 
+
+En este trabajo se ha realizado un estudio para comprobar el estado de la representación de enfermedades en videojuegos de diferentes épocas, analizando qué enfermedades se representan, de qué manera, quién los ha desarrollado, etc. Por otro lado, se ha estudiado a la población, tanto su conocimiento sobre videojuegos de esta temática, como las enfermedades mentales que estos padecen. Aunando ambos estudios, se ha llegado a la conclusión de que todavía falta representación, sobre todo de algunas enfermedades mentales y que esta representación debe desestigmatizarse. 
+
+Por ello, se ha desarrollado un prototipo de un videojuego, llamado ``Insania'', en el que se puede experimentar, desde los ojos de tres personajes, cada uno los cuales padece una enfermedad de las menos representadas en videojuegos cómo es enfrentarse a ciertas situaciones padeciendo estas enfermedades. Los trastornos representados han sido el trastorno de la conducta alimentaria, el trastorno de ansiedad social y la depresión por la poca representación que hay de ellos y el alto porcentaje de afectados por ellos. De ese modo se quiere mostrar una nueva forma de representar este tipo de enfermedades y se anima al sector a que lo siga haciendo, pues es muy importante que haya visibilidad y normalidad. 
+
+
 \noindent \textbf{Palabras clave}:
 \begin{itemize}
    \item Videojuegos
@@ -300,7 +307,7 @@ Es una industria, por tanto, que llega a mucha gente. Generalmente además el p�
 
 Por tanto, en una época en la que las enfermedades mentales aún están invisibilizadas y son tan comunes, utilizar los videojuegos para normalizarlas puede ser un punto clave para la sociedad. A diferencia de otros medios, como podrían ser los libros, series o películas, en un videojuego se participa de la historia, es más fácil empatizar, sentir lo que está sintiendo el protagonista o aprender de la 'convivencia virtual' con otros personajes que padezcan algún tipo de enfermedad para poder aplicarlo a la vida real. 
 
-Muchos investigadores y científicos ya han remarcado los beneficios que puede suponer utilizar videojuegos tanto para tratar enfermedades mentales, como para visibilizarlas. Sin embargo, hacen hincapié en la necesidad de que sean los desarrolladores de videojuegos, quienes conocen la base de los videojuegos y saben hacerlos disfrutables y entretenidos, los que colaboren junto con gente especializada y experta, para producir videojuegos que puedan cambiar la vida de todos como sociedad, y, en concreto, de las personas que padecen estos trastornos o enfermedades \ref{articuloDesarrolloCient}.
+Muchos investigadores y científicos ya han remarcado los beneficios que puede suponer utilizar videojuegos tanto para tratar enfermedades mentales, como para visibilizarlas. Sin embargo, hacen hincapié en la necesidad de que sean los desarrolladores de videojuegos, quienes conocen la base de los videojuegos y saben hacerlos disfrutables y entretenidos, los que colaboren junto con gente especializada y experta, para producir videojuegos que puedan cambiar la vida de todos como sociedad, y, en concreto, de las personas que padecen estos trastornos o enfermedades \cite{articuloDesarrolloCient}.
 
 A lo largo de este trabajo se mencionarán videojuegos que representan enfermedades mentales desarrollados por gente que las padece, tratando de mostrar al mundo su experiencia de forma que otros puedan sentirse identificados, y otros tantos aprender de ello, como ocurrió con el videojuego Hellblade Senua's Sacrifice. No por ello lo que se represente es aplicable a todas las personas con determinada enfermedad, pues cada persona vive su propia realidad, su propia sintomatología, etc., pero sí que puede ayudar a tener una visión más cercana de las enfermedades mentales y de las personas que las padecen. 
 
@@ -869,6 +876,8 @@ Por otro lado se ha utilizado 3dsMax 2022 \cite{3dsmax} para la creación y modi
 
 Para la modificación de texturas, diseño gráfico de botones, pantallas, etc. se ha utilizado Adobe Photoshop \cite{photoshop}, herramienta de Adobe Systems Incorporated que se utiliza como editor de fotografías y gráficos. 
 
+Como editor de audio se ha utilizado Audacity \cite{audacity}, un editor libre de derechos. 
+
 Por otro lado, se ha utilizado \LaTeX para la creación de la memoria, \LaTeX es un sistema de composición de textos generalmente técnicos y científicos. La licencia es \LaTeX project public license. Para su uso se ha utilizado la herramienta Overleaf \cite{overleaf}, un editor de \LaTeX online propiedad de WriteLatex Limited, que permite trabajar en la nube, compartir documentos, etc. Se ha utilizado la versión gratuita. 
 
 Llegando al final de la memoria, cuando ya pesaba mucho y tenía demasiadas imágenes y referencias, Overleaf dejó de ser útil pues la versión gratuita no permitía compilar archivos tan pesados. Por ese motivo, a partir de entonces se ha utilizado TeXstudio \cite{texstudio}. Un entorno de edición de \LaTeX de código abierto que tiene licencia GNU General Public License. 
@@ -895,8 +904,6 @@ Con respecto a la integración continua en el proyecto, se ha hecho uso de Githu
 Se ha utilizado Github Desktop \citetitle{githubdesk} para hacer las subidas a Github con un mayor control sobre los archivos que se subían, mayor facilidad a la hora de hacerlo, etc. 
 
 Por último, para la búsqueda de recursos se ha utilizado Turbosquid \citetitle{turbo}, freepik \citetitle{freepik} y CGTrader \citetitle{CGTrader}, entre otros. 
-
-
 
 
 \chapter{Diseño y desarrollo de ``Insania''}
@@ -951,13 +958,17 @@ El prototipo cuenta con tres personajes diferentes, cada uno de ellos selecciona
      En este caso, el personaje padece de bulimia nerviosa no purgativa. Por el hecho de padecer este trastorno de la conducta alimentaria sufrirá un comportamiento compulsivo con la comida. Su preocupación por no ganar peso y no sentirse bien consigo mismo hará que sufra de atracones recurrentes, en los que perderá completamente el control sobre lo que ingiere. A consecuencia de esto, el sentimiento de culpabilidad y tristeza hará que adopte ayunos y dietas estrictas, así como un exceso de ejercicio físico. Tendrá problemas para comer en público o estando con personas, al sentir la mirada de todo el mundo, tener miedo a que los demás piensen que come mucho, que juzguen su imagen corporal, etc.  
      }
     \item {\textbf{Trasfondo:}
-    Este comportamiento comenzó hace alrededor de dos años con la intención de hacer una dieta para bajar un par de kilos. Sin embargo, no tuvo ningún tipo de seguimiento ni recomendación por ningún personal cualificado, lo cual hizo que se empezara a obsesionar con la ingesta de calorías. Cuando la dieta “finalizó”, dos meses después de su comienzo, volvió a la alimentación anterior, lo cual le hizo ganar aún más peso del que partía. A raíz de este suceso perdió el control con la comida, encontró en ella un escape para sus frustraciones y malestar. Tras estos atracones sentía un gran sentimiento de culpa por lo que volvía a empezar una dieta no demasiado restrictiva. Poco a poco la obsesión fue empeorando y en lugar de dietas no restrictivas, algunos días su sentimiento de culpa era tan grande que entendía que sólo el ayuno podía compensar el atracón. Desde entonces continúa con este problema, cualquier hecho estresante o problema, acaba reflejado en la comida con una gran ingesta de todo tipo de comida. Tras eso tiene un período de dieta estricta, ayuno y ejercicio excesivo. Además, esto ha afectado también a sus relaciones sociales, pues no puede comer en presencia de nadie más, tiene una relación muy mala con la comida y trata de ocultarlo a su alrededor. Sin embargo, el hecho de no comer en público resulta un comportamiento extraño para su alrededor, que, en vez de tratar de entender lo que le ocurre y apoyarla, sólo aportan comentarios que hacen que se sienta peor, en los que no dejan de comentar que ``no come nada'', ``está en los huesos'', o bien que ``para no comer tampoco está tan delgada''. 
+    Este comportamiento comenzó hace alrededor de dos años con la intención de hacer una dieta para bajar un par de kilos. Sin embargo, no tuvo ningún tipo de seguimiento ni recomendación por ningún personal cualificado, lo cual hizo que se empezara a obsesionar con la ingesta de calorías. Cuando la dieta “finalizó”, dos meses después de su comienzo, volvió a la alimentación anterior, lo cual le hizo ganar aún más peso del que partía.
+    
+    A raíz de este suceso perdió el control con la comida, encontró en ella un escape para sus frustraciones y malestar. Tras estos atracones sentía un gran sentimiento de culpa por lo que volvía a empezar una dieta no demasiado restrictiva. Poco a poco la obsesión fue empeorando y en lugar de dietas no restrictivas, algunos días su sentimiento de culpa era tan grande que entendía que sólo el ayuno podía compensar el atracón. Desde entonces continúa con este problema, cualquier hecho estresante o problema, acaba reflejado en la comida con una gran ingesta de todo tipo de comida. Tras eso tiene un período de dieta estricta, ayuno y ejercicio excesivo. Además, esto ha afectado también a sus relaciones sociales, pues no puede comer en presencia de nadie más, tiene una relación muy mala con la comida y trata de ocultarlo a su alrededor. Sin embargo, el hecho de no comer en público resulta un comportamiento extraño para su alrededor, que, en vez de tratar de entender lo que le ocurre y apoyarla, sólo aportan comentarios que hacen que se sienta peor, en los que no dejan de comentar que ``no come nada'', ``está en los huesos'', o bien que ``para no comer tampoco está tan delgada''. 
     
     De momento ha dado el paso a reconocer que tiene una enfermedad que se ha auto diagnosticado, dado el comportamiento que se ha dado cuenta que tiene y que no es normal. El siguiente paso que quiere dar es pedir ayuda y contárselo a su familia o bien acudir a terapia. Todavía no está preparada para ninguna de ambas cosas, pero considera que, de momento, al haberse dado cuenta, lo tiene más o menos controlado, pese a que no sea el caso.
     }
     
       \item {\textbf{Decisiones sobre el personaje:}
-     En este caso se ha escogido un personaje de género femenino dado que, tal y como muestran los estudios realizados al respecto, son las mujeres las que presentan una mayor prevalencia de la enfermedad. Como puede verse en un artículo \cite{articuloTCA}, que recoge a su vez estudios epidemiológicos sobre trastornos de la conducta alimentaria realizados en España a lo largo de los años, todos ellos coinciden en que la prevalencia es mayor en mujeres que en hombres, encontrándose los valores entre un 3,4-7,7\% de prevalencia entre mujeres y de un 0,2-1,7\% en hombres. Otros artículos \cite{articuloTCA2} incluso estiman que son las mujeres las que, en un 90\%, padecen este tipo de enfermedades. Además, generalmente adolescentes y jóvenes. En concreto, la bulimia nerviosa, está estimado que afecta a de una a tres mujeres por cada 100. Los hombres, sin embargo, tienen una proporción diez veces menor. 
+     En este caso se ha escogido un personaje de género femenino dado que, tal y como muestran los estudios realizados al respecto, son las mujeres las que presentan una mayor prevalencia de la enfermedad. 
+     
+     Como puede verse en un artículo \cite{articuloTCA}, que recoge a su vez estudios epidemiológicos sobre trastornos de la conducta alimentaria realizados en España a lo largo de los años, todos ellos coinciden en que la prevalencia es mayor en mujeres que en hombres, encontrándose los valores entre un 3,4-7,7\% de prevalencia entre mujeres y de un 0,2-1,7\% en hombres. Otros artículos \cite{articuloTCA2} incluso estiman que son las mujeres las que, en un 90\%, padecen este tipo de enfermedades. Además, generalmente adolescentes y jóvenes. En concreto, la bulimia nerviosa, está estimado que afecta a de una a tres mujeres por cada 100. Los hombres, sin embargo, tienen una proporción diez veces menor. 
      
      También en la encuesta realizada, que se puede encontrar en la sección \ref{sec:encuestaVid} y más claramente en el anexo \ref{sec:anexo}, puede observarse que de entre todas las enfermedades padecidas por mujeres y hombres, los TCA suponen un 10\% del total, mientras que en el caso de los hombres este porcentaje desciende a un 2\%. 
      
@@ -1074,7 +1085,7 @@ Este tiempo de mayor soledad le ha hecho tener tiempo para encontrarse con sus p
 
 Desde que va a terapia, está intentando averiguar cuáles han podido ser los motivos que hayan desencadenado el sentirse así y no encontrar nada que mejore su estado de ánimo. Han empezado a hablar de su infancia, la cual recuerda como una infancia feliz, de no ser por un par de recuerdos en el colegio que le produjeron cierto malestar. Tuvo una familia estructurada, nunca le faltó de nada, estudió siempre lo que quiso. Tenía amigos, en algunas épocas más que en otras, pero nunca se sintió alejada de los demás. Ahora mismo se encuentra trabajando, quizá no en el trabajo que más satisfacción le causa, pero se siente agradecida de haber encontrado ese trabajo donde hay buenos compañeros y con el que puede pagar el alquiler.Además, comparte piso con su mejor amigo, que es la única persona a la que ve últimamente, aunque poco porque sus horarios son muy diferentes. 
 
-Pese a no descubrir la razón, la terapeuta le está dando recomendaciones e indicaciones para que siga preguntándose cosas e intente deshacer el nudo que tiene dentro y volver a tener y sentir que tiene una vida plena y feliz. De momento no ha sido derivada a psiquiatría y no está tomando medicación, pero no se descarta su uso si el problema continúa y la terapia cognitivo conductual sigue sin funcionar. 
+Aunque de momento no hayan conseguido descubrir la razón, la terapeuta le está dando recomendaciones e indicaciones para que siga preguntándose cosas e intente deshacer el nudo que tiene dentro y volver a tener y sentir que tiene una vida plena y feliz. De momento no ha sido derivada a psiquiatría y no está tomando medicación, pero no se descarta su uso si el problema continúa y la terapia cognitivo conductual sigue sin funcionar. 
 
     Pese a que el personaje lo desconozca, la depresión es una enfermedad que lleva navegando entre generaciones en su familia por parte de madre a lo largo de los años. Su abuela la tenía, dos de sus tíos la tienen, su propia madre ha tenido episodios depresivos en algunos momentos de su vida. Como es un tema del que no hablan, desconoce este aspecto, lo cual le ha llevado a culparse aún más de sentirse mal ``teniendo todo en la vida''. 
    
@@ -1084,7 +1095,7 @@ Pese a no descubrir la razón, la terapeuta le está dando recomendaciones e ind
      \item {\textbf{Decisiones sobre el personaje:}
      La depresión es un trastorno mental considerado por la OMS como la mayor causa mundial de discapacidad, \cite{articuloDEP}, se considera que afecta a más de 300 millones de personas, y muchas de ellos acaban desencadenando en suicidio. 
 Además, más de la mitad de los afectados por esta enfermedad no son tratados, debido a falta de recursos, de personal sanitario capacitado, por la propia estigmatización o por la evaluación incorrecta, hay gente diagnosticada y tratada con antidepresivos sin tener realmente depresión y gente que la tiene y que no se diagnostica como tal. 
-Algunos estudios, como el siguiente \ref{articuloDEP2}, muestran una prevalencia de la enfermedad o bien de síntomas depresivos de más de un 20\% y además es mayor en personas de países en vías de desarrollo que en países ya desarrollados. También se distingue una mayor prevalencia en mujeres que en hombres, siendo un 20-25\% en mujeres y un 7-12\% en hombres. Muchas veces también está relacionada con otras enfermedades, sobre todo con enfermedades crónicas, donde la prevalencia puede ser hasta de un 53\%.  
+Algunos estudios, como el siguiente \cite{articuloDEP2}, muestran una prevalencia de la enfermedad o bien de síntomas depresivos de más de un 20\% y además es mayor en personas de países en vías de desarrollo que en países ya desarrollados. También se distingue una mayor prevalencia en mujeres que en hombres, siendo un 20-25\% en mujeres y un 7-12\% en hombres. Muchas veces también está relacionada con otras enfermedades, sobre todo con enfermedades crónicas, donde la prevalencia puede ser hasta de un 53\%.  
 
 Al escoger esta enfermedad se pretende dar visibilidad a la realidad de muchas personas. Además, se quiere mostrar que no es necesario haber sufrido algún trauma ni haber pasado por ningún episodio concreto para sufrirlo, a veces simplemente es por alteraciones o cambios estructurales en la bioquímica cerebral. A este tipo de depresión se conoce como depresión endógena, mientras que la que puede responder a causas externas se conoce como depresión reactiva. El hecho de no existir causas externas pueden dificultar la comprensión de la enfermedad tanto por la persona que lo sufre como por su entorno, por lo que es necesario dar a conocer la posibilidad de que esto ocurra. 
 
@@ -1126,11 +1137,11 @@ Estas tareas aparecen en la esquina superior izquierda e indicarán al personaje
 
 Cuando se considere oportuno, el jugador se podrá levantar de la cama, tras lo cual se le indicará que debe encender las luces y esperar a la siguiente tarea, que será abrir la puerta. Una vez se abre la puerta aparecen dos personajes, invitados a la fiesta. Será en este momento en el que aparecerá un controlador de tiempo que irá más despacio en el caso del personaje con TAS dada la incomodidad que siente y el que padece depresión, ya que para él todo el mundo va más despacio, desde su forma de caminar al paso del tiempo en general.
 
-En el caso del personaje con TAS sentirá que los invitados le miran todo el tiempo, y cada vez que se acerque a ellos le saludarán y se irán haciendo más grandes, se notará así cómo le intimida la presencia de las personas. Al mismo tiempo comentará que quiere que le dejen de mirar, que ojalá se vayan ya y que pese a que son familiares, no aguanta su presencia. Como se ha indicado, será el personaje que más tiempo estará sufriendo la presencia de estos personajes. En cuanto se acabe el tiempo, se dirigirán de nuevo a la puerta y el día de nuevo se acabará. 
+En el caso del personaje con TAS sentirá que los invitados le miran todo el tiempo, y cada vez que se acerque a ellos le saludarán y se irán haciendo más grandes, se notará así cómo le intimida la presencia de las personas. Al mismo tiempo comentará que quiere que le dejen de mirar, que ojalá se vayan ya y que pese a que son familiares, no aguanta su presencia. Como se ha indicado, será el personaje que más tiempo estará sufriendo la presencia de estos personajes. En cuanto se acabe el tiempo, los invitados se dirigirán de nuevo a la puerta, se despedirán, desaparecerán y el día de nuevo se acabará. 
 
 Cabe mencionar que en cualquier momento se puede acceder al menú de pausa presionando la tecla Esc del teclado. 
  
-En principio esto sería el fin del prototipo, que podría seguir ampliándose con nuevos eventos, tareas y el paso de más días. 
+En principio al comenzar el día siguiente finalizaría el prototipo, que podría seguir ampliándose con nuevos eventos, tareas y el paso de más días. 
 
 
 \section{Diseño software}
@@ -1151,7 +1162,7 @@ En cuanto a los ``Intrusos'', son los invitados a la fiesta, que tienen muchas p
 
 Por otro lado, las lámparas utilizan el componente Light, propio de Unity, con el cual se ha controlado la intensidad, radio, color y tipo de luz, propiedades que se modifican al encender o apagar la luz, es decir, cuando el personaje interactúa con ellas. 
 
-Todos los objetos tienen sus propios materiales (Material), algunos de ellos utilizan el componente RigidBody (el personaje principal y los ``intrusos''), otros el componente Collider (Capsule collider, Box Collider, etc.) para que los objetos no se traspasen entre ellos y el MeshRenderer para que sean visibles.
+Todos los objetos tienen sus propios materiales (Material), algunos de ellos utilizan el componente RigidBody (el personaje principal y los ``intrusos''), otros el componente Collider (Box Collider, por ejemplo) para que los objetos no se traspasen entre ellos y el MeshRenderer para que sean visibles.
 
 La cámara utilizada es una cámara fija a la que se le han modificado los planos de clipping, profundidad y field of view, aparte de la posición. 
 
@@ -1299,6 +1310,7 @@ HUD del juego con diario abierto (Ver Figura \ref{fig:UXHUD2})
 	\caption{Habitación}
 	\label{fig:ArtesHab}
 \end{figure}
+
 
 Visión completa del escenario (Ver figura \ref{fig:ArtesEsce})
 
@@ -1506,6 +1518,17 @@ Personajes extra
 \caption{Personaje extra}
 \label{fig:ArtesEVIL2}
 \end{figure}
+
+\section{Música y efectos de sonido}
+
+Para la música y efectos se sonido se han buscado sinfonías que encajaran con el resto de la temática. Finalmente se encontró un tema principal para ``Insania'' que se va repitiendo en un loop infinito, se trata de \citetitle{music}. 
+
+Por otro lado, se buscaron efectos de sonido acordes a las acciones realizadas por el personaje. En este caso sólo se han añadido efectos para el momento en que se comen pedazos de tarta \citetitle{efectocomer} y cuando se lavan las manos en el lavabo \citetitle{efectoagua}. Podrían incluirse también al escribir una nota en el diario, el click de encender y apagar las luces, o muchos otros sin demasiada complicación. Como se mencionó en la sección \ref{sec:diseñoSw}, simplemente había que añadir nuevos sonidos y añadirlos al array del AudioManager. Una vez están añadidos, se pueden reproducir desde donde se quiera. 
+
+Para que los efectos y la música tuvieran la duración deseada, así como para ajustar el tono, volumen, etc. se utilizó \citetitle{audacity}, de forma que los ajustes realizados desde el propio Unity fueran los mínimos posibles, pequeños ajustes de volumen entre efectos de sonido y música, etc. 
+
+Además, como se indica en el apartado \ref{sec:encuestaDemo}, se añadieron controles para pausar o continuar reproduciendo la música en el menú de pausa, dado que algunos de los encuestados consideraban que era un elemento importante dado que había a quienes les sacaba de la experiencia jugable escuchar la misma música continuamente. 
+
 
 
 \chapter {Evaluación}
@@ -1954,7 +1977,7 @@ Otros que, no obstante, sí consideran haberse visto representados opinan lo sig
 
 El conjunto de respuestas puede encontrarse en el \hyperref[representacionIngles]{anexo}.
 
-Finalmente, los comentarios sobre la encuesta pueden encontrarse en \hyperref[comentariosCastellano]{Comentarios en castellano} y \hyperref[comentariosIngles]{Comentarios en inglés}, también en el anexo 1, \ref{sec:anexo}. 
+Finalmente, los comentarios sobre la encuesta pueden encontrarse en \hyperref[comentariosCastellano]{Comentarios en castellano} y \hyperref[comentariosIngles]{Comentarios en inglés}, también en el anexo \ref{sec:anexo}. 
 
 
 
@@ -1974,19 +1997,35 @@ Finalmente, se preguntó sobre los aspectos que se modificarían, el nombre que 
 
 \subsection{Resultados obtenidos}
 
-Los resultados obtenidos fueron de un total de 5 personas, dado que esta encuesta no querería de resultados en cantidad sino en calidad, gente que dedicara un rato a probar bien el prototipo. 
+Los resultados obtenidos fueron de un total de 5 personas, dado que esta encuesta no requería de resultados en cantidad sino en calidad, gente que dedicara un rato a probar bien el prototipo. 
 
 Dado el bajo número de respuestas, no se cree necesario el uso de gráficas para un análisis más detallado sino que se pueden analizar los resultados directamente. 
 
 De estos se obtuvo la necesidad de añadir los controles en el juego, dado que hay quienes lo consideraron muy necesario, como puede verse en la figura \ref{fig:anexControl}. Pese a que otros probadores no lo necesitaban, en el momento en que uno lo necesita es suficiente para añadirlos, pues no afecta a la jugabilidad de los demás y los que los necesitan pueden sacar provecho de ello. 
 
+Estos controles aparecen tanto en el inicio del juego en la esquina inferior izquierda de la pantalla durante los primeros segundos, como en el menú de pausa, accesible en todo momento, como puede verse en la figura \ref{fig:UXPausaControl}
+
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{TGF/Artes/Controles}
+		\caption{Juego con los controles en pantalla}		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{TGF/Artes/PausaControles}
+		\caption{Menú de pausa con los controles}		
+	\end{subfigure}
+	\caption{Mejora: adicción de los controles del juego}
+	\label{fig:UXPausaControl}
+\end{figure}
+
 En cuanto a la música, generalmente se consideró un uso adecuado, pero se echó en falta un control para poder quitarla si se quería, además se consideró que había que regular mejor el volumen de la música y los efectos de sonido, cosa que se hizo tras analizar la encuesta. (Ver figuras \ref{fig:anexMusic}, \ref{fig:anexRazonmusic}). 
 
-
-Dada la solicitud del control de la música, se añadió en el menú de pausa la opción de activar o desactivar la música del juego. 
-
-\comm{añadir imagen de la mejora}
-
+Dada la solicitud del control de la música, se añadió en el menú de pausa la opción de activar o desactivar la música del juego, como puede verse también en la figura \ref{fig:UXPausaControl}.
 
 En cuanto al HUD, nadie ha tenido ningún problema con él y lo han considerado perfectamente adecuado, a excepción del reloj, cuando este aún se mostraba permanentemente y no sólo en el momento de la visita, todavía no se había terminado de desarrollar ese aspecto del juego. (Ver figuras \ref{fig:anexHUD}). 
 
@@ -1994,13 +2033,13 @@ En cuanto a perderse en el juego, solo una de las personas consideró sentirse p
 
 Por otro lado, encontraron varios problemas en el juego como que se podía atravesar la pared en un punto del escenario o que la luz tardaba mucho en encender. Ambos se han tratado de resolver añadiendo más dureza al material y colocando otro objeto detrás de la pared, para resolver el primer problema, y acelerando la velocidad de encendido y apagado de las luces, para el segundo. 
 
-La temática que han considerado que trata el juego es sobre trastornos o enfermedades mentales, ``Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresión'', comentaba uno de los encuestados, el resto de respuestas puede encontrarse en el anexo. 
+La temática que han considerado que trata el juego es sobre trastornos o enfermedades mentales, \textit{``Gente con problemas, uno se dicen cosas feas y se nota cuando uno va lento y todo alrededor lo ve gris, parece una depresión''}, comentaba uno de los encuestados, el resto de respuestas puede encontrarse en el anexo. 
 
-Todos ellos consideran que la estética acompaña la temática del juego, y el nivel de representación con respecto a los personajes sólo es "Nada" en uno de los casos con el personaje que padece TAS. (Ver figura \ref{fig:anexRepre}). Por ello parece intuirse que son personajes con los que la gente podría sentirse identificados por los comentarios y comportamientos que tienen. Uno de los encuestados indicaba ``El tercero creo que tiene depresión'', haciendo referencia a que él o ella también lo había padecido en algún momento. 
+Todos ellos consideran que la estética acompaña la temática del juego, y el nivel de representación con respecto a los personajes sólo es ``Nada'' en uno de los casos con el personaje que padece TAS. (Ver figura \ref{fig:anexRepre}). Por ello parece intuirse que son personajes con los que la gente podría sentirse identificados por los comentarios y comportamientos que tienen. Uno de los encuestados indicaba \textit{``El tercero creo que tiene depresión''}, haciendo referencia a que él o ella también lo había padecido en algún momento. 
 
 En cuanto a los aspectos a modificar, se volvía a repetir la necesidad de un control sobre la música o no entender el sistema del reloj/tiempo. Este comportamiento se modificó más adelante, apareciendo únicamente en el momento en que entran los invitados a casa para saber en qué momento acaba la visita. 
 
-Finalmente, en las observaciones extra, algún encuestado ha indicado ``Me gusta que los tres tengan distintos mensajes en el mismo entorno y con los mismos objetivos, defiende mejor lo que les une realmente''. 
+Finalmente, en las observaciones extra, algún encuestado ha indicado \textit{``Me gusta que los tres tengan distintos mensajes en el mismo entorno y con los mismos objetivos, defiende mejor lo que les une realmente''}. 
 
 Todas las respuestas pueden encontrarse en el anexo, en la sección \ref{sec:anexo2}. 
 
@@ -2018,9 +2057,9 @@ Muchos de los encuestados, además, creían que el videojuego era el medio donde
 
 Cabe destacar también que la mayoría de ellos consideraban aún que se seguía preservando el estigma existente sobre las enfermedades mentales, aunque muchos tenían la esperanza de que con el tiempo esto fuera cambiando, sobre todo gracias a los vidoejuegos indie, como se mencionaba anteriormente. Otros desean que haya más representación sin la necesidad de que los videojuegos estén centrados en la propia enfermedad o estereotipicen los comportamientos, prefieren que sean representadas como un elemento más, una característica más de los personajes, que se represente de forma más orgánica y natural. 
 
-Con respecto al padecimiento de enfermedades mentales de entre los encuestados, es destacable la diferencia entre géneros, donde las personas de género masculino son las que consideran tener menos trastornos mentales y de entre los que los tienen o consideran tenerlos, también son el género donde están menos diagnosticados. Esto lleva a pensar en que todavía los trastornos mentales se ve como una debilidad, y dada la sociedad actual, donde todavía los hombres necesitan demostrar (aunque no sea conscientemente), fortaleza, tanto física como mental, no se pueden ``dar el lujo'' de reconocer que no están bien y pedir ayuda. 
+Con respecto al padecimiento de enfermedades mentales de los encuestados, es destacable la diferencia entre géneros, donde las personas de género masculino son las que consideran tener menos trastornos mentales y de entre los que los tienen o consideran tenerlos, también son el género donde están menos diagnosticados. Esto lleva a pensar en que todavía los trastornos mentales se ve como una debilidad, y dada la sociedad actual, donde todavía los hombres necesitan demostrar (aunque no sea conscientemente), fortaleza, tanto física como mental, no se pueden ``dar el lujo'' de reconocer que no están bien y pedir ayuda. 
 
-Se aleja del tema, pero es necesario reflexionar que pese a que estas personas no reconozcan o sepan que padecen algún trastorno mental, lo hacen y no son más débiles por reconocerlas o tratarlas sino todo lo contrario. Se asume que realmente sí que lo padecen no por contradecir sus respuestas, sino por la tasa de suicidio existente y la diferencia entre géneros. Donde, en 2020, desde enero a mayo, de las 1.343 que fallecieron en España a causa de ``suicidio y lesiones autoinflingidas'', 983 personas estaban identificadas como hombres y 360 como mujeres, es decir, un 73\% del total fueron hombres \cite{datosINEsuicidio}. Estos datos son completamente contrarios a los recogidos en la encuesta en el padecimiento de trastornos mentales, donde sólo un 40\% reconocía tener o haber tenido alguna enfermedad mental, mientras que este porcentaje aumentaba a un 66 en el caso de las personas de género femenino y un 90\% en el caso de las personas de género no binario. 
+Se aleja del tema, pero es necesario reflexionar que pese a que estas personas no reconozcan o sepan que padecen algún trastorno mental, lo hacen y no son más débiles por reconocerlas o tratarlas sino todo lo contrario. Se asume que realmente sí que lo padecen no por contradecir sus respuestas, sino por la tasa de suicidio existente y la diferencia entre géneros. Donde, en 2020, desde enero a mayo, de las 1.343 que fallecieron en España a causa de ``suicidio y lesiones autoinflingidas'', 983 personas estaban identificadas como hombres y 360 como mujeres, es decir, un 73\% del total fueron hombres \cite{datosINEsuicidio}. Estos datos son completamente contrarios a los recogidos en la encuesta en el padecimiento de trastornos mentales, donde sólo un 40\% reconocía tener o haber tenido alguna enfermedad mental, mientras que este porcentaje aumentaba a un 66\% en el caso de las personas de género femenino y un 90\% en el caso de las personas de género no binario. 
 
 Es también importante destacar que la pandemia del COVID-19 y el confinamiento han sido también un desencadenante de muchos trastornos mentales, sobre todo entre jóvenes, ha aumentado en un 45\% los adolescentes atendidos por estas patologías en el primer trimestre de este año. Han aumentado sobre todo los trastornos alimentarios, en un 25\%, y la ansiedad, que afecta ya a entre un 10 y un 20\% de los jóvenes pudiendo llegar a desarrollarse depresión, ideaciones suicidas y autolesiones \cite{datosEnfJovenes}.  
 
