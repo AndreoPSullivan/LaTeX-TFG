@@ -55,9 +55,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{\url{https://www.adobe.com/es/products/photoshop.html}.
-  Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Adobe Photoshop}}
+    \verb{url}
+    \verb https://www.adobe.com/es/products/photoshop.html
+    \endverb
     \field{year}{{1990-2021}}
   \endentry
 
@@ -76,9 +78,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{\url{https://get.adobe.com/es/reader/}. Último acceso Octubre
-  2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Adobe Acrobat Reader DC}}
+    \verb{url}
+    \verb https://get.adobe.com/es/reader/
+    \endverb
     \field{year}{{1994-2018}}
   \endentry
 
@@ -97,10 +101,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{Disponible en
-  \url{https://es.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(videojuego)}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Dr. Jekyll and Mr. Hyde}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(videojuego)
+    \endverb
     \field{year}{1988}
   \endentry
 
@@ -117,17 +122,17 @@
     \strng{fullhash}{AC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{title}{Discriminación de las personas trans en el ámbito laboral}
     \verb{url}
-    \verb http://www.infotransexualidadcanarias.org/index.php/noticias-2/618-di
-    \verb scriminacion-de-las-personas-trans-en-el-ambito-laboral#:~:text=Duran
-    \verb te\%20a\%C3\%B1os\%20el\%20mercado\%20laboral,estado\%20de\%20extrema
-    \verb \%20exclusi\%C3\%B3n\%20social
+    \verb https://www.infotransexualidadcanarias.org/index.php/noticias-2/618-d
+    \verb iscriminacion-de-las-personas-trans-en-el-ambito-laboral
     \endverb
     \field{journaltitle}{Info Transexualidad Canarias}
+    \field{year}{2021}
   \endentry
 
   \entry{articuloTCA5}{article}{}
@@ -154,87 +159,73 @@
     \field{year}{2016}
   \endentry
 
-  \entry{encuestaVidING}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{Andrea Rodríguez}},
+  \entry{articuloTCA6}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AJ}{%
+         family={Arcelus},
          familyi={A\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MAJ}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={Alex\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wales},
+         familyi={W\bibinitperiod},
+         given={Jackie},
+         giveni={J\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
+    \strng{namehash}{AJMAJWJ1}
+    \strng{fullhash}{AJMAJWJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLSeH_JfFJx0Oiv1XNx24Q4_GLGzWhgLxjzE0lNdu_xb_xYS6mg/viewform}}
-    \field{title}{{Encuesta enfermedades mentales en videojuegos (ING)}}
-  \endentry
-
-  \entry{encuestaVidESP}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{Andrea Rodríguez}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
-    \field{extradate}{1}
+    \field{labelyear}{2011}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-  \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLSfoQZGcruSAhPp0GxhNVturg7y0eN43jQsST7tYLiamifBmmA/viewform}}
-    \field{title}{{Encuesta enfermedades mentales en videojuegos (ESP)}}
-    \field{year}{2021}
+    \field{title}{Mortality Rates in Patients With Anorexia Nervosa and Other
+  Eating Disorders}
+    \verb{url}
+    \verb https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1107207
+    \endverb
+    \field{journaltitle}{JAMA Network}
+    \field{year}{2011}
   \endentry
 
-  \entry{encuestaDemo}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{Andrea Rodríguez}},
+  \entry{articuloTAS}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Asher},
          familyi={A\bibinitperiod},
+         given={Maya},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AIM}{%
+         family={Aderka},
+         familyi={A\bibinitperiod},
+         given={Idan\bibnamedelima M},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
+    \strng{namehash}{AMAIM1}
+    \strng{fullhash}{AMAIM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
-    \field{extradate}{2}
+    \field{labelyear}{2018}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-  \field{note}{\url{https://docs.google.com/forms/d/e/1FAIpQLScsfhqQPVyKExokLorGE_s1wyomi5zfJK0Fa6J0ey9XOR35Tg/viewform}}
-    \field{title}{{Encuesta experiencia jugable}}
-    \field{year}{2021}
-  \endentry
-
-  \entry{elmio}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{Andrea Rodríguez}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
-    \field{extradate}{3}
-    \field{labeldatesource}{}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{note}{Disponible en
-  \url{https://github.com/AndreoPSullivan/TFG-Videojuegos}. Último acceso
-  Octubre 2021}
-    \field{title}{{Insania}}
-    \field{year}{2021}
+    \field{title}{Gender differences in social anxiety disorder}
+    \verb{url}
+    \verb https://pubmed.ncbi.nlm.nih.gov/29667715/
+    \endverb
+    \field{journaltitle}{PubMed}
+    \field{year}{2018}
   \endentry
 
   \entry{sym15}{misc}{}
@@ -244,18 +235,19 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A6}
-    \strng{fullhash}{A6}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{Disponible en
-  \url{https://store.steampowered.com/app/342100/Sym/}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Sym}}
+    \verb{url}
+    \verb https://store.steampowered.com/app/342100/Sym/
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -266,18 +258,51 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A7}
-    \strng{fullhash}{A7}
+    \strng{namehash}{A6}
+    \strng{fullhash}{A6}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{{1990-2020}}
     \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{note}{\url{https://es.wikipedia.org/wiki/Autodesk_3ds_Max}. Último
-  acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{3dsMax}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Autodesk_3ds_Max
+    \endverb
     \field{year}{{1990-2020}}
+  \endentry
+
+  \entry{articuloTAS2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bandelow},
+         familyi={B\bibinitperiod},
+         given={Borwin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Michaelis},
+         familyi={M\bibinitperiod},
+         given={Sophie},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BBMS1}
+    \strng{fullhash}{BBMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Epidemiology of anxiety disorders in the 21st century}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4610617/
+    \endverb
+    \field{journaltitle}{NCBI}
+    \field{year}{2015}
   \endentry
 
   \entry{daysgone19}{misc}{}
@@ -295,30 +320,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Days_Gone}.
-  Último acceso Julio 2021}
+    \field{note}{Último acceso Julio 2021}
     \field{title}{{Days Gone}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Days_Gone
+    \endverb
     \field{year}{2019}
-  \endentry
-
-  \entry{texstudio}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=B}{%
-         family={{Benito van der Zander}},
-         familyi={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{B2}
-    \strng{fullhash}{B2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{{2009-2021}}
-    \field{labeldatesource}{}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{note}{\url{https://www.texstudio.org/}. Último acceso Octubre 2021}
-    \field{title}{{TeXstudio}}
-    \field{year}{{2009-2021}}
   \endentry
 
   \entry{layers16}{misc}{}
@@ -328,53 +335,43 @@
          familyi={B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{B3}
-    \strng{fullhash}{B3}
+    \strng{namehash}{B2}
+    \strng{fullhash}{B2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
     \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Layers_of_Fear}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Layers of Fear}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Layers_of_Fear
+    \endverb
     \field{year}{2016}
   \endentry
 
-  \entry{articuloTAS2}{article}{}
+  \entry{CGTrader}{misc}{}
     \name{author}{1}{}{%
-      {{hash=BBSM}{%
-         family={Borwin\bibnamedelima Bandelow},
-         familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={Sophie\bibnamedelima Michaelis},
-         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=C}{%
+         family={{CGTrader}},
+         familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BBSM1}
-    \strng{fullhash}{BBSM1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
+    \field{labelyear}{2021}
     \field{labeldatesource}{}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{title}{Epidemiology of anxiety disorders in the 21st century}
-    \verb{url}
-    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4610617/
-    \endverb
-    \field{journaltitle}{NCBI}
-    \field{year}{2015}
-  \endentry
-
-  \entry{CGTrader}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{note}{\url{https://www.cgtrader.com/}. Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{CGTrader}}
+    \verb{url}
+    \verb https://www.cgtrader.com/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{creately}{misc}{}
@@ -384,17 +381,19 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{{2008-2021}}
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{note}{\url{https://creately.com/es/home/}. Último acceso Octubre
-  2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Creately}}
+    \verb{url}
+    \verb https://creately.com/es/home/
+    \endverb
     \field{year}{{2008-2021}}
   \endentry
 
@@ -405,19 +404,43 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C2}
-    \strng{fullhash}{C2}
+    \strng{namehash}{C3}
+    \strng{fullhash}{C3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Tharsis_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Tharsis}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Tharsis_(video_game)
+    \endverb
     \field{year}{2016}
+  \endentry
+
+  \entry{tcaCM}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Comunidad de Madrid}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C4}
+    \strng{fullhash}{C4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Trastornos Conducta Alimentaria}
+    \verb{url}
+    \verb https://www.comunidad.madrid/servicios/salud/trastornos-conducta-alim
+    \verb entaria
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{tombraider15}{misc}{}
@@ -427,18 +450,19 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C3}
-    \strng{fullhash}{C3}
+    \strng{namehash}{C5}
+    \strng{fullhash}{C5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Rise of the Tomb Raider}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Rise_of_the_Tomb_Raider
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -457,10 +481,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Red_Strings_Club}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{The Red Strings Club}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Red_Strings_Club
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -489,26 +514,6 @@
     \field{year}{2020}
   \endentry
 
-  \entry{audacity}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{Dominic Mazzoni y Roger Dannenberg}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{D3}
-    \strng{fullhash}{D3}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{{1999-2021}}
-    \field{labeldatesource}{}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{note}{\url{https://audacity.es/}}
-    \field{title}{{Audacity}}
-    \field{year}{{1999-2021}}
-  \endentry
-
   \entry{lifeisstrange18}{misc}{}
     \name{author}{1}{}{%
       {{hash=D}{%
@@ -516,18 +521,19 @@
          familyi={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{D4}
-    \strng{fullhash}{D4}
+    \strng{namehash}{D3}
+    \strng{fullhash}{D3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Life_Is_Strange}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Life is Strange}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Life_Is_Strange
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -538,18 +544,19 @@
          familyi={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{D4}
-    \strng{fullhash}{D4}
+    \strng{namehash}{D3}
+    \strng{fullhash}{D3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Tell_Me_Why_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Tell Me Why}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Tell_Me_Why_(video_game)
+    \endverb
     \field{year}{2020}
   \endentry
 
@@ -560,18 +567,19 @@
          familyi={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{D5}
-    \strng{fullhash}{D5}
+    \strng{namehash}{D4}
+    \strng{fullhash}{D4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1998}
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Sanitarium_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Sanitarium}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Sanitarium_(video_game)
+    \endverb
     \field{year}{1998}
   \endentry
 
@@ -590,10 +598,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{E}
     \field{sortinithash}{E}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Dead_Space_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Dead Space}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Dead_Space_(video_game)
+    \endverb
     \field{year}{2008}
   \endentry
 
@@ -612,58 +621,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{E}
     \field{sortinithash}{E}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Fractured_Minds}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Fractured Minds}}
-    \field{year}{2017}
-  \endentry
-
-  \entry{datosINEsuicidio}{article}{}
-    \name{author}{1}{}{%
-      {{hash=dEIN}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Estadística},
-         familyi={E\bibinitperiod},
-         given={Instituto\bibnamedelima Nacional},
-         giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EINd1}
-    \strng{fullhash}{EINd1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2020}
-    \field{labeldatesource}{}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{title}{Estadística de defunciones según la causa de muerte (Avance
-  enero-mayo 2020)}
     \verb{url}
-    \verb https://www.ine.es/jaxi/Tabla.htm?tpx=45874&L=0
+    \verb https://en.wikipedia.org/wiki/Fractured_Minds
     \endverb
-    \field{journaltitle}{Instituto Nacional de Estadística}
-    \field{year}{2020}
-  \endentry
-
-  \entry{music}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=E}{%
-         family={{Esther Garcia}},
-         familyi={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{E3}
-    \strng{fullhash}{E3}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-  \field{note}{\url{https://prosearch.tribeofnoise.com/artists/show/35568/21021
-  }. Último acceso Junio 2021}
-    \field{title}{{The World}}
+    \field{year}{2017}
   \endentry
 
   \entry{beginners15}{misc}{}
@@ -673,18 +636,19 @@
          familyi={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{E4}
-    \strng{fullhash}{E4}
+    \strng{namehash}{E3}
+    \strng{fullhash}{E3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
     \field{labeldatesource}{}
     \field{sortinit}{E}
     \field{sortinithash}{E}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Beginner\%27s_Guide}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Beginner's Guide}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Beginner%27s_Guide
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -695,25 +659,26 @@
          familyi={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{E5}
-    \strng{fullhash}{E5}
+    \strng{namehash}{E4}
+    \strng{fullhash}{E4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
     \field{labeldatesource}{}
     \field{sortinit}{E}
     \field{sortinithash}{E}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Celeste_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Celeste}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Celeste_(video_game)
+    \endverb
     \field{year}{2018}
   \endentry
 
   \entry{articuloIntroVideojuegos2}{article}{}
     \name{author}{1}{}{%
       {{hash=F}{%
-         family={FinancesOnline},
+         family={{FinancesOnline}},
          familyi={F\bibinitperiod},
       }}%
     }
@@ -754,8 +719,8 @@
     \field{title}{Introducción a las enfermedades mentales}
     \verb{url}
     \verb https://www.msdmanuals.com/es-es/hogar/trastornos-de-la-salud-mental/
-    \verb introducci\%C3\%B3n-al-cuidado-de-la-salud-mental/introducci\%C3\%B3n
-    \verb -a-las-enfermedades-mentales
+    \verb introducci%C3%B3n-al-cuidado-de-la-salud-mental/introducci%C3%B3n-a-l
+    \verb as-enfermedades-mentales
     \endverb
     \field{journaltitle}{Manual MSD}
     \field{year}{2020}
@@ -776,10 +741,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
-    \field{note}{Disponible en
-  \url{https://www.fsme.es/observatorio-del-suicidio-2019/espa\%C3\%B1a/}.
-  Último acceso Agosto 2021}
+    \field{note}{Último acceso Agosto 2021}
     \field{title}{{Observatorio del suicidio}}
+    \verb{url}
+    \verb https://www.fsme.es/observatorio-del-suicidio-2019/espa%C3%B1a/
+    \endverb
     \field{year}{2019}
   \endentry
 
@@ -798,41 +764,58 @@
     \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Haze_(video_game)}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Haze}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Haze_(video_game)
+    \endverb
     \field{year}{2008}
-  \endentry
-
-  \entry{freepik}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{note}{\url{https://www.freepik.es/}. Último acceso Octubre 2021}
-    \field{title}{{Freepik}}
   \endentry
 
   \entry{imgInicio}{misc}{}
     \name{author}{1}{}{%
-      {{hash=f}{%
-         family={{freepik}},
-         familyi={f\bibinitperiod},
+      {{hash=F}{%
+         family={{Freepik}},
+         familyi={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{f1}
-    \strng{fullhash}{f1}
+    \strng{namehash}{F4}
+    \strng{fullhash}{F4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
-    \field{note}{\url{https://www.freepik.com/vectors/design}. Último acceso
-  Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Mental Health Awareness Day}}
+    \verb{url}
+    \verb https://www.freepik.com/vectors/design
+    \endverb
     \field{year}{2020}
+  \endentry
+
+  \entry{freepik}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Freepik}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F4}
+    \strng{fullhash}{F4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Freepik}}
+    \verb{url}
+    \verb https://www.freepik.es/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{criticafanshellblade}{misc}{}
@@ -850,20 +833,93 @@
     \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{note}{\url{https://www.youtube.com/watch?v=aVwwjh3xwV8}. Último
-  acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Hellblade: Senua's Sacrifice - Fan Reaction Trailer}}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=aVwwjh3xwV8
+    \endverb
     \field{year}{2017}
   \endentry
 
-  \entry{githubdesk}{misc}{}
+  \entry{articuloIntro2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GI}{%
+         family={{García\bibnamedelima de\bibnamedelima la\bibnamedelima
+  Torre}},
+         familyi={G\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GYC}{%
+         family={{González\bibnamedelima Bello}},
+         familyi={G\bibinitperiod},
+         given={Yelitza\bibnamedelima C.},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GIGYC1}
+    \strng{fullhash}{GIGYC1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{note}{\url{https://desktop.github.com/}. Último acceso Octubre
-  2021}
+    \field{title}{Gota}
+    \verb{url}
+    \verb https://www.asieslamedicina.org.mx/gota/#:~:text=A%20nivel%20mundial%
+    \verb 20la%20prevalencia,por%20cada%201%2C000%20personas%2Da%C3%B1o.
+    \endverb
+    \field{journaltitle}{La Medicina es Así}
+    \field{year}{2020}
+  \endentry
+
+  \entry{music}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GE}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Esther},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GE1}
+    \strng{fullhash}{GE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Último acceso Junio 2021}
+    \field{title}{{The World}}
+    \verb{url}
+    \verb https://prosearch.tribeofnoise.com/artists/show/35568/21021
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{githubdesk}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{GitHub Desktop}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G2}
+    \strng{fullhash}{G2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{GitHub Desktop}}
+    \verb{url}
+    \verb https://desktop.github.com/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{googledocs}{misc}{}
@@ -873,18 +929,57 @@
          familyi={G\bibinitperiod},
       }}%
     }
-    \strng{namehash}{G2}
-    \strng{fullhash}{G2}
+    \strng{namehash}{G3}
+    \strng{fullhash}{G3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{{2006-2021}}
     \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{note}{\url{https://en.wikipedia.org/wiki/Google_Docs}. Último
-  acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Google Docs}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Google_Docs
+    \endverb
     \field{year}{{2006-2021}}
+  \endentry
+
+  \entry{articuloDesarrolloCient}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GI}{%
+         family={Granic},
+         familyi={G\bibinitperiod},
+         given={Isabela},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lobel},
+         familyi={L\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Engels},
+         familyi={E\bibinitperiod},
+         given={{Rutger\bibnamedelima CME.}},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GILAER1}
+    \strng{fullhash}{GILAER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{The Benefits of Playing Video Games}
+    \verb{url}
+    \verb https://www.apa.org/pubs/journals/releases/amp-a0034857.pdf
+    \endverb
+    \field{journaltitle}{American Psychological Association}
+    \field{year}{2014}
   \endentry
 
   \entry{killer05}{misc}{}
@@ -894,45 +989,88 @@
          familyi={G\bibinitperiod},
       }}%
     }
-    \strng{namehash}{G3}
-    \strng{fullhash}{G3}
+    \strng{namehash}{G4}
+    \strng{fullhash}{G4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2005}
     \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Killer7}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Killer7}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Killer7
+    \endverb
     \field{year}{2005}
   \endentry
 
-  \entry{refdibujo}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=G}{%
-         family={{Guillermo Pérez Luis}},
-         familyi={G\bibinitperiod},
+  \entry{git}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HJ}{%
+         family={Hamano},
+         familyi={H\bibinitperiod},
+         given={Junio},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Torvalds},
+         familyi={T\bibinitperiod},
+         given={Linus},
+         giveni={L\bibinitperiod},
       }}%
     }
-    \strng{namehash}{G4}
-    \strng{fullhash}{G4}
+    \strng{namehash}{HJTL1}
+    \strng{fullhash}{HJTL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
+    \field{labelyear}{{2007-2021}}
     \field{labeldatesource}{}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{note}{\url{https://www.instagram.com/guillecandraw/?hl=en}. Último
-  acceso Septiembre 2021}
-    \field{title}{{Dibujo Monstruos S.A}}
-    \field{year}{2018}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Git}}
+    \verb{url}
+    \verb https://git-scm.com/
+    \endverb
+    \field{year}{{2007-2021}}
   \endentry
 
-  \entry{thecat12}{misc}{}
+  \entry{overleaf}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HJ}{%
+         family={Hammersley},
+         familyi={H\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LMJ}{%
+         family={Lees-Miller},
+         familyi={L\bibinithyphendelim M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJLMJ1}
+    \strng{fullhash}{HJLMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{{2011-2021}}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Overleaf}}
+    \verb{url}
+    \verb https://es.overleaf.com/project
+    \endverb
+    \field{year}{{2011-2021}}
+  \endentry
+
+  \entry{articuloTCA2}{article}{}
     \name{author}{1}{}{%
       {{hash=H}{%
-         family={{Harvester Games}},
+         family={{Harvard Mental Health Letter}},
          familyi={H\bibinitperiod},
       }}%
     }
@@ -944,10 +1082,74 @@
     \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Cat_Lady}. Último acceso Junio 2021}
-    \field{title}{{The Cat Lady}}
+    \field{title}{Eating disorders in adult women}
+    \verb{url}
+    \verb https://www.health.harvard.edu/newsletter_article/eating-disorders-in
+    \verb -adult-women
+    \endverb
+    \field{journaltitle}{Harvard Health Publishing}
     \field{year}{2012}
+  \endentry
+
+  \entry{thecat12}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={{Harvester Games}},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H2}
+    \strng{fullhash}{H2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{Último acceso Junio 2021}
+    \field{title}{{The Cat Lady}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Cat_Lady
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{articuloDEP5}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HJL}{%
+         family={Herman},
+         familyi={H\bibinitperiod},
+         given={Jody\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BTN}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Taylor\bibnamedelima N.T.},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HAP}{%
+         family={Haas},
+         familyi={H\bibinitperiod},
+         given={Ann\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJLBTNHAP1}
+    \strng{fullhash}{HJLBTNHAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{SUICIDE THOUGHTS AND ATTEMPTS AMONG TRANSGENDER ADULTS}
+    \verb{url}
+    \verb https://williamsinstitute.law.ucla.edu/wp-content/uploads/Suicidality
+    \verb -Transgender-Sep-2019.pdf
+    \endverb
+    \field{journaltitle}{Psychologyt Today}
+    \field{year}{2019}
   \endentry
 
   \entry{articuloTCA4}{article}{}
@@ -992,10 +1194,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Jekyll_and_Hyde_(video_game)}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Jekyll And Hyde}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Jekyll_and_Hyde_(video_game)
+    \endverb
     \field{year}{2001}
   \endentry
 
@@ -1014,10 +1217,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Neverending_Nightmares}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Neverending Nightmares}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Neverending_Nightmares
+    \endverb
     \field{year}{2014}
   \endentry
 
@@ -1036,41 +1240,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Night_in_the_Woods}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Night in the Woods}}
-    \field{year}{2017}
-  \endentry
-
-  \entry{tcasdescripcion}{article}{}
-    \name{author}{1}{}{%
-      {{hash=IHSMCIFV}{%
-         family={Inés Hilker\bibnamedelima Salinas},
-         familyi={I\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-         suffix={Itziar Flamarique\bibnamedelima Valencia},
-         suffixi={I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  V\bibinitperiod},
-         given={María\bibnamedelima Caballero},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{IHSIFVMC1}
-    \strng{fullhash}{IHSIFVMC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{title}{Definición de TCA}
     \verb{url}
-    \verb https://www.clinicbarcelona.org/asistencia/enfermedades/trastornos-de
-    \verb -la-conducta-alimentaria/definicion
+    \verb https://en.wikipedia.org/wiki/Night_in_the_Woods
     \endverb
-    \field{journaltitle}{Portal Clinic}
-    \field{year}{2019}
+    \field{year}{2017}
   \endentry
 
   \entry{smartpatrol96}{misc}{}
@@ -1088,10 +1263,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Devo_Presents_Adventures_of_the_Smart_Patrol_(video_game)}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Adventures of Smart Patrol}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Devo_Presents_Adventures_of_the_Smart_P
+    \verb atrol_(video_game)
+    \endverb
     \field{year}{1996}
   \endentry
 
@@ -1110,16 +1287,18 @@
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{note}{\url{https://freesound.org/people/InspectorJ/sounds/421184/}.
-  Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Water Pouring}}
+    \verb{url}
+    \verb https://freesound.org/people/InspectorJ/sounds/421184/
+    \endverb
     \field{year}{2018}
   \endentry
 
-  \entry{articuloDesarrolloCient}{article}{}
+  \entry{datosINEsuicidio}{article}{}
     \name{author}{1}{}{%
       {{hash=I}{%
-         family={{Isabela Granic, Adam Lobel, and Rutger C. M. E. Engels}},
+         family={{Instituto Nacional de Estadística}},
          familyi={I\bibinitperiod},
       }}%
     }
@@ -1127,16 +1306,41 @@
     \strng{fullhash}{I6}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2014}
+    \field{labelyear}{2020}
     \field{labeldatesource}{}
     \field{sortinit}{I}
     \field{sortinithash}{I}
-    \field{title}{The Benefits of Playing Video Games}
+    \field{title}{Estadística de defunciones según la causa de muerte (Avance
+  enero-mayo 2020)}
     \verb{url}
-    \verb https://www.apa.org/pubs/journals/releases/amp-a0034857.pdf
+    \verb https://www.ine.es/jaxi/Tabla.htm?tpx=45874&L=0
     \endverb
-    \field{journaltitle}{American Psychological Association}
-    \field{year}{2014}
+    \field{journaltitle}{Instituto Nacional de Estadística}
+    \field{year}{2020}
+  \endentry
+
+  \entry{articuloTCA3}{article}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{Instituto Tomás Pascual Sanz}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I7}
+    \strng{fullhash}{I7}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Perspectiva de género en TCA}
+    \verb{url}
+    \verb https://www.institutotomaspascualsanz.com/perspectiva-de-genero-en-tc
+    \verb a/
+    \endverb
+    \field{journaltitle}{Instituto Tomás Pascual San}
+    \field{year}{2012}
   \endentry
 
   \entry{heartbound18}{misc}{}
@@ -1154,37 +1358,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{J}
     \field{sortinithash}{J}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Heartbound_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Heartbound}}
-    \field{year}{2018}
-  \endentry
-
-  \entry{articuloDEP2}{article}{}
-    \name{author}{1}{}{%
-      {{hash=J}{%
-         family={{Jinghui Wang, Xiaohang Wu, Weiyi Lai, Erping Long, Xiayin
-  Zhang, Wangting Li, Yi Zhu, Chuan Chen, Xiaojian Zhong, Zhenzhen Liu, Dongni
-  Wang, y Haotian Lin1}},
-         familyi={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{J2}
-    \strng{fullhash}{J2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{labeldatesource}{}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{title}{Prevalence of depression and depressive symptoms among
-  outpatients: a systematic review and meta-analysis}
     \verb{url}
-    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640125/
+    \verb https://en.wikipedia.org/wiki/Heartbound_(video_game)
     \endverb
-    \field{journaltitle}{NCBI}
-    \field{year}{2017}
+    \field{year}{2018}
   \endentry
 
   \entry{seasolitude19}{misc}{}
@@ -1194,111 +1373,42 @@
          familyi={J\bibinitperiod},
       }}%
     }
-    \strng{namehash}{J3}
-    \strng{fullhash}{J3}
+    \strng{namehash}{J2}
+    \strng{fullhash}{J2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
     \field{labeldatesource}{}
     \field{sortinit}{J}
     \field{sortinithash}{J}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Sea_of_Solitude}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Sea of Solitude}}
-    \field{year}{2019}
-  \endentry
-
-  \entry{articuloDEP5}{article}{}
-    \name{author}{1}{}{%
-      {{hash=JLHAPHTNB}{%
-         family={Jody L.\bibnamedelima Herman},
-         familyi={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-         suffix={Taylor N.T.\bibnamedelima Brown},
-         suffixi={T\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
-  B\bibinitperiod},
-         given={Ann P.\bibnamedelima Haas},
-         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JLHTNBAPH1}
-    \strng{fullhash}{JLHTNBAPH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{title}{SUICIDE THOUGHTS AND ATTEMPTS AMONG TRANSGENDER ADULTS}
     \verb{url}
-    \verb https://williamsinstitute.law.ucla.edu/wp-content/uploads/Suicidality
-    \verb -Transgender-Sep-2019.pdf
+    \verb https://en.wikipedia.org/wiki/Sea_of_Solitude
     \endverb
-    \field{journaltitle}{Psychologyt Today}
     \field{year}{2019}
-  \endentry
-
-  \entry{overleaf}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=J}{%
-         family={{John Hammersley, John Lees-Miller}},
-         familyi={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{J4}
-    \strng{fullhash}{J4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{{2011-2021}}
-    \field{labeldatesource}{}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{note}{\url{https://es.overleaf.com/project}. Último acceso Octubre
-  2021}
-    \field{title}{{Overleaf}}
-    \field{year}{{2011-2021}}
-  \endentry
-
-  \entry{git}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=J}{%
-         family={{Junio Hamano, Linus Torvalds}},
-         familyi={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{J5}
-    \strng{fullhash}{J5}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{{2007-2021}}
-    \field{labeldatesource}{}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{note}{\url{https://git-scm.com/}. Último acceso Octubre 2021}
-    \field{title}{{Git}}
-    \field{year}{{2007-2021}}
   \endentry
 
   \entry{efectocomer}{misc}{}
     \name{author}{1}{}{%
-      {{hash=k}{%
-         family={{kearancz}},
-         familyi={k\bibinitperiod},
+      {{hash=K}{%
+         family={{Kearancz}},
+         familyi={K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{k1}
-    \strng{fullhash}{k1}
+    \strng{namehash}{K1}
+    \strng{fullhash}{K1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{note}{\url{https://freesound.org/people/kearancz/sounds/529875/}.
-  Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Eating}}
+    \verb{url}
+    \verb https://freesound.org/people/kearancz/sounds/529875/
+    \endverb
     \field{year}{2020}
   \endentry
 
@@ -1309,17 +1419,19 @@
          familyi={K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{K1}
-    \strng{fullhash}{K1}
+    \strng{namehash}{K2}
+    \strng{fullhash}{K2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
     \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Fran_Bow}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Fran Bow}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Fran_Bow
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -1330,45 +1442,20 @@
          familyi={K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{K2}
-    \strng{fullhash}{K2}
+    \strng{namehash}{K3}
+    \strng{fullhash}{K3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2001}
     \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Silent_Hill_2}. Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Sillent Hill 2}}
-    \field{year}{2001}
-  \endentry
-
-  \entry{articuloTCA2}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LHMH}{%
-         family={Letter},
-         familyi={L\bibinitperiod},
-         given={Harvard Mental\bibnamedelima Health},
-         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LHMH1}
-    \strng{fullhash}{LHMH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{title}{Eating disorders in adult women}
     \verb{url}
-    \verb https://www.health.harvard.edu/newsletter_article/eating-disorders-in
-    \verb -adult-women
+    \verb https://en.wikipedia.org/wiki/Silent_Hill_2
     \endverb
-    \field{journaltitle}{Harvard Health Publishing}
-    \field{year}{2012}
+    \field{year}{2001}
   \endentry
 
   \entry{featheceleste}{misc}{}
@@ -1386,10 +1473,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
-    \field{note}{Disponible en
-  \url{https://www.reddit.com/r/celestegame/comments/djc85y/this_single_feather_helped_me_with_so_many_panic/}.
-  Último acceso Agosto 2021}
+    \field{note}{Último acceso Agosto 2021}
     \field{title}{{Feather mini game in Celeste}}
+    \verb{url}
+    \verb https://www.reddit.com/r/celestegame/comments/djc85y/this_single_feat
+    \verb her_helped_me_with_so_many_panic/
+    \endverb
     \field{year}{2019}
   \endentry
 
@@ -1408,36 +1497,37 @@
     \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Town_of_Light}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{The Town of Light}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Town_of_Light
+    \endverb
     \field{year}{2016}
   \endentry
 
-  \entry{tcaCM}{article}{}
+  \entry{refdibujo}{misc}{}
     \name{author}{1}{}{%
-      {{hash=dMC}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Madrid},
-         familyi={M\bibinitperiod},
-         given={Comunidad},
-         giveni={C\bibinitperiod},
+      {{hash=LGP}{%
+         family={Luis},
+         familyi={L\bibinitperiod},
+         given={Guillermo\bibnamedelima Pérez},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{MCd1}
-    \strng{fullhash}{MCd1}
+    \strng{namehash}{LGP1}
+    \strng{fullhash}{LGP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Trastornos Conducta Alimentaria}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{note}{Último acceso Septiembre 2021}
+    \field{title}{{Dibujo Monstruos S.A}}
     \verb{url}
-    \verb https://www.comunidad.madrid/servicios/salud/trastornos-conducta-alim
-    \verb entaria
+    \verb https://www.instagram.com/guillecandraw/?hl=en
     \endverb
+    \field{year}{2018}
   \endentry
 
   \entry{articuloCeleste}{article}{}
@@ -1467,38 +1557,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{articuloTCA}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MAPFRMREyFJLE}{%
-         family={María Angeles Peláez\bibnamedelima Fernández},
-         familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  P\bibinitperiod\bibinitdelim F\bibinitperiod},
-         given={Rosa María Raich Escursell y Francisco Javier
-  Labrador\bibnamedelima Encinas},
-         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  y\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MAPFRMREyFJLE1}
-    \strng{fullhash}{MAPFRMREyFJLE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2010}
-    \field{labeldatesource}{}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Trastornos de la conducta alimentaria en España: Revisión
-  de estudios epidemiológicos}
-    \verb{url}
-    \verb http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-1523
-    \verb 2010000100007
-    \endverb
-    \field{journaltitle}{Scielo}
-    \field{year}{2010}
-  \endentry
-
   \entry{tothebone}{misc}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -1514,9 +1572,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-  \field{note}{\url{https://es.wikipedia.org/wiki/To_the_Bone_(pel\%C3\%ADcula)}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{To the Bone}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/To_the_Bone_(pel%C3%ADcula)
+    \endverb
     \field{year}{2017}
   \endentry
 
@@ -1547,32 +1607,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{articuloTAS}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MAIMA}{%
-         family={Maya\bibnamedelima Asher},
-         familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-         given={Idan M\bibnamedelima Aderka},
-         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MAIMA1}
-    \strng{fullhash}{MAIMA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{labeldatesource}{}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Gender differences in social anxiety disorder}
-    \verb{url}
-    \verb https://pubmed.ncbi.nlm.nih.gov/29667715/
-    \endverb
-    \field{journaltitle}{PubMed}
-    \field{year}{2018}
-  \endentry
-
   \entry{critiquegris}{article}{}
     \name{author}{1}{}{%
       {{hash=MD}{%
@@ -1598,6 +1632,37 @@
     \field{year}{2019}
   \endentry
 
+  \entry{audacity}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=MD}{%
+         family={Mazzoni},
+         familyi={M\bibinitperiod},
+         given={Dominic},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dannenberg},
+         familyi={D\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDDR1}
+    \strng{fullhash}{MDDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{{1999-2021}}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Audacity}}
+    \verb{url}
+    \verb https://audacity.es/
+    \endverb
+    \field{year}{{1999-2021}}
+  \endentry
+
   \entry{excel}{misc}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -1613,9 +1678,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{note}{\url{https://es.wikipedia.org/wiki/Microsoft_Excel}. Último
-  acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Microsoft Excel}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Microsoft_Excel
+    \endverb
     \field{year}{{1985-2019}}
   \endentry
 
@@ -1634,9 +1701,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{note}{\url{https://es.wikipedia.org/wiki/Microsoft_Word}. Último
-  acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Microsoft Word}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Microsoft_Word
+    \endverb
     \field{year}{{1989-2019}}
   \endentry
 
@@ -1655,8 +1724,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{note}{\url{https://github.com/}. Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{GitHub}}
+    \verb{url}
+    \verb https://github.com/
+    \endverb
     \field{year}{{2008-2021}}
   \endentry
 
@@ -1675,16 +1747,18 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Dreamkiller}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Dreamkiller}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Dreamkiller
+    \endverb
     \field{year}{2009}
   \endentry
 
-  \entry{refSofa}{misc}{}
+  \entry{articuloDEP8}{article}{}
     \name{author}{1}{}{%
       {{hash=M}{%
-         family={{Mymoonstudio1}},
+         family={{Ministerio de Sanidad}},
          familyi={M\bibinitperiod},
       }}%
     }
@@ -1696,9 +1770,37 @@
     \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-  \field{note}{\url{https://www.turbosquid.com/es/3d-models/sofa-3-interior-3d-1660463}.
-  Último acceso Septiembre 2021}
+    \field{title}{Salud mental en datos: prevalencia de los problemas de salud
+  y consumo de psicofármacos y fármacos relacionados a partir de los
+  registros clínicos de atención primaria}
+    \verb{url}
+    \verb https://www.mscbs.gob.es/estadEstudios/estadisticas/estadisticas/estM
+    \verb inisterio/SIAP/Salud_mental_datos.pdf
+    \endverb
+    \field{journaltitle}{BDCAP}
+    \field{year}{2020}
+  \endentry
+
+  \entry{refSofa}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Mymoonstudio1}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M5}
+    \strng{fullhash}{M5}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Sofá Interior 3}}
+    \verb{url}
+    \verb https://www.turbosquid.com/es/3d-models/sofa-3-interior-3d-1660463
+    \endverb
     \field{year}{2020}
   \endentry
 
@@ -1717,10 +1819,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Psychosis_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Psychosis}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Psychosis_(video_game)
+    \endverb
     \field{year}{1990}
   \endentry
 
@@ -1739,9 +1842,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-  \field{note}{\url{https://www.youtube.com/playlist?list=PLbpkF8TRYizaT6GfMcKBG-RoUOQ6BJRXp}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Hellblade Development Diaries}}
+    \verb{url}
+    \verb https://www.youtube.com/playlist?list=PLbpkF8TRYizaT6GfMcKBG-RoUOQ6BJ
+    \verb RXp
+    \endverb
     \field{year}{{2014-2017}}
   \endentry
 
@@ -1760,29 +1866,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Hellblade:_Senua\%27s_Sacrifice}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Hellblade: Senua's Sacrifice}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Hellblade:_Senua%27s_Sacrifice
+    \endverb
     \field{year}{2017}
-  \endentry
-
-  \entry{nomadaStudio}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{Nomada Studio}},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N3}
-    \strng{fullhash}{N3}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{note}{\url{https://nomada.studio/}. Último acceso Septiembre 2021}
-    \field{title}{{Nomada Studio}}
   \endentry
 
   \entry{gris18}{misc}{}
@@ -1800,10 +1889,35 @@
     \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Gris}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Gris}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Gris
+    \endverb
     \field{year}{2018}
+  \endentry
+
+  \entry{nomadaStudio}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nomada Studio}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N3}
+    \strng{fullhash}{N3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{Último acceso Septiembre 2021}
+    \field{title}{{Nomada Studio}}
+    \verb{url}
+    \verb https://nomada.studio/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{dragon16}{misc}{}
@@ -1821,10 +1935,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/That_Dragon,_Cancer}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{That Dragon, Cancer}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/That_Dragon,_Cancer
+    \endverb
     \field{year}{2016}
   \endentry
 
@@ -1866,36 +1981,51 @@
     \field{labeldatesource}{}
     \field{sortinit}{O}
     \field{sortinithash}{O}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Last_Day_of_June}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Last Day of June}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Last_Day_of_June
+    \endverb
     \field{year}{2017}
   \endentry
 
-  \entry{articuloIntroVideojuegos}{article}{}
-    \name{author}{1}{}{%
-      {{hash=PW}{%
-         family={PC},
+  \entry{articuloTCA}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PMA}{%
+         family={{Peláez\bibnamedelima Fernández}},
          familyi={P\bibinitperiod},
-         given={We},
-         giveni={W\bibinitperiod},
+         given={María\bibnamedelima Angeles},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RRM}{%
+         family={{Raich\bibnamedelima Escursell}},
+         familyi={R\bibinitperiod},
+         given={Rosa\bibnamedelima María},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LFJ}{%
+         family={{Labrador\bibnamedelima Encinas}},
+         familyi={L\bibinitperiod},
+         given={Francisco\bibnamedelima Javier},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PW1}
-    \strng{fullhash}{PW1}
+    \strng{namehash}{PMARRMLFJ1}
+    \strng{fullhash}{PMARRMLFJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
+    \field{labelyear}{2010}
     \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-    \field{title}{Video Game Industry Statistics, Trends and Data In 2021}
+    \field{title}{Trastornos de la conducta alimentaria en España: Revisión
+  de estudios epidemiológicos}
     \verb{url}
-    \verb https://www.wepc.com/news/video-game-statistics/
+    \verb http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-1523
+    \verb 2010000100007
     \endverb
-    \field{journaltitle}{We PC}
-    \field{year}{2021}
+    \field{journaltitle}{Scielo}
+    \field{year}{2010}
   \endentry
 
   \entry{refBedBath}{misc}{}
@@ -1913,30 +2043,36 @@
     \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-  \field{note}{\url{https://assetstore.unity.com/packages/3d/props/furniture/bed-bath-furniture-pack-134117}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Bed \& Bath Furniture Pack}}
+    \verb{url}
+    \verb https://assetstore.unity.com/packages/3d/props/furniture/bed-bath-fur
+    \verb niture-pack-134117
+    \endverb
     \field{year}{2018}
   \endentry
 
   \entry{refDesk}{misc}{}
     \name{author}{1}{}{%
-      {{hash=p}{%
-         family={{pixelcombo}},
-         familyi={p\bibinitperiod},
+      {{hash=P}{%
+         family={{Pixelcombo}},
+         familyi={P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{p1}
-    \strng{fullhash}{p1}
+    \strng{namehash}{P2}
+    \strng{fullhash}{P2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
     \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-  \field{note}{\url{https://www.cgtrader.com/free-3d-models/furniture/table/pc-desk-cfc5886a-bf88-45f9-91a2-20753e581aae}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{PC desk Free low-poly 3D model}}
+    \verb{url}
+    \verb https://www.cgtrader.com/free-3d-models/furniture/table/pc-desk-cfc58
+    \verb 86a-bf88-45f9-91a2-20753e581aae
+    \endverb
     \field{year}{2019}
   \endentry
 
@@ -1955,9 +2091,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{Q}
     \field{sortinithash}{Q}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Planet_Laika}. Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Planet Laika}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Planet_Laika
+    \endverb
     \field{year}{1999}
   \endentry
 
@@ -1976,9 +2114,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Outlast}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Outlast}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Outlast
+    \endverb
     \field{year}{2013}
   \endentry
 
@@ -1997,10 +2137,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Darkest_Dungeon}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Darkest Dungeon}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Darkest_Dungeon
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -2019,9 +2160,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Manhunt_2}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Manhunt2}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Manhunt_2
+    \endverb
     \field{year}{2007}
   \endentry
 
@@ -2040,10 +2183,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Batman: Arkham Asylum}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum
+    \endverb
     \field{year}{2009}
   \endentry
 
@@ -2062,11 +2206,142 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Batman:_Arkham_Knight}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Batman: Arkham Knight}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Batman:_Arkham_Knight
+    \endverb
     \field{year}{2015}
+  \endentry
+
+  \entry{encuestaVidESP}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Encuesta enfermedades mentales en videojuegos (ESP)}}
+    \verb{url}
+    \verb https://docs.google.com/forms/d/e/1FAIpQLSfoQZGcruSAhPp0GxhNVturg7y0e
+    \verb N43jQsST7tYLiamifBmmA/viewform
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{encuestaVidING}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Encuesta enfermedades mentales en videojuegos (ING)}}
+    \verb{url}
+    \verb https://docs.google.com/forms/d/e/1FAIpQLSeH_JfFJx0Oiv1XNx24Q4_GLGzWh
+    \verb gLxjzE0lNdu_xb_xYS6mg/viewform
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{encuestaDemo}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Encuesta experiencia jugable}}
+    \verb{url}
+    \verb https://docs.google.com/forms/d/e/1FAIpQLScsfhqQPVyKExokLorGE_s1wyomi
+    \verb 5zfJK0Fa6J0ey9XOR35Tg/viewform
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{elmio}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{4}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Insania}}
+    \verb{url}
+    \verb https://github.com/AndreoPSullivan/TFG-Videojuegos
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{repositorioInsania}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rodríguez},
+         familyi={R\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{5}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{Insania}}
+    \verb{url}
+    \verb https://github.com/AndreoPSullivan/TFG-Videojuegos
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{alice00}{misc}{}
@@ -2084,68 +2359,50 @@
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/American_McGee\%27s_Alice}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{American McGee's Alice}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/American_McGee%27s_Alice
+    \endverb
     \field{year}{2000}
   \endentry
 
-  \entry{articuloDEP8}{article}{}
-    \name{author}{1}{}{%
-      {{hash=dSM}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Sanidad},
+  \entry{tcasdescripcion}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SIH}{%
+         family={Salinas},
          familyi={S\bibinitperiod},
-         given={Ministerio},
+         given={Inés\bibnamedelima Hilker},
+         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=VIF}{%
+         family={Valencia},
+         familyi={V\bibinitperiod},
+         given={Itziar\bibnamedelima Flamarique},
+         giveni={I\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Caballero},
+         familyi={C\bibinitperiod},
+         given={María},
          giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SMd1}
-    \strng{fullhash}{SMd1}
+    \strng{namehash}{SIHVIFCM1}
+    \strng{fullhash}{SIHVIFCM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2020}
+    \field{labelyear}{2019}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{title}{Salud mental en datos: prevalencia de los problemas de salud
-  y consumo de psicofármacos y fármacos relacionados a partir de los
-  registros clínicos de atención primaria}
+    \field{title}{Definición de TCA}
     \verb{url}
-    \verb https://www.mscbs.gob.es/estadEstudios/estadisticas/estadisticas/estM
-    \verb inisterio/SIAP/Salud_mental_datos.pdf
+    \verb https://www.clinicbarcelona.org/asistencia/enfermedades/trastornos-de
+    \verb -la-conducta-alimentaria/definicion
     \endverb
-    \field{journaltitle}{BDCAP}
-    \field{year}{2020}
-  \endentry
-
-  \entry{articuloTCA3}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SITP}{%
-         family={Sanz},
-         familyi={S\bibinitperiod},
-         given={Instituto Tomás\bibnamedelima Pascual},
-         giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
-  P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SITP1}
-    \strng{fullhash}{SITP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Perspectiva de género en TCA}
-    \verb{url}
-    \verb https://www.institutotomaspascualsanz.com/perspectiva-de-genero-en-tc
-    \verb a/
-    \endverb
-    \field{journaltitle}{Instituto Tomás Pascual San}
-    \field{year}{2012}
+    \field{journaltitle}{Portal Clinic}
+    \field{year}{2019}
   \endentry
 
   \entry{articuloDEP4}{article}{}
@@ -2189,10 +2446,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Eternal_Darkness}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Eternal Darkness}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Eternal_Darkness
+    \endverb
     \field{year}{2002}
   \endentry
 
@@ -2207,23 +2465,16 @@
     \strng{fullhash}{S2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-  \field{note}{\url{https://es.wikipedia.org/wiki/Sony_Interactive_Entertainment}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Sony}}
-  \endentry
-
-  \entry{special}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://www.youtube.com/channel/UC4E98HDsPXrf5kTKIgrSmtQ}. Último
-  acceso Agosto 2021}
-    \field{title}{{Special Books By Special Kids}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Sony_Interactive_Entertainment
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{videoTAG}{misc}{}
@@ -2233,8 +2484,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S3}
-    \strng{fullhash}{S3}
+    \strng{namehash}{S4}
+    \strng{fullhash}{S4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
@@ -2242,10 +2493,12 @@
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en \url{https://youtu.be/EW06sG8EeHY?t=902}.
-  Último acceso Agosto 2021}
+    \field{note}{Último acceso Agosto 2021}
     \field{title}{{Living with Generalized Anxiety Disorder and Panic Attacks
   that Feel like Dying}}
+    \verb{url}
+    \verb https://youtu.be/EW06sG8EeHY?t=902
+    \endverb
     \field{year}{2021}
   \endentry
 
@@ -2256,8 +2509,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S3}
-    \strng{fullhash}{S3}
+    \strng{namehash}{S4}
+    \strng{fullhash}{S4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
@@ -2265,9 +2518,34 @@
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en \url{https://youtu.be/pVrghm714LY?t=233}.
-  Último acceso Agosto 2021}
+    \field{note}{Último acceso Agosto 2021}
     \field{title}{{Managing Schizophrenia as a New Mom}}
+    \verb{url}
+    \verb https://youtu.be/pVrghm714LY?t=233
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{special}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Special Books By Special Kids}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S3}
+    \strng{fullhash}{S3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Último acceso Agosto 2021}
+    \field{title}{{Special Books By Special Kids}}
+    \verb{url}
+    \verb https://www.youtube.com/channel/UC4E98HDsPXrf5kTKIgrSmtQ
+    \endverb
     \field{year}{2021}
   \endentry
 
@@ -2278,18 +2556,19 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S4}
-    \strng{fullhash}{S4}
+    \strng{namehash}{S5}
+    \strng{fullhash}{S5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2011}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Alice:_Madness_Returns}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Alice: Madness Returns}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Alice:_Madness_Returns
+    \endverb
     \field{year}{2011}
   \endentry
 
@@ -2300,18 +2579,19 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S5}
-    \strng{fullhash}{S5}
+    \strng{namehash}{S6}
+    \strng{fullhash}{S6}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1997}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Final_Fantasy_VII}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Final Fantasy VII}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Final_Fantasy_VII
+    \endverb
     \field{year}{1997}
   \endentry
 
@@ -2322,37 +2602,21 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S6}
-    \strng{fullhash}{S6}
+    \strng{namehash}{S7}
+    \strng{fullhash}{S7}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-  \field{note}{\url{https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870}.
-  Último acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Character Pack: Free Sample}}
+    \verb{url}
+    \verb https://assetstore.unity.com/packages/3d/characters/humanoids/charact
+    \verb er-pack-free-sample-79870
+    \endverb
     \field{year}{2020}
-  \endentry
-
-  \entry{supermassive}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={{Supermassive Games}},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{S7}
-    \strng{fullhash}{S7}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{note}{\url{https://es.wikipedia.org/wiki/Supermassive_Games}.
-  Último acceso Septiembre 2021}
-    \field{title}{{Supermassive Games}}
   \endentry
 
   \entry{untildawn15}{misc}{}
@@ -2362,18 +2626,43 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S7}
-    \strng{fullhash}{S7}
+    \strng{namehash}{S8}
+    \strng{fullhash}{S8}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Until_Dawn}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Until Dawn}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Until_Dawn
+    \endverb
     \field{year}{2015}
+  \endentry
+
+  \entry{supermassive}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Supermassive Games}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S8}
+    \strng{fullhash}{S8}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Último acceso Septiembre 2021}
+    \field{title}{{Supermassive Games}}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Supermassive_Games
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{suffer04}{misc}{}
@@ -2383,18 +2672,19 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S8}
-    \strng{fullhash}{S8}
+    \strng{namehash}{S9}
+    \strng{fullhash}{S9}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2004}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Suffering_(video_game)}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{The Suffering}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Suffering_(video_game)
+    \endverb
     \field{year}{2004}
   \endentry
 
@@ -2405,18 +2695,19 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S9}
-    \strng{fullhash}{S9}
+    \strng{namehash}{S10}
+    \strng{fullhash}{S10}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/D\%C3\%A9sir\%C3\%A9_(video_game)}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Désiré}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9_(video_game)
+    \endverb
     \field{year}{2016}
   \endentry
 
@@ -2435,10 +2726,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en
-  \url{https://store.steampowered.com/app/313140/Blackbay_Asylum/}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Blackbay Asylum}}
+    \verb{url}
+    \verb https://store.steampowered.com/app/313140/Blackbay_Asylum/
+    \endverb
     \field{year}{2014}
   \endentry
 
@@ -2457,10 +2749,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/The_Evil_Within}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{The Evil Within}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/The_Evil_Within
+    \endverb
     \field{year}{2014}
   \endentry
 
@@ -2479,9 +2772,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/L.A._Noire}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{L.A. Noire}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/L.A._Noire
+    \endverb
     \field{year}{2011}
   \endentry
 
@@ -2500,10 +2795,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Doki Doki Literature Club!}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Doki_Doki_Literature_Club!
+    \endverb
     \field{year}{2017}
   \endentry
 
@@ -2522,9 +2818,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en \url{https://tenderclaws.com/pry}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Pry}}
+    \verb{url}
+    \verb https://tenderclaws.com/pry
+    \endverb
     \field{year}{2015}
   \endentry
 
@@ -2543,10 +2841,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Depression_Quest}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Depression Quest}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Depression_Quest
+    \endverb
     \field{year}{2013}
   \endentry
 
@@ -2565,9 +2864,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{\url{https://en.wikipedia.org/wiki/Feed_(2017_film)}. Último
-  acceso Septiembre 2021}
+    \field{note}{Último acceso Septiembre 2021}
     \field{title}{{Feed}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Feed_(2017_film)
+    \endverb
     \field{year}{2017}
   \endentry
 
@@ -2586,10 +2887,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Juggernaut_(video_game)}. Último acceso
-  Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Juggernaut}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Juggernaut_(video_game)
+    \endverb
     \field{year}{1998}
   \endentry
 
@@ -2620,45 +2922,27 @@
     \field{year}{2021}
   \endentry
 
-  \entry{articuloIntro2}{article}{}
+  \entry{turbo}{misc}{}
     \name{author}{1}{}{%
-      {{hash=IGdlTYCGB}{%
-         prefix={Ignacio García de\bibnamedelima la},
-         prefixi={I\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
-  d\bibinitperiod\bibinitdelim l\bibinitperiod},
-         family={Torre},
+      {{hash=T}{%
+         family={{TurboSquid}},
          familyi={T\bibinitperiod},
-         given={Yelitza C. González\bibnamedelima Bello},
-         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  G\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TYCGBIGdl1}
-    \strng{fullhash}{TYCGBIGdl1}
+    \strng{namehash}{T9}
+    \strng{fullhash}{T9}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2020}
+    \field{labelyear}{2021}
     \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{title}{Gota}
-    \verb{url}
-    \verb https://www.asieslamedicina.org.mx/gota/#:~:text=A\%20nivel\%20mundia
-    \verb l\%20la\%20prevalencia,por\%20cada\%201\%2C000\%20personas\%2Da\%C3\%
-    \verb B1o.
-    \endverb
-    \field{journaltitle}{La Medicina es Así}
-    \field{year}{2020}
-  \endentry
-
-  \entry{turbo}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{note}{\url{https://www.turbosquid.com/}. Último acceso Octubre
-  2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{TurboSquid}}
+    \verb{url}
+    \verb https://www.turbosquid.com/
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{farcry12}{misc}{}
@@ -2676,9 +2960,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{U}
     \field{sortinithash}{U}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Far_Cry_3}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Far Cry 3}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Far_Cry_3
+    \endverb
     \field{year}{2012}
   \endentry
 
@@ -2697,37 +2983,127 @@
     \field{labeldatesource}{}
     \field{sortinit}{U}
     \field{sortinithash}{U}
-    \field{note}{\url{https://unity.com/es}. Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Unity}}
+    \verb{url}
+    \verb https://unity.com/es
+    \endverb
     \field{year}{{2005-2021}}
   \endentry
 
-  \entry{articuloTCA6}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WJAAJMJ}{%
-         family={Wales},
+  \entry{articuloDEP2}{article}{}
+    \name{author}{12}{}{%
+      {{hash=WJ}{%
+         family={Wang},
          familyi={W\bibinitperiod},
-         given={Jon Arcelus; Alex J. Mitchell;\bibnamedelima Jackie},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Jinghui},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Xiaohang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Weiyi},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Erping},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiayin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wangting},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Chuan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Xiaojian},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhenzhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Dongni},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Haotian},
+         giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{WJAAJMJ1}
-    \strng{fullhash}{WJAAJMJ1}
+    \strng{namehash}{WJ+1}
+    \strng{fullhash}{WJWXLWLEZXLWZYCCZXLZWDLH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2011}
+    \field{labelyear}{2017}
     \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-    \field{title}{Mortality Rates in Patients With Anorexia Nervosa and Other
-  Eating Disorders}
+    \field{title}{Prevalence of depression and depressive symptoms among
+  outpatients: a systematic review and meta-analysis}
     \verb{url}
-    \verb https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1107207
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640125/
     \endverb
-    \field{journaltitle}{JAMA Network}
-    \field{year}{2011}
+    \field{journaltitle}{NCBI}
+    \field{year}{2017}
+  \endentry
+
+  \entry{articuloIntroVideojuegos}{article}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{We PC}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Video Game Industry Statistics and Trends and Data In 2021}
+    \verb{url}
+    \verb https://www.wepc.com/news/video-game-statistics/
+    \endverb
+    \field{journaltitle}{We PC}
+    \field{year}{2021}
   \endentry
 
   \entry{weava}{misc}{}
@@ -2737,17 +3113,20 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{{2020-2021}}
     \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-  \field{note}{\url{https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei}.
-  Último acceso Octubre 2021}
+    \field{note}{Último acceso Octubre 2021}
     \field{title}{{Weava}}
+    \verb{url}
+    \verb https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/c
+    \verb bnaodkpfinfiipjblikofhlhlcickei
+    \endverb
     \field{year}{{2020-2021}}
   \endentry
 
@@ -2758,17 +3137,19 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W2}
-    \strng{fullhash}{W2}
+    \strng{namehash}{W3}
+    \strng{fullhash}{W3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
     \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-    \field{note}{Disponible en \url{https://en.wikipedia.org/wiki/Ether_One}.
-  Último acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Ether One}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Ether_One
+    \endverb
     \field{year}{2014}
   \endentry
 
@@ -2779,19 +3160,47 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W3}
-    \strng{fullhash}{W3}
+    \strng{namehash}{W4}
+    \strng{fullhash}{W4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
     \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
-    \field{note}{Disponible en
-  \url{https://store.steampowered.com/app/288040/Actual_Sunlight/}. Último
-  acceso Junio 2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Actual Sunlight}}
+    \verb{url}
+    \verb https://store.steampowered.com/app/288040/Actual_Sunlight/
+    \endverb
     \field{year}{2013}
+  \endentry
+
+  \entry{texstudio}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=vdZB}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Zander},
+         familyi={Z\bibinitperiod},
+         given={Benito},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZBvd1}
+    \strng{fullhash}{ZBvd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{{2009-2021}}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{note}{Último acceso Octubre 2021}
+    \field{title}{{TeXstudio}}
+    \verb{url}
+    \verb https://www.texstudio.org/
+    \endverb
+    \field{year}{{2009-2021}}
   \endentry
 
   \entry{crush07}{misc}{}
@@ -2809,10 +3218,11 @@
     \field{labeldatesource}{}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
-    \field{note}{Disponible en
-  \url{https://en.wikipedia.org/wiki/Crush_(video_game)}. Último acceso Junio
-  2021}
+    \field{note}{Último acceso Junio 2021}
     \field{title}{{Crush}}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Crush_(video_game)
+    \endverb
     \field{year}{2007}
   \endentry
 \enddatalist
