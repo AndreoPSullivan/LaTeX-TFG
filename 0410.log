@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.1)  13 OCT 2021 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.1)  17 OCT 2021 11:33
 entering extended mode
 **./0410.tex
 (0410.tex
@@ -1622,15 +1622,15 @@ LaTeX Info: Redefining \% on input line 134.
 \tf@toc=\write6
 \openout6 = `0410.toc'.
 
-LaTeX Info: Redefining \. on input line 257.
-LaTeX Info: Redefining \% on input line 257.
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
  [7] [8
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 259.
+(hyperref)                removing `\noindent' on input line 264.
 
 (0410.lot
 LaTeX Info: Redefining \sptext on input line 2.
@@ -1693,8 +1693,8 @@ LaTeX Info: Redefining \% on input line 306.
 \tf@lof=\write8
 \openout8 = `0410.lof'.
 
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
  [16]
 Cap\'{\i }tulo 1.
 
@@ -1704,7 +1704,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 
+l.294 
        [1
 
 
@@ -1713,21 +1713,21 @@ l.289
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 299.
-LaTeX Info: Redefining \% on input line 299.
+LaTeX Info: Redefining \. on input line 304.
+LaTeX Info: Redefining \% on input line 304.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.299 
+l.304 
        [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
- [3]
 LaTeX Info: Redefining \. on input line 316.
 LaTeX Info: Redefining \% on input line 316.
+ [3]
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
 
 [4]
 Cap\'{\i }tulo 2.
@@ -1735,51 +1735,51 @@ Cap\'{\i }tulo 2.
 
 
 ]
-LaTeX Info: Redefining \. on input line 336.
-LaTeX Info: Redefining \% on input line 336.
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
  [6]
 Cap\'{\i }tulo 3.
 [7
 
 
 ]
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 357.
+LaTeX Info: Redefining \% on input line 357.
  [8]
-Underfull \vbox (badness 10000) detected at line 396
+Underfull \vbox (badness 10000) detected at line 401
  []
 
-LaTeX Info: Redefining \. on input line 417.
-LaTeX Info: Redefining \% on input line 417.
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
 [9
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.417                       \citetitle
+l.422                       \citetitle
                                       {desire16}       &   -   & -   & -    ...
 ]
-LaTeX Info: Redefining \. on input line 437.
-LaTeX Info: Redefining \% on input line 437.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
  [10]
-LaTeX Info: Redefining \. on input line 437.
-LaTeX Info: Redefining \% on input line 437.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
  [11]
-LaTeX Info: Redefining \. on input line 438.
-LaTeX Info: Redefining \% on input line 438.
+LaTeX Info: Redefining \. on input line 443.
+LaTeX Info: Redefining \% on input line 443.
  [12]
 <Graficas estudio/G1; Enfperiodos.png, id=906, 427.269pt x 236.52pt>
 File: Graficas estudio/G1; Enfperiodos.png Graphic file (type png)
 <use Graficas estudio/G1; Enfperiodos.png>
 Package pdftex.def Info: Graficas estudio/G1; Enfperiodos.png  used on input li
-ne 450.
+ne 455.
 (pdftex.def)             Requested size: 412.56497pt x 228.38832pt.
 
 Underfull \vbox (badness 7116) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 456.
-LaTeX Info: Redefining \% on input line 456.
+LaTeX Info: Redefining \. on input line 461.
+LaTeX Info: Redefining \% on input line 461.
  [13
 
  <./Graficas estudio/G1; Enfperiodos.png>]
@@ -1787,154 +1787,154 @@ LaTeX Info: Redefining \% on input line 456.
 File: Graficas estudio/G2; PresenciaEnf.png Graphic file (type png)
 <use Graficas estudio/G2; PresenciaEnf.png>
 Package pdftex.def Info: Graficas estudio/G2; PresenciaEnf.png  used on input l
-ine 463.
+ine 468.
 (pdftex.def)             Requested size: 330.05322pt x 243.62683pt.
 <Graficas estudio/G3; RepresentSecun.png, id=918, 270.903pt x 199.728pt>
 File: Graficas estudio/G3; RepresentSecun.png Graphic file (type png)
 <use Graficas estudio/G3; RepresentSecun.png>
 Package pdftex.def Info: Graficas estudio/G3; RepresentSecun.png  used on input
- line 471.
+ line 476.
 (pdftex.def)             Requested size: 330.05322pt x 243.35997pt.
 
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 482.
-LaTeX Info: Redefining \% on input line 482.
+LaTeX Info: Redefining \. on input line 487.
+LaTeX Info: Redefining \% on input line 487.
  [14 <./Graficas estudio/G2; PresenciaEnf.png>]
 <Graficas estudio/G4; Enfcentrado.png, id=928, 199.728pt x 199.947pt>
 File: Graficas estudio/G4; Enfcentrado.png Graphic file (type png)
 <use Graficas estudio/G4; Enfcentrado.png>
 Package pdftex.def Info: Graficas estudio/G4; Enfcentrado.png  used on input li
-ne 489.
+ne 494.
 (pdftex.def)             Requested size: 195.96773pt x 196.19078pt.
 <Graficas estudio/G5; Enfsecund.png, id=929, 199.947pt x 199.947pt>
 File: Graficas estudio/G5; Enfsecund.png Graphic file (type png)
 <use Graficas estudio/G5; Enfsecund.png>
 Package pdftex.def Info: Graficas estudio/G5; Enfsecund.png  used on input line
- 494.
+ 499.
 (pdftex.def)             Requested size: 195.96773pt x 195.97417pt.
 <Graficas estudio/G6; Enfcentralsecund.png, id=931, 427.269pt x 199.728pt>
 File: Graficas estudio/G6; Enfcentralsecund.png Graphic file (type png)
 <use Graficas estudio/G6; Enfcentralsecund.png>
 Package pdftex.def Info: Graficas estudio/G6; Enfcentralsecund.png  used on inp
-ut line 508.
+ut line 513.
 (pdftex.def)             Requested size: 412.56497pt x 192.86124pt.
 
 Underfull \vbox (badness 1622) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 516.
-LaTeX Info: Redefining \% on input line 516.
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
  [15 <./Graficas estudio/G3; RepresentSecun.png>]
-LaTeX Info: Redefining \. on input line 516.
-LaTeX Info: Redefining \% on input line 516.
+LaTeX Info: Redefining \. on input line 521.
+LaTeX Info: Redefining \% on input line 521.
  [16 <./Graficas estudio/G4; Enfcentrado.png> <./Graficas estudio/G5; Enfsecund
 .png> <./Graficas estudio/G6; Enfcentralsecund.png>]
-LaTeX Info: Redefining \. on input line 544.
-LaTeX Info: Redefining \% on input line 544.
+LaTeX Info: Redefining \. on input line 549.
+LaTeX Info: Redefining \% on input line 549.
  [17]
-Overfull \hbox (3.45349pt too wide) in alignment at lines 546--550
+Overfull \hbox (3.45349pt too wide) in alignment at lines 551--555
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 550--555
+Overfull \hbox (3.45349pt too wide) in alignment at lines 555--560
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 555--558
+Overfull \hbox (3.45349pt too wide) in alignment at lines 560--563
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 558--559
+Overfull \hbox (3.45349pt too wide) in alignment at lines 563--564
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 559--587
+Overfull \hbox (3.45349pt too wide) in alignment at lines 564--592
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 587
+Underfull \vbox (badness 10000) detected at line 592
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 587--608
+Overfull \hbox (3.45349pt too wide) in alignment at lines 592--613
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.45349pt too wide) in alignment at lines 608--627
+Overfull \hbox (3.45349pt too wide) in alignment at lines 613--632
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 627.
-LaTeX Info: Redefining \% on input line 627.
+LaTeX Info: Redefining \. on input line 632.
+LaTeX Info: Redefining \% on input line 632.
 [18
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.627                     \end{longtable}
+l.632                     \end{longtable}
                                          ]
-LaTeX Info: Redefining \. on input line 627.
-LaTeX Info: Redefining \% on input line 627.
+LaTeX Info: Redefining \. on input line 632.
+LaTeX Info: Redefining \% on input line 632.
  [19]
-LaTeX Info: Redefining \. on input line 629.
-LaTeX Info: Redefining \% on input line 629.
+LaTeX Info: Redefining \. on input line 634.
+LaTeX Info: Redefining \% on input line 634.
  [20]
 <Graficas estudio/G7;Desarrollo.png, id=1025, 199.728pt x 199.947pt>
 File: Graficas estudio/G7;Desarrollo.png Graphic file (type png)
 <use Graficas estudio/G7;Desarrollo.png>
 Package pdftex.def Info: Graficas estudio/G7;Desarrollo.png  used on input line
- 642.
+ 647.
 (pdftex.def)             Requested size: 195.96773pt x 196.19078pt.
 <Graficas estudio/G8;DesarrolloIndie.png, id=1026, 199.728pt x 199.728pt>
 File: Graficas estudio/G8;DesarrolloIndie.png Graphic file (type png)
 <use Graficas estudio/G8;DesarrolloIndie.png>
 Package pdftex.def Info: Graficas estudio/G8;DesarrolloIndie.png  used on input
- line 647.
+ line 652.
 (pdftex.def)             Requested size: 195.96773pt x 195.97589pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 648.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 653.
 <Graficas estudio/G9; Repmetlit.png, id=1033, 171.258pt x 199.947pt>
 File: Graficas estudio/G9; Repmetlit.png Graphic file (type png)
 <use Graficas estudio/G9; Repmetlit.png>
 Package pdftex.def Info: Graficas estudio/G9; Repmetlit.png  used on input line
- 666.
+ 671.
 (pdftex.def)             Requested size: 156.77179pt x 183.04123pt.
 <Graficas estudio/G10; RepmetlitVS.png, id=1034, 285.138pt x 199.947pt>
 File: Graficas estudio/G10; RepmetlitVS.png Graphic file (type png)
 <use Graficas estudio/G10; RepmetlitVS.png>
 Package pdftex.def Info: Graficas estudio/G10; RepmetlitVS.png  used on input l
-ine 671.
+ine 676.
 (pdftex.def)             Requested size: 235.16365pt x 164.90948pt.
 <Graficas estudio/G11; Representante.png, id=1038, 185.493pt x 199.728pt>
 File: Graficas estudio/G11; Representante.png Graphic file (type png)
 <use Graficas estudio/G11; Representante.png>
 Package pdftex.def Info: Graficas estudio/G11; Representante.png  used on input
- line 686.
+ line 691.
 (pdftex.def)             Requested size: 247.54149pt x 266.54916pt.
 <Graficas estudio/G12; RepresentanteVS.png, id=1039, 427.269pt x 199.728pt>
 File: Graficas estudio/G12; RepresentanteVS.png Graphic file (type png)
 <use Graficas estudio/G12; RepresentanteVS.png>
 Package pdftex.def Info: Graficas estudio/G12; RepresentanteVS.png  used on inp
-ut line 694.
+ut line 699.
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 
 Underfull \vbox (badness 5681) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 702.
-LaTeX Info: Redefining \% on input line 702.
+LaTeX Info: Redefining \. on input line 707.
+LaTeX Info: Redefining \% on input line 707.
  [21
 
  <./Graficas estudio/G7;Desarrollo.png> <./Graficas estudio/G8;DesarrolloIndie.
 png>]
-LaTeX Info: Redefining \. on input line 702.
-LaTeX Info: Redefining \% on input line 702.
+LaTeX Info: Redefining \. on input line 707.
+LaTeX Info: Redefining \% on input line 707.
 
 [22 <./Graficas estudio/G9; Repmetlit.png> <./Graficas estudio/G10; RepmetlitVS
 .png> <./Graficas estudio/G11; Representante.png>]
@@ -1942,113 +1942,113 @@ LaTeX Info: Redefining \% on input line 702.
 File: Graficas estudio/G13; Enfanta.png Graphic file (type png)
 <use Graficas estudio/G13; Enfanta.png>
 Package pdftex.def Info: Graficas estudio/G13; Enfanta.png  used on input line 
-710.
+715.
 (pdftex.def)             Requested size: 195.96773pt x 195.97589pt.
 <Graficas estudio/G14; Enfvidanta.png, id=1062, 199.728pt x 199.728pt>
 File: Graficas estudio/G14; Enfvidanta.png Graphic file (type png)
 <use Graficas estudio/G14; Enfvidanta.png>
 Package pdftex.def Info: Graficas estudio/G14; Enfvidanta.png  used on input li
-ne 715.
+ne 720.
 (pdftex.def)             Requested size: 195.96773pt x 195.97589pt.
 <Graficas estudio/G15;Sintomas.png, id=1066, 199.728pt x 199.728pt>
 File: Graficas estudio/G15;Sintomas.png Graphic file (type png)
 <use Graficas estudio/G15;Sintomas.png>
 Package pdftex.def Info: Graficas estudio/G15;Sintomas.png  used on input line 
-730.
+735.
 (pdftex.def)             Requested size: 247.54149pt x 247.55042pt.
 <Graficas estudio/G16;Estigma.png, id=1068, 199.728pt x 199.728pt>
 File: Graficas estudio/G16;Estigma.png Graphic file (type png)
 <use Graficas estudio/G16;Estigma.png>
 Package pdftex.def Info: Graficas estudio/G16;Estigma.png  used on input line 7
-42.
+47.
 (pdftex.def)             Requested size: 156.77179pt x 156.77766pt.
 <Graficas estudio/G17; EstigmaVS.png, id=1069, 270.903pt x 199.728pt>
 File: Graficas estudio/G17; EstigmaVS.png Graphic file (type png)
 <use Graficas estudio/G17; EstigmaVS.png>
 Package pdftex.def Info: Graficas estudio/G17; EstigmaVS.png  used on input lin
-e 747.
+e 752.
 (pdftex.def)             Requested size: 235.16365pt x 173.38403pt.
 <Graficas estudio/G18; EstigmaTiempo.png, id=1071, 342.078pt x 199.728pt>
 File: Graficas estudio/G18; EstigmaTiempo.png Graphic file (type png)
 <use Graficas estudio/G18; EstigmaTiempo.png>
 Package pdftex.def Info: Graficas estudio/G18; EstigmaTiempo.png  used on input
- line 759.
+ line 764.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 765.
-LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 770.
+LaTeX Info: Redefining \% on input line 770.
  [23 <./Graficas estudio/G12; RepresentanteVS.png>]
-LaTeX Info: Redefining \. on input line 765.
-LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 770.
+LaTeX Info: Redefining \% on input line 770.
  [24 <./Graficas estudio/G13; Enfanta.png> <./Graficas estudio/G14; Enfvidanta.
 png> <./Graficas estudio/G15;Sintomas.png>]
-LaTeX Info: Redefining \. on input line 765.
-LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 770.
+LaTeX Info: Redefining \% on input line 770.
  [25 <./Graficas estudio/G16;Estigma.png> <./Graficas estudio/G17; EstigmaVS.pn
 g> <./Graficas estudio/G18; EstigmaTiempo.png>]
 <Imagenes videojuegos/Celeste.jpg, id=1094, 627.01859pt x 359.31422pt>
 File: Imagenes videojuegos/Celeste.jpg Graphic file (type jpg)
 <use Imagenes videojuegos/Celeste.jpg>
 Package pdftex.def Info: Imagenes videojuegos/Celeste.jpg  used on input line 7
-80.
+85.
 (pdftex.def)             Requested size: 330.05322pt x 189.14171pt.
 <Imagenes videojuegos/featherceleste.png, id=1095, 1927.2pt x 1084.05pt>
 File: Imagenes videojuegos/featherceleste.png Graphic file (type png)
 <use Imagenes videojuegos/featherceleste.png>
 Package pdftex.def Info: Imagenes videojuegos/featherceleste.png  used on input
- line 787.
+ line 792.
 (pdftex.def)             Requested size: 330.05322pt x 185.64244pt.
-LaTeX Info: Redefining \. on input line 794.
-LaTeX Info: Redefining \% on input line 794.
+LaTeX Info: Redefining \. on input line 799.
+LaTeX Info: Redefining \% on input line 799.
  [26 <./Imagenes videojuegos/Celeste.jpg>]
 <Imagenes videojuegos/gris.jpeg, id=1105, 1028.34187pt x 658.71094pt>
 File: Imagenes videojuegos/gris.jpeg Graphic file (type jpg)
 <use Imagenes videojuegos/gris.jpeg>
-Package pdftex.def Info: Imagenes videojuegos/gris.jpeg  used on input line 802
+Package pdftex.def Info: Imagenes videojuegos/gris.jpeg  used on input line 807
 .
 (pdftex.def)             Requested size: 330.05322pt x 211.41496pt.
 <Imagenes videojuegos/gris2.jpg, id=1106, 451.6875pt x 255.95625pt>
 File: Imagenes videojuegos/gris2.jpg Graphic file (type jpg)
 <use Imagenes videojuegos/gris2.jpg>
-Package pdftex.def Info: Imagenes videojuegos/gris2.jpg  used on input line 809
+Package pdftex.def Info: Imagenes videojuegos/gris2.jpg  used on input line 814
 .
 (pdftex.def)             Requested size: 330.05322pt x 187.04178pt.
 
 Underfull \vbox (badness 5345) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 815.
-LaTeX Info: Redefining \% on input line 815.
+LaTeX Info: Redefining \. on input line 820.
+LaTeX Info: Redefining \% on input line 820.
  [27 <./Imagenes videojuegos/featherceleste.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 815.
-LaTeX Info: Redefining \% on input line 815.
+LaTeX Info: Redefining \. on input line 820.
+LaTeX Info: Redefining \% on input line 820.
  [28 <./Imagenes videojuegos/gris.jpeg> <./Imagenes videojuegos/gris2.jpg>]
 <Imagenes videojuegos/hellblade.jpg, id=1126, 1927.2pt x 1084.05pt>
 File: Imagenes videojuegos/hellblade.jpg Graphic file (type jpg)
 <use Imagenes videojuegos/hellblade.jpg>
 Package pdftex.def Info: Imagenes videojuegos/hellblade.jpg  used on input line
- 823.
+ 828.
 (pdftex.def)             Requested size: 330.05322pt x 185.64244pt.
 <Imagenes videojuegos/hellblade2.jpg, id=1129, 1927.2pt x 1084.05pt>
 File: Imagenes videojuegos/hellblade2.jpg Graphic file (type jpg)
 <use Imagenes videojuegos/hellblade2.jpg>
 Package pdftex.def Info: Imagenes videojuegos/hellblade2.jpg  used on input lin
-e 835.
+e 840.
 (pdftex.def)             Requested size: 330.05322pt x 185.64244pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
+LaTeX Info: Redefining \. on input line 846.
+LaTeX Info: Redefining \% on input line 846.
  [29 <./Imagenes videojuegos/hellblade.jpg>]
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 845.
-LaTeX Info: Redefining \% on input line 845.
- [30 <./Imagenes videojuegos/hellblade2.jpg>]
 LaTeX Info: Redefining \. on input line 850.
 LaTeX Info: Redefining \% on input line 850.
+ [30 <./Imagenes videojuegos/hellblade2.jpg>]
+LaTeX Info: Redefining \. on input line 855.
+LaTeX Info: Redefining \% on input line 855.
  [31] [32
 
 
@@ -2057,28 +2057,28 @@ Cap\'{\i }tulo 4.
 <TGF/Extra/Planificaci贸n.png, id=1154, 4095.3pt x 1366.10374pt>
 File: TGF/Extra/Planificaci贸n.png Graphic file (type png)
 <use TGF/Extra/Planificaci贸n.png>
-Package pdftex.def Info: TGF/Extra/Planificaci贸n.png  used on input line 855.
+Package pdftex.def Info: TGF/Extra/Planificaci贸n.png  used on input line 860.
 (pdftex.def)             Requested size: 412.56497pt x 137.61893pt.
 
 Underfull \vbox (badness 4699) has occurred while \output is active []
 
  [33 <./TGF/Extra/Planificaci贸n.png>]
-LaTeX Info: Redefining \. on input line 887.
-LaTeX Info: Redefining \% on input line 887.
+LaTeX Info: Redefining \. on input line 892.
+LaTeX Info: Redefining \% on input line 892.
  [34]
 <TGF/Extra/Weava.png, id=1189, 1006.25937pt x 838.13126pt>
 File: TGF/Extra/Weava.png Graphic file (type png)
 <use TGF/Extra/Weava.png>
-Package pdftex.def Info: TGF/Extra/Weava.png  used on input line 896.
+Package pdftex.def Info: TGF/Extra/Weava.png  used on input line 901.
 (pdftex.def)             Requested size: 330.05322pt x 274.90883pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 906.
-LaTeX Info: Redefining \% on input line 906.
+LaTeX Info: Redefining \. on input line 911.
+LaTeX Info: Redefining \% on input line 911.
  [35 <./TGF/Extra/Weava.png>]
-LaTeX Info: Redefining \. on input line 912.
-LaTeX Info: Redefining \% on input line 912.
+LaTeX Info: Redefining \. on input line 917.
+LaTeX Info: Redefining \% on input line 917.
  [36]
 Cap\'{\i }tulo 5.
 
@@ -2088,129 +2088,129 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Info: Redefining \. on input line 937.
-LaTeX Info: Redefining \% on input line 937.
+LaTeX Info: Redefining \. on input line 942.
+LaTeX Info: Redefining \% on input line 942.
 
 [38]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-53.
+58.
 
 (C:\Users\a.rodriguezgo.2016\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1
 ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Info: Redefining \. on input line 955.
-LaTeX Info: Redefining \% on input line 955.
+LaTeX Info: Redefining \. on input line 960.
+LaTeX Info: Redefining \% on input line 960.
  [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 969.
-LaTeX Info: Redefining \% on input line 969.
+LaTeX Info: Redefining \. on input line 974.
+LaTeX Info: Redefining \% on input line 974.
  [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 981.
-LaTeX Info: Redefining \% on input line 981.
+LaTeX Info: Redefining \. on input line 986.
+LaTeX Info: Redefining \% on input line 986.
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 992.
-LaTeX Info: Redefining \% on input line 992.
+LaTeX Info: Redefining \. on input line 997.
+LaTeX Info: Redefining \% on input line 997.
  [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1011.
-LaTeX Info: Redefining \% on input line 1011.
+LaTeX Info: Redefining \. on input line 1016.
+LaTeX Info: Redefining \% on input line 1016.
  [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1025.
-LaTeX Info: Redefining \% on input line 1025.
+LaTeX Info: Redefining \. on input line 1030.
+LaTeX Info: Redefining \% on input line 1030.
  [44]
 <TGF/Extra/TAS.png, id=1300, 681.04437pt x 562.60187pt>
 File: TGF/Extra/TAS.png Graphic file (type png)
 <use TGF/Extra/TAS.png>
-Package pdftex.def Info: TGF/Extra/TAS.png  used on input line 1030.
+Package pdftex.def Info: TGF/Extra/TAS.png  used on input line 1035.
 (pdftex.def)             Requested size: 371.30595pt x 306.72783pt.
 <TGF/Extra/TAS2.png, id=1302, 648.92438pt x 607.26875pt>
 File: TGF/Extra/TAS2.png Graphic file (type png)
 <use TGF/Extra/TAS2.png>
-Package pdftex.def Info: TGF/Extra/TAS2.png  used on input line 1040.
+Package pdftex.def Info: TGF/Extra/TAS2.png  used on input line 1045.
 (pdftex.def)             Requested size: 371.30595pt x 347.47185pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1048.
-LaTeX Info: Redefining \% on input line 1048.
+LaTeX Info: Redefining \. on input line 1053.
+LaTeX Info: Redefining \% on input line 1053.
  [45 <./TGF/Extra/TAS.png>]
-LaTeX Info: Redefining \. on input line 1062.
-LaTeX Info: Redefining \% on input line 1062.
+LaTeX Info: Redefining \. on input line 1067.
+LaTeX Info: Redefining \% on input line 1067.
  [46 <./TGF/Extra/TAS2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1079.
-LaTeX Info: Redefining \% on input line 1079.
+LaTeX Info: Redefining \. on input line 1084.
+LaTeX Info: Redefining \% on input line 1084.
  [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1092.
-LaTeX Info: Redefining \% on input line 1092.
+LaTeX Info: Redefining \. on input line 1097.
+LaTeX Info: Redefining \% on input line 1097.
  [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1108.
-LaTeX Info: Redefining \% on input line 1108.
+LaTeX Info: Redefining \. on input line 1113.
+LaTeX Info: Redefining \% on input line 1113.
  [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1124.
-LaTeX Info: Redefining \% on input line 1124.
+LaTeX Info: Redefining \. on input line 1129.
+LaTeX Info: Redefining \% on input line 1129.
  [50]
-LaTeX Info: Redefining \. on input line 1138.
-LaTeX Info: Redefining \% on input line 1138.
+LaTeX Info: Redefining \. on input line 1143.
+LaTeX Info: Redefining \% on input line 1143.
 
 [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1154.
-LaTeX Info: Redefining \% on input line 1154.
+LaTeX Info: Redefining \. on input line 1159.
+LaTeX Info: Redefining \% on input line 1159.
  [52]
-LaTeX Info: Redefining \. on input line 1178.
-LaTeX Info: Redefining \% on input line 1178.
+LaTeX Info: Redefining \. on input line 1183.
+LaTeX Info: Redefining \% on input line 1183.
 
 [53]
 <TGF/Extra/UML.png, id=1370, 3653.65pt x 2712.1325pt>
 File: TGF/Extra/UML.png Graphic file (type png)
 <use TGF/Extra/UML.png>
-Package pdftex.def Info: TGF/Extra/UML.png  used on input line 1178.
+Package pdftex.def Info: TGF/Extra/UML.png  used on input line 1183.
 (pdftex.def)             Requested size: 589.3708pt x 437.4677pt.
 
 
-LaTeX Warning: Float too large for page by 30.3395pt on input line 1178.
+LaTeX Warning: Float too large for page by 30.3395pt on input line 1183.
 
-LaTeX Info: Redefining \. on input line 1178.
-LaTeX Info: Redefining \% on input line 1178.
+LaTeX Info: Redefining \. on input line 1183.
+LaTeX Info: Redefining \% on input line 1183.
 [54 <./TGF/Extra/UML.png>]
 <TGF/Extra/Casos de uso.png, id=1376, 1094.0875pt x 1084.05pt>
 File: TGF/Extra/Casos de uso.png Graphic file (type png)
 <use TGF/Extra/Casos de uso.png>
-Package pdftex.def Info: TGF/Extra/Casos de uso.png  used on input line 1195.
+Package pdftex.def Info: TGF/Extra/Casos de uso.png  used on input line 1200.
 (pdftex.def)             Requested size: 206.28249pt x 204.38368pt.
 <TGF/Extra/Flow.png, id=1378, 1894.07625pt x 863.225pt>
 File: TGF/Extra/Flow.png Graphic file (type png)
 <use TGF/Extra/Flow.png>
-Package pdftex.def Info: TGF/Extra/Flow.png  used on input line 1209.
+Package pdftex.def Info: TGF/Extra/Flow.png  used on input line 1214.
 (pdftex.def)             Requested size: 453.82397pt x 206.82259pt.
 
-Overfull \hbox (19.53903pt too wide) in paragraph at lines 1208--1210
+Overfull \hbox (19.53903pt too wide) in paragraph at lines 1213--1215
 []  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1212.
-LaTeX Info: Redefining \% on input line 1212.
+LaTeX Info: Redefining \. on input line 1217.
+LaTeX Info: Redefining \% on input line 1217.
  [55
 
 
@@ -2218,197 +2218,197 @@ LaTeX Info: Redefining \% on input line 1212.
 <TGF/Artes/diarioNotas.png, id=1386, 1422.31375pt x 853.1875pt>
 File: TGF/Artes/diarioNotas.png Graphic file (type png)
 <use TGF/Artes/diarioNotas.png>
-Package pdftex.def Info: TGF/Artes/diarioNotas.png  used on input line 1227.
+Package pdftex.def Info: TGF/Artes/diarioNotas.png  used on input line 1232.
 (pdftex.def)             Requested size: 330.05322pt x 197.9865pt.
 <TGF/Artes/Portada.png, id=1394, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/Portada.png Graphic file (type png)
 <use TGF/Artes/Portada.png>
-Package pdftex.def Info: TGF/Artes/Portada.png  used on input line 1240.
+Package pdftex.def Info: TGF/Artes/Portada.png  used on input line 1245.
 (pdftex.def)             Requested size: 330.05322pt x 246.58017pt.
 <TGF/Artes/Personajes.png, id=1396, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/Personajes.png Graphic file (type png)
 <use TGF/Artes/Personajes.png>
-Package pdftex.def Info: TGF/Artes/Personajes.png  used on input line 1250.
+Package pdftex.def Info: TGF/Artes/Personajes.png  used on input line 1255.
 (pdftex.def)             Requested size: 330.05322pt x 246.58017pt.
 <TGF/Artes/Pausa.png, id=1398, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/Pausa.png Graphic file (type png)
 <use TGF/Artes/Pausa.png>
-Package pdftex.def Info: TGF/Artes/Pausa.png  used on input line 1259.
+Package pdftex.def Info: TGF/Artes/Pausa.png  used on input line 1264.
 (pdftex.def)             Requested size: 330.05322pt x 246.58017pt.
 <TGF/Artes/UX basic.png, id=1400, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/UX basic.png Graphic file (type png)
 <use TGF/Artes/UX basic.png>
-Package pdftex.def Info: TGF/Artes/UX basic.png  used on input line 1268.
+Package pdftex.def Info: TGF/Artes/UX basic.png  used on input line 1273.
 (pdftex.def)             Requested size: 330.05322pt x 246.58017pt.
 <TGF/Artes/UX diario abierto.png, id=1402, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/UX diario abierto.png Graphic file (type png)
 <use TGF/Artes/UX diario abierto.png>
 Package pdftex.def Info: TGF/Artes/UX diario abierto.png  used on input line 12
-78.
+83.
 (pdftex.def)             Requested size: 330.05322pt x 246.58017pt.
-LaTeX Info: Redefining \. on input line 1281.
-LaTeX Info: Redefining \% on input line 1281.
+LaTeX Info: Redefining \. on input line 1286.
+LaTeX Info: Redefining \% on input line 1286.
  [56 <./TGF/Extra/Flow.png>]
-LaTeX Info: Redefining \. on input line 1281.
-LaTeX Info: Redefining \% on input line 1281.
+LaTeX Info: Redefining \. on input line 1286.
+LaTeX Info: Redefining \% on input line 1286.
  [57 <./TGF/Artes/diarioNotas.png> <./TGF/Artes/Portada.png>]
-LaTeX Info: Redefining \. on input line 1281.
-LaTeX Info: Redefining \% on input line 1281.
+LaTeX Info: Redefining \. on input line 1286.
+LaTeX Info: Redefining \% on input line 1286.
  [58 <./TGF/Artes/Personajes.png> <./TGF/Artes/Pausa.png>]
 <TGF/Artes/Escenario.png, id=1422, 2576.62625pt x 1538.74875pt>
 File: TGF/Artes/Escenario.png Graphic file (type png)
 <use TGF/Artes/Escenario.png>
-Package pdftex.def Info: TGF/Artes/Escenario.png  used on input line 1295.
+Package pdftex.def Info: TGF/Artes/Escenario.png  used on input line 1300.
 (pdftex.def)             Requested size: 330.05322pt x 197.08595pt.
 <TGF/Artes/Saloncito.png, id=1424, 2276.505pt x 1538.74875pt>
 File: TGF/Artes/Saloncito.png Graphic file (type png)
 <use TGF/Artes/Saloncito.png>
-Package pdftex.def Info: TGF/Artes/Saloncito.png  used on input line 1305.
+Package pdftex.def Info: TGF/Artes/Saloncito.png  used on input line 1310.
 (pdftex.def)             Requested size: 330.05322pt x 223.07764pt.
 <TGF/Artes/Despachito.png, id=1426, 2276.505pt x 1538.74875pt>
 File: TGF/Artes/Despachito.png Graphic file (type png)
 <use TGF/Artes/Despachito.png>
-Package pdftex.def Info: TGF/Artes/Despachito.png  used on input line 1314.
+Package pdftex.def Info: TGF/Artes/Despachito.png  used on input line 1319.
 (pdftex.def)             Requested size: 330.05322pt x 223.07764pt.
 <TGF/Artes/Habitaci贸n.png, id=1428, 2050.66125pt x 1360.08125pt>
 File: TGF/Artes/Habitaci贸n.png Graphic file (type png)
 <use TGF/Artes/Habitaci贸n.png>
-Package pdftex.def Info: TGF/Artes/Habitaci贸n.png  used on input line 1323.
+Package pdftex.def Info: TGF/Artes/Habitaci贸n.png  used on input line 1328.
 (pdftex.def)             Requested size: 330.05322pt x 218.90414pt.
 <TGF/Artes/TexBed.png, id=1433, 2055.68pt x 2055.68pt>
 File: TGF/Artes/TexBed.png Graphic file (type png)
 <use TGF/Artes/TexBed.png>
-Package pdftex.def Info: TGF/Artes/TexBed.png  used on input line 1336.
+Package pdftex.def Info: TGF/Artes/TexBed.png  used on input line 1341.
 (pdftex.def)             Requested size: 195.96773pt x 195.95033pt.
 <TGF/Artes/TexBed2.png, id=1434, 2055.68pt x 2055.68pt>
 File: TGF/Artes/TexBed2.png Graphic file (type png)
 <use TGF/Artes/TexBed2.png>
-Package pdftex.def Info: TGF/Artes/TexBed2.png  used on input line 1341.
+Package pdftex.def Info: TGF/Artes/TexBed2.png  used on input line 1346.
 (pdftex.def)             Requested size: 195.96773pt x 195.95033pt.
 <TGF/Artes/pc_desk_albedo2.png, id=1435, 4111.36pt x 4111.36pt>
 File: TGF/Artes/pc_desk_albedo2.png Graphic file (type png)
 <use TGF/Artes/pc_desk_albedo2.png>
-Package pdftex.def Info: TGF/Artes/pc_desk_albedo2.png  used on input line 1353
+Package pdftex.def Info: TGF/Artes/pc_desk_albedo2.png  used on input line 1358
 .
 (pdftex.def)             Requested size: 195.96773pt x 195.91898pt.
 <TGF/Artes/Caketext.png, id=1436, 1027.84pt x 1027.84pt>
 File: TGF/Artes/Caketext.png Graphic file (type png)
 <use TGF/Artes/Caketext.png>
-Package pdftex.def Info: TGF/Artes/Caketext.png  used on input line 1358.
+Package pdftex.def Info: TGF/Artes/Caketext.png  used on input line 1363.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
-LaTeX Info: Redefining \. on input line 1366.
-LaTeX Info: Redefining \% on input line 1366.
+LaTeX Info: Redefining \. on input line 1371.
+LaTeX Info: Redefining \% on input line 1371.
  [59 <./TGF/Artes/UX basic.png>]
-LaTeX Info: Redefining \. on input line 1366.
-LaTeX Info: Redefining \% on input line 1366.
+LaTeX Info: Redefining \. on input line 1371.
+LaTeX Info: Redefining \% on input line 1371.
  [60 <./TGF/Artes/UX diario abierto.png> <./TGF/Artes/Escenario.png>]
-LaTeX Info: Redefining \. on input line 1366.
-LaTeX Info: Redefining \% on input line 1366.
+LaTeX Info: Redefining \. on input line 1371.
+LaTeX Info: Redefining \% on input line 1371.
  [61 <./TGF/Artes/Saloncito.png> <./TGF/Artes/Despachito.png>]
-LaTeX Info: Redefining \. on input line 1366.
-LaTeX Info: Redefining \% on input line 1366.
+LaTeX Info: Redefining \. on input line 1371.
+LaTeX Info: Redefining \% on input line 1371.
  [62 <./TGF/Artes/Habitaci贸n.png> <./TGF/Artes/TexBed.png> <./TGF/Artes/TexBed
 2.png>]
 <TGF/Artes/TCA_head.png, id=1470, 1027.84pt x 1027.84pt>
 File: TGF/Artes/TCA_head.png Graphic file (type png)
 <use TGF/Artes/TCA_head.png>
-Package pdftex.def Info: TGF/Artes/TCA_head.png  used on input line 1379.
+Package pdftex.def Info: TGF/Artes/TCA_head.png  used on input line 1384.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/TCA_body.png, id=1471, 1027.84pt x 1027.84pt>
 File: TGF/Artes/TCA_body.png Graphic file (type png)
 <use TGF/Artes/TCA_body.png>
-Package pdftex.def Info: TGF/Artes/TCA_body.png  used on input line 1384.
+Package pdftex.def Info: TGF/Artes/TCA_body.png  used on input line 1389.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/TCA_front.png, id=1473, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/TCA_front.png Graphic file (type png)
 <use TGF/Artes/TCA_front.png>
-Package pdftex.def Info: TGF/Artes/TCA_front.png  used on input line 1397.
+Package pdftex.def Info: TGF/Artes/TCA_front.png  used on input line 1402.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/TCA_back.png, id=1474, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/TCA_back.png Graphic file (type png)
 <use TGF/Artes/TCA_back.png>
-Package pdftex.def Info: TGF/Artes/TCA_back.png  used on input line 1402.
+Package pdftex.def Info: TGF/Artes/TCA_back.png  used on input line 1407.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/TAS_head.png, id=1476, 1027.84pt x 1027.84pt>
 File: TGF/Artes/TAS_head.png Graphic file (type png)
 <use TGF/Artes/TAS_head.png>
-Package pdftex.def Info: TGF/Artes/TAS_head.png  used on input line 1419.
+Package pdftex.def Info: TGF/Artes/TAS_head.png  used on input line 1424.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/TAS_body.png, id=1477, 1027.84pt x 1027.84pt>
 File: TGF/Artes/TAS_body.png Graphic file (type png)
 <use TGF/Artes/TAS_body.png>
-Package pdftex.def Info: TGF/Artes/TAS_body.png  used on input line 1424.
+Package pdftex.def Info: TGF/Artes/TAS_body.png  used on input line 1429.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/TAS_front.png, id=1479, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/TAS_front.png Graphic file (type png)
 <use TGF/Artes/TAS_front.png>
-Package pdftex.def Info: TGF/Artes/TAS_front.png  used on input line 1437.
+Package pdftex.def Info: TGF/Artes/TAS_front.png  used on input line 1442.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/TAS_back.png, id=1480, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/TAS_back.png Graphic file (type png)
 <use TGF/Artes/TAS_back.png>
-Package pdftex.def Info: TGF/Artes/TAS_back.png  used on input line 1442.
+Package pdftex.def Info: TGF/Artes/TAS_back.png  used on input line 1447.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/DEP_head.png, id=1482, 1027.84pt x 1027.84pt>
 File: TGF/Artes/DEP_head.png Graphic file (type png)
 <use TGF/Artes/DEP_head.png>
-Package pdftex.def Info: TGF/Artes/DEP_head.png  used on input line 1459.
+Package pdftex.def Info: TGF/Artes/DEP_head.png  used on input line 1464.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/DEP_body.png, id=1483, 1027.84pt x 1027.84pt>
 File: TGF/Artes/DEP_body.png Graphic file (type png)
 <use TGF/Artes/DEP_body.png>
-Package pdftex.def Info: TGF/Artes/DEP_body.png  used on input line 1464.
+Package pdftex.def Info: TGF/Artes/DEP_body.png  used on input line 1469.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/DEP_front.png, id=1485, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/DEP_front.png Graphic file (type png)
 <use TGF/Artes/DEP_front.png>
-Package pdftex.def Info: TGF/Artes/DEP_front.png  used on input line 1477.
+Package pdftex.def Info: TGF/Artes/DEP_front.png  used on input line 1482.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/DEP_back.png, id=1486, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/DEP_back.png Graphic file (type png)
 <use TGF/Artes/DEP_back.png>
-Package pdftex.def Info: TGF/Artes/DEP_back.png  used on input line 1482.
+Package pdftex.def Info: TGF/Artes/DEP_back.png  used on input line 1487.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
-LaTeX Info: Redefining \. on input line 1492.
-LaTeX Info: Redefining \% on input line 1492.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
  [63 <./TGF/Artes/pc_desk_albedo2.png> <./TGF/Artes/Caketext.png>]
-LaTeX Info: Redefining \. on input line 1492.
-LaTeX Info: Redefining \% on input line 1492.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
  [64 <./TGF/Artes/TCA_head.png> <./TGF/Artes/TCA_body.png> <./TGF/Artes/TCA_fro
 nt.png> <./TGF/Artes/TCA_back.png>]
-LaTeX Info: Redefining \. on input line 1492.
-LaTeX Info: Redefining \% on input line 1492.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
  [65 <./TGF/Artes/TAS_head.png> <./TGF/Artes/TAS_body.png> <./TGF/Artes/TAS_fro
 nt.png> <./TGF/Artes/TAS_back.png>]
-LaTeX Info: Redefining \. on input line 1492.
-LaTeX Info: Redefining \% on input line 1492.
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
  [66 <./TGF/Artes/DEP_head.png> <./TGF/Artes/DEP_body.png> <./TGF/Artes/DEP_fro
 nt.png> <./TGF/Artes/DEP_back.png>]
 <TGF/Artes/EVIL_head.png, id=1520, 1027.84pt x 1027.84pt>
 File: TGF/Artes/EVIL_head.png Graphic file (type png)
 <use TGF/Artes/EVIL_head.png>
-Package pdftex.def Info: TGF/Artes/EVIL_head.png  used on input line 1498.
+Package pdftex.def Info: TGF/Artes/EVIL_head.png  used on input line 1503.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/EVIL_body.png, id=1521, 1027.84pt x 1027.84pt>
 File: TGF/Artes/EVIL_body.png Graphic file (type png)
 <use TGF/Artes/EVIL_body.png>
-Package pdftex.def Info: TGF/Artes/EVIL_body.png  used on input line 1503.
+Package pdftex.def Info: TGF/Artes/EVIL_body.png  used on input line 1508.
 (pdftex.def)             Requested size: 195.96773pt x 195.96602pt.
 <TGF/Artes/EVIL_front.png, id=1523, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/EVIL_front.png Graphic file (type png)
 <use TGF/Artes/EVIL_front.png>
-Package pdftex.def Info: TGF/Artes/EVIL_front.png  used on input line 1516.
+Package pdftex.def Info: TGF/Artes/EVIL_front.png  used on input line 1521.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
 <TGF/Artes/EVIL_back.png, id=1524, 918.43124pt x 1424.32124pt>
 File: TGF/Artes/EVIL_back.png Graphic file (type png)
 <use TGF/Artes/EVIL_back.png>
-Package pdftex.def Info: TGF/Artes/EVIL_back.png  used on input line 1521.
+Package pdftex.def Info: TGF/Artes/EVIL_back.png  used on input line 1526.
 (pdftex.def)             Requested size: 195.96773pt x 303.89763pt.
-LaTeX Info: Redefining \. on input line 1541.
-LaTeX Info: Redefining \% on input line 1541.
+LaTeX Info: Redefining \. on input line 1546.
+LaTeX Info: Redefining \% on input line 1546.
  [67 <./TGF/Artes/EVIL_head.png> <./TGF/Artes/EVIL_body.png>]
-LaTeX Info: Redefining \. on input line 1544.
-LaTeX Info: Redefining \% on input line 1544.
+LaTeX Info: Redefining \. on input line 1549.
+LaTeX Info: Redefining \% on input line 1549.
  [68 <./TGF/Artes/EVIL_front.png> <./TGF/Artes/EVIL_back.png>]
 Cap\'{\i }tulo 6.
 
@@ -2418,288 +2418,288 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Info: Redefining \. on input line 1567.
-LaTeX Info: Redefining \% on input line 1567.
+LaTeX Info: Redefining \. on input line 1572.
+LaTeX Info: Redefining \% on input line 1572.
 
 [70]
 <Imagenes Form GEN/1GENGenre.png, id=1566, 199.728pt x 199.728pt>
 File: Imagenes Form GEN/1GENGenre.png Graphic file (type png)
 <use Imagenes Form GEN/1GENGenre.png>
 Package pdftex.def Info: Imagenes Form GEN/1GENGenre.png  used on input line 15
-74.
+79.
 (pdftex.def)             Requested size: 185.65297pt x 185.65976pt.
 <Imagenes Form GEN/2GENAge.png, id=1567, 222.942pt x 199.947pt>
 File: Imagenes Form GEN/2GENAge.png Graphic file (type png)
 <use Imagenes Form GEN/2GENAge.png>
-Package pdftex.def Info: Imagenes Form GEN/2GENAge.png  used on input line 1579
+Package pdftex.def Info: Imagenes Form GEN/2GENAge.png  used on input line 1584
 .
 (pdftex.def)             Requested size: 185.65297pt x 166.50513pt.
 <Imagenes Form GEN/3GENFrec.png, id=1571, 427.488pt x 199.728pt>
 File: Imagenes Form GEN/3GENFrec.png Graphic file (type png)
 <use Imagenes Form GEN/3GENFrec.png>
 Package pdftex.def Info: Imagenes Form GEN/3GENFrec.png  used on input line 159
-0.
+5.
 (pdftex.def)             Requested size: 288.79422pt x 134.93246pt.
 
 Underfull \vbox (badness 2856) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1598.
-LaTeX Info: Redefining \% on input line 1598.
+LaTeX Info: Redefining \. on input line 1603.
+LaTeX Info: Redefining \% on input line 1603.
  [71 <./Imagenes Form GEN/1GENGenre.png> <./Imagenes Form GEN/2GENAge.png> <./I
 magenes Form GEN/3GENFrec.png>]
 <Imagenes Form GEN/4GENGen.png, id=1582, 427.269pt x 199.728pt>
 File: Imagenes Form GEN/4GENGen.png Graphic file (type png)
 <use Imagenes Form GEN/4GENGen.png>
-Package pdftex.def Info: Imagenes Form GEN/4GENGen.png  used on input line 1602
+Package pdftex.def Info: Imagenes Form GEN/4GENGen.png  used on input line 1607
 .
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 <ANEXO Gen/8AnexGENFrecgen56.png, id=1584, 495.816pt x 228.198pt>
 File: ANEXO Gen/8AnexGENFrecgen56.png Graphic file (type png)
 <use ANEXO Gen/8AnexGENFrecgen56.png>
 Package pdftex.def Info: ANEXO Gen/8AnexGENFrecgen56.png  used on input line 16
-12.
+17.
 (pdftex.def)             Requested size: 330.05322pt x 151.90645pt.
-LaTeX Info: Redefining \. on input line 1621.
-LaTeX Info: Redefining \% on input line 1621.
+LaTeX Info: Redefining \. on input line 1626.
+LaTeX Info: Redefining \% on input line 1626.
  [72 <./Imagenes Form GEN/4GENGen.png> <./ANEXO Gen/8AnexGENFrecgen56.png>]
 <Imagenes Form GEN/5GENMedio.png, id=1594, 427.269pt x 199.728pt>
 File: Imagenes Form GEN/5GENMedio.png Graphic file (type png)
 <use Imagenes Form GEN/5GENMedio.png>
 Package pdftex.def Info: Imagenes Form GEN/5GENMedio.png  used on input line 16
-27.
+32.
 (pdftex.def)             Requested size: 371.30595pt x 173.57298pt.
 <Imagenes Form GEN/6GENCon.png, id=1598, 492.75pt x 190.749pt>
 File: Imagenes Form GEN/6GENCon.png Graphic file (type png)
 <use Imagenes Form GEN/6GENCon.png>
-Package pdftex.def Info: Imagenes Form GEN/6GENCon.png  used on input line 1641
+Package pdftex.def Info: Imagenes Form GEN/6GENCon.png  used on input line 1646
 .
 (pdftex.def)             Requested size: 412.56497pt x 159.71579pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1651.
-LaTeX Info: Redefining \% on input line 1651.
+LaTeX Info: Redefining \. on input line 1656.
+LaTeX Info: Redefining \% on input line 1656.
  [73 <./Imagenes Form GEN/5GENMedio.png>]
 <ANEXO Gen/11AnexGENCongfem.png, id=1608, 512.679pt x 199.728pt>
 File: ANEXO Gen/11AnexGENCongfem.png Graphic file (type png)
 <use ANEXO Gen/11AnexGENCongfem.png>
-Package pdftex.def Info: ANEXO Gen/11AnexGENCongfem.png  used on input line 165
-5.
+Package pdftex.def Info: ANEXO Gen/11AnexGENCongfem.png  used on input line 166
+0.
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO Gen/12AnexGENCongmasc.png, id=1612, 512.679pt x 199.947pt>
 File: ANEXO Gen/12AnexGENCongmasc.png Graphic file (type png)
 <use ANEXO Gen/12AnexGENCongmasc.png>
 Package pdftex.def Info: ANEXO Gen/12AnexGENCongmasc.png  used on input line 16
-70.
+75.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1679.
-LaTeX Info: Redefining \% on input line 1679.
+LaTeX Info: Redefining \. on input line 1684.
+LaTeX Info: Redefining \% on input line 1684.
  [74 <./Imagenes Form GEN/6GENCon.png>]
-LaTeX Info: Redefining \. on input line 1679.
-LaTeX Info: Redefining \% on input line 1679.
+LaTeX Info: Redefining \. on input line 1684.
+LaTeX Info: Redefining \% on input line 1684.
  [75 <./ANEXO Gen/11AnexGENCongfem.png> <./ANEXO Gen/12AnexGENCongmasc.png>]
 <ANEXO Gen/13AnexGENConnb.png, id=1627, 512.679pt x 199.728pt>
 File: ANEXO Gen/13AnexGENConnb.png Graphic file (type png)
 <use ANEXO Gen/13AnexGENConnb.png>
-Package pdftex.def Info: ANEXO Gen/13AnexGENConnb.png  used on input line 1683.
+Package pdftex.def Info: ANEXO Gen/13AnexGENConnb.png  used on input line 1688.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <Imagenes Form GEN/7GENConenf.png, id=1631, 199.728pt x 199.728pt>
 File: Imagenes Form GEN/7GENConenf.png Graphic file (type png)
 <use Imagenes Form GEN/7GENConenf.png>
 Package pdftex.def Info: Imagenes Form GEN/7GENConenf.png  used on input line 1
-706.
+711.
 (pdftex.def)             Requested size: 156.77179pt x 156.77766pt.
 <Imagenes Form GEN/8GENConenf.png, id=1632, 305.724pt x 199.728pt>
 File: Imagenes Form GEN/8GENConenf.png Graphic file (type png)
 <use Imagenes Form GEN/8GENConenf.png>
 Package pdftex.def Info: Imagenes Form GEN/8GENConenf.png  used on input line 1
-711.
+716.
 (pdftex.def)             Requested size: 235.16365pt x 153.63254pt.
 File: Imagenes Form GEN/7GENConenf.png Graphic file (type png)
 <use Imagenes Form GEN/7GENConenf.png>
 Package pdftex.def Info: Imagenes Form GEN/7GENConenf.png  used on input line 1
-725.
+730.
 (pdftex.def)             Requested size: 156.77179pt x 156.77766pt.
 File: Imagenes Form GEN/8GENConenf.png Graphic file (type png)
 <use Imagenes Form GEN/8GENConenf.png>
 Package pdftex.def Info: Imagenes Form GEN/8GENConenf.png  used on input line 1
-730.
+735.
 (pdftex.def)             Requested size: 235.16365pt x 153.63254pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1742.
-LaTeX Info: Redefining \% on input line 1742.
+LaTeX Info: Redefining \. on input line 1747.
+LaTeX Info: Redefining \% on input line 1747.
  [76 <./ANEXO Gen/13AnexGENConnb.png>]
-LaTeX Info: Redefining \. on input line 1742.
-LaTeX Info: Redefining \% on input line 1742.
+LaTeX Info: Redefining \. on input line 1747.
+LaTeX Info: Redefining \% on input line 1747.
  [77 <./Imagenes Form GEN/7GENConenf.png> <./Imagenes Form GEN/8GENConenf.png>]
 <Imagenes Form GEN/9GENEstg.png, id=1657, 342.078pt x 199.947pt>
 File: Imagenes Form GEN/9GENEstg.png Graphic file (type png)
 <use Imagenes Form GEN/9GENEstg.png>
 Package pdftex.def Info: Imagenes Form GEN/9GENEstg.png  used on input line 175
-2.
+7.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 
 Underfull \vbox (badness 1584) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1776.
-LaTeX Info: Redefining \% on input line 1776.
+LaTeX Info: Redefining \. on input line 1781.
+LaTeX Info: Redefining \% on input line 1781.
  [78 <./Imagenes Form GEN/9GENEstg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
+Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
 
  []
 
 <Imagenes Form GEN/10GENCorr.png, id=1675, 199.728pt x 199.947pt>
 File: Imagenes Form GEN/10GENCorr.png Graphic file (type png)
 <use Imagenes Form GEN/10GENCorr.png>
-Package pdftex.def Info: Imagenes Form GEN/10GENCorr.png  used on input line 17
-97.
+Package pdftex.def Info: Imagenes Form GEN/10GENCorr.png  used on input line 18
+02.
 (pdftex.def)             Requested size: 156.77179pt x 156.94957pt.
 <Imagenes Form GEN/11GENFid.png, id=1676, 270.903pt x 199.947pt>
 File: Imagenes Form GEN/11GENFid.png Graphic file (type png)
 <use Imagenes Form GEN/11GENFid.png>
 Package pdftex.def Info: Imagenes Form GEN/11GENFid.png  used on input line 180
-2.
+7.
 (pdftex.def)             Requested size: 235.16365pt x 173.57416pt.
 <Imagenes Form GEN/12GENMejor.png, id=1680, 270.903pt x 199.947pt>
 File: Imagenes Form GEN/12GENMejor.png Graphic file (type png)
 <use Imagenes Form GEN/12GENMejor.png>
 Package pdftex.def Info: Imagenes Form GEN/12GENMejor.png  used on input line 1
-813.
+818.
 (pdftex.def)             Requested size: 330.05322pt x 243.62683pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1825.
-LaTeX Info: Redefining \% on input line 1825.
+LaTeX Info: Redefining \. on input line 1830.
+LaTeX Info: Redefining \% on input line 1830.
  [79]
-LaTeX Info: Redefining \. on input line 1825.
-LaTeX Info: Redefining \% on input line 1825.
+LaTeX Info: Redefining \. on input line 1830.
+LaTeX Info: Redefining \% on input line 1830.
 
 [80 <./Imagenes Form GEN/10GENCorr.png> <./Imagenes Form GEN/11GENFid.png> <./I
 magenes Form GEN/12GENMejor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1840
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1855.
-LaTeX Info: Redefining \% on input line 1855.
+LaTeX Info: Redefining \. on input line 1860.
+LaTeX Info: Redefining \% on input line 1860.
  [81]
 <Imagenes Form GEN/13GENEnfgen.png, id=1710, 213.963pt x 199.728pt>
 File: Imagenes Form GEN/13GENEnfgen.png Graphic file (type png)
 <use Imagenes Form GEN/13GENEnfgen.png>
 Package pdftex.def Info: Imagenes Form GEN/13GENEnfgen.png  used on input line 
-1866.
+1871.
 (pdftex.def)             Requested size: 195.96773pt x 182.93521pt.
 <Imagenes Form GEN/14GENDiag.png, id=1711, 208.488pt x 199.947pt>
 File: Imagenes Form GEN/14GENDiag.png Graphic file (type png)
 <use Imagenes Form GEN/14GENDiag.png>
 Package pdftex.def Info: Imagenes Form GEN/14GENDiag.png  used on input line 18
-71.
+76.
 (pdftex.def)             Requested size: 195.96773pt x 187.94104pt.
 <Imagenes Form GEN/13GENEnfgeneros.png, id=1712, 432.963pt x 610.353pt>
 File: Imagenes Form GEN/13GENEnfgeneros.png Graphic file (type png)
 <use Imagenes Form GEN/13GENEnfgeneros.png>
 Package pdftex.def Info: Imagenes Form GEN/13GENEnfgeneros.png  used on input l
-ine 1880.
+ine 1885.
 (pdftex.def)             Requested size: 412.56497pt x 581.6295pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1888.
-LaTeX Info: Redefining \% on input line 1888.
+LaTeX Info: Redefining \. on input line 1893.
+LaTeX Info: Redefining \% on input line 1893.
  [82 <./Imagenes Form GEN/13GENEnfgen.png> <./Imagenes Form GEN/14GENDiag.png>]
-LaTeX Info: Redefining \. on input line 1888.
-LaTeX Info: Redefining \% on input line 1888.
+LaTeX Info: Redefining \. on input line 1893.
+LaTeX Info: Redefining \% on input line 1893.
  [83 <./Imagenes Form GEN/13GENEnfgeneros.png>]
 <Imagenes Form GEN/21GENEnf.png, id=1728, 427.488pt x 199.947pt>
 File: Imagenes Form GEN/21GENEnf.png Graphic file (type png)
 <use Imagenes Form GEN/21GENEnf.png>
-Package pdftex.def Info: Imagenes Form GEN/21GENEnf.png  used on input line 189
-7.
+Package pdftex.def Info: Imagenes Form GEN/21GENEnf.png  used on input line 190
+2.
 (pdftex.def)             Requested size: 371.30595pt x 173.67484pt.
 <Imagenes Form GEN/22GENEnf.png, id=1729, 427.269pt x 256.668pt>
 File: Imagenes Form GEN/22GENEnf.png Graphic file (type png)
 <use Imagenes Form GEN/22GENEnf.png>
 Package pdftex.def Info: Imagenes Form GEN/22GENEnf.png  used on input line 190
-4.
+9.
 (pdftex.def)             Requested size: 371.30595pt x 223.05652pt.
 <Imagenes Form GEN/Enfdiag.png, id=1730, 228.198pt x 199.947pt>
 File: Imagenes Form GEN/Enfdiag.png Graphic file (type png)
 <use Imagenes Form GEN/Enfdiag.png>
-Package pdftex.def Info: Imagenes Form GEN/Enfdiag.png  used on input line 1915
+Package pdftex.def Info: Imagenes Form GEN/Enfdiag.png  used on input line 1920
 .
 (pdftex.def)             Requested size: 195.96773pt x 171.71309pt.
 <Imagenes Form GEN/Enfnodiag.png, id=1731, 228.417pt x 199.947pt>
 File: Imagenes Form GEN/Enfnodiag.png Graphic file (type png)
 <use Imagenes Form GEN/Enfnodiag.png>
 Package pdftex.def Info: Imagenes Form GEN/Enfnodiag.png  used on input line 19
-20.
+25.
 (pdftex.def)             Requested size: 195.96773pt x 171.54832pt.
 <Imagenes Form GEN/Enfermedadesgeneros.png, id=1732, 488.37pt x 606.192pt>
 File: Imagenes Form GEN/Enfermedadesgeneros.png Graphic file (type png)
 <use Imagenes Form GEN/Enfermedadesgeneros.png>
 Package pdftex.def Info: Imagenes Form GEN/Enfermedadesgeneros.png  used on inp
-ut line 1930.
+ut line 1935.
 (pdftex.def)             Requested size: 412.56497pt x 512.12071pt.
 <Imagenes Form GEN/29GENVidenf.png, id=1738, 199.728pt x 199.728pt>
 File: Imagenes Form GEN/29GENVidenf.png Graphic file (type png)
 <use Imagenes Form GEN/29GENVidenf.png>
 Package pdftex.def Info: Imagenes Form GEN/29GENVidenf.png  used on input line 
-1946.
+1951.
 (pdftex.def)             Requested size: 195.96773pt x 195.97589pt.
 <Imagenes Form GEN/30GENRep.png, id=1739, 270.903pt x 199.728pt>
 File: Imagenes Form GEN/30GENRep.png Graphic file (type png)
 <use Imagenes Form GEN/30GENRep.png>
 Package pdftex.def Info: Imagenes Form GEN/30GENRep.png  used on input line 195
-1.
+6.
 (pdftex.def)             Requested size: 195.96773pt x 144.4867pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1956.
-LaTeX Info: Redefining \% on input line 1956.
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
  [84 <./Imagenes Form GEN/21GENEnf.png>]
-LaTeX Info: Redefining \. on input line 1956.
-LaTeX Info: Redefining \% on input line 1956.
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
  [85 <./Imagenes Form GEN/22GENEnf.png> <./Imagenes Form GEN/Enfdiag.png> <./Im
 agenes Form GEN/Enfnodiag.png>]
-LaTeX Info: Redefining \. on input line 1956.
-LaTeX Info: Redefining \% on input line 1956.
+LaTeX Info: Redefining \. on input line 1961.
+LaTeX Info: Redefining \% on input line 1961.
  [86 <./Imagenes Form GEN/Enfermedadesgeneros.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1977.
-LaTeX Info: Redefining \% on input line 1977.
+LaTeX Info: Redefining \. on input line 1982.
+LaTeX Info: Redefining \% on input line 1982.
  [87 <./Imagenes Form GEN/29GENVidenf.png> <./Imagenes Form GEN/30GENRep.png>]
-LaTeX Info: Redefining \. on input line 2008.
-LaTeX Info: Redefining \% on input line 2008.
+LaTeX Info: Redefining \. on input line 2013.
+LaTeX Info: Redefining \% on input line 2013.
  [88]
 <TGF/Artes/Controles.png, id=1783, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/Controles.png Graphic file (type png)
 <use TGF/Artes/Controles.png>
-Package pdftex.def Info: TGF/Artes/Controles.png  used on input line 2024.
+Package pdftex.def Info: TGF/Artes/Controles.png  used on input line 2029.
 (pdftex.def)             Requested size: 195.96773pt x 146.40201pt.
 <TGF/Artes/PausaControles.png, id=1784, 1551.7975pt x 1159.33125pt>
 File: TGF/Artes/PausaControles.png Graphic file (type png)
 <use TGF/Artes/PausaControles.png>
-Package pdftex.def Info: TGF/Artes/PausaControles.png  used on input line 2029.
+Package pdftex.def Info: TGF/Artes/PausaControles.png  used on input line 2034.
 
 (pdftex.def)             Requested size: 195.96773pt x 146.40201pt.
-LaTeX Info: Redefining \. on input line 2041.
-LaTeX Info: Redefining \% on input line 2041.
+LaTeX Info: Redefining \. on input line 2046.
+LaTeX Info: Redefining \% on input line 2046.
 
 [89 <./TGF/Artes/Controles.png> <./TGF/Artes/PausaControles.png>]
-LaTeX Info: Redefining \. on input line 2056.
-LaTeX Info: Redefining \% on input line 2056.
+LaTeX Info: Redefining \. on input line 2061.
+LaTeX Info: Redefining \% on input line 2061.
  [90]
 Cap\'{\i }tulo 7.
 
@@ -2711,14 +2711,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2079.
-LaTeX Info: Redefining \% on input line 2079.
+LaTeX Info: Redefining \. on input line 2084.
+LaTeX Info: Redefining \% on input line 2084.
  [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
-LaTeX Info: Redefining \. on input line 2097.
-LaTeX Info: Redefining \% on input line 2097.
+LaTeX Info: Redefining \. on input line 2102.
+LaTeX Info: Redefining \% on input line 2102.
 
 [94]
 
@@ -2727,7 +2727,7 @@ Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Using 'family-given' now.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-102.
+107.
 
 (C:\Users\a.rodriguezgo.2016\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmt
 t.fd
@@ -2738,94 +2738,94 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 
 ]
-Underfull \hbox (badness 1057) in paragraph at lines 2106--2106
+Underfull \hbox (badness 1057) in paragraph at lines 2111--2111
 \T1/cmtt/m/n/10.95 / / www . comunidad . madrid / servicios / salud / trastorno
 s -[] conducta -[]
  []
 
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
 [96]
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
  [97]
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
  [98]
-Underfull \hbox (badness 2302) in paragraph at lines 2106--2106
+Underfull \hbox (badness 2302) in paragraph at lines 2111--2111
 \T1/ptm/m/n/12 tiem-bre 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/cmtt
 /m/n/10.95 https : / / www . youtube . com / playlist ? list =
  []
 
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
 [99]
-Underfull \hbox (badness 10000) in paragraph at lines 2106--2106
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2111
 [][]\T1/ptm/m/n/12 Rodr韌uez, A. (2021a). \T1/ptm/b/n/12 En-cues-ta en-fer-me-d
 a-des men-ta-les en vi-deo-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 2106--2106
+Underfull \hbox (badness 3148) in paragraph at lines 2111--2111
 \T1/ptm/b/n/12 jue-gos (ESP)\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 
 : [][]$\T1/cmtt/m/n/10.95 https : / / docs . google . com / forms / d / e /
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 2106--2106
+Underfull \hbox (badness 5924) in paragraph at lines 2111--2111
 [][]\T1/ptm/m/n/12 Rodr韌uez, A. (2021c). \T1/ptm/b/n/12 En-cues-ta ex-pe-rien-
 cia ju-ga-ble\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/cmtt
 /m/n/10.95 https : / /
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 2106--2106
+Underfull \hbox (badness 5345) in paragraph at lines 2111--2111
 \T1/cmtt/m/n/10.95 docs . google . com / forms / d / e / 1FAIpQLScsfhqQPVyKExok
 LorGE _
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 2106--2106
+Underfull \hbox (badness 1142) in paragraph at lines 2111--2111
 \T1/ptm/m/n/12 mo ac-ce-so Agos-to 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : []
 []$\T1/cmtt/m/n/10.95 https : / / www . youtube . com / channel /
  []
 
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
 [100]
-LaTeX Info: Redefining \. on input line 2102.
-LaTeX Info: Redefining \% on input line 2102.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
  [101]
-LaTeX Info: Redefining \. on input line 2110.
-LaTeX Info: Redefining \% on input line 2110.
+LaTeX Info: Redefining \. on input line 2115.
+LaTeX Info: Redefining \% on input line 2115.
  [102]
 Ap\'{e}ndice A.
 <ANEXO Gen/1AnexGENGen.png, id=2098, 342.078pt x 199.947pt>
 File: ANEXO Gen/1AnexGENGen.png Graphic file (type png)
 <use ANEXO Gen/1AnexGENGen.png>
-Package pdftex.def Info: ANEXO Gen/1AnexGENGen.png  used on input line 2125.
+Package pdftex.def Info: ANEXO Gen/1AnexGENGen.png  used on input line 2130.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO Gen/2AnexGENEdad.png, id=2099, 342.078pt x 199.728pt>
 File: ANEXO Gen/2AnexGENEdad.png Graphic file (type png)
 <use ANEXO Gen/2AnexGENEdad.png>
-Package pdftex.def Info: ANEXO Gen/2AnexGENEdad.png  used on input line 2133.
+Package pdftex.def Info: ANEXO Gen/2AnexGENEdad.png  used on input line 2138.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO Gen/3AnexGENFrecALL.png, id=2100, 523.629pt x 615.609pt>
 File: ANEXO Gen/3AnexGENFrecALL.png Graphic file (type png)
 <use ANEXO Gen/3AnexGENFrecALL.png>
-Package pdftex.def Info: ANEXO Gen/3AnexGENFrecALL.png  used on input line 2141
+Package pdftex.def Info: ANEXO Gen/3AnexGENFrecALL.png  used on input line 2146
 .
 (pdftex.def)             Requested size: 412.56497pt x 485.02948pt.
 <ANEXO Gen/7AnexGENFrecgen.png, id=2105, 495.816pt x 228.417pt>
 File: ANEXO Gen/7AnexGENFrecgen.png Graphic file (type png)
 <use ANEXO Gen/7AnexGENFrecgen.png>
-Package pdftex.def Info: ANEXO Gen/7AnexGENFrecgen.png  used on input line 2162
+Package pdftex.def Info: ANEXO Gen/7AnexGENFrecgen.png  used on input line 2167
 .
 (pdftex.def)             Requested size: 412.56497pt x 190.06354pt.
 File: ANEXO Gen/8AnexGENFrecgen56.png Graphic file (type png)
 <use ANEXO Gen/8AnexGENFrecgen56.png>
 Package pdftex.def Info: ANEXO Gen/8AnexGENFrecgen56.png  used on input line 21
-70.
+75.
 (pdftex.def)             Requested size: 412.56497pt x 189.88132pt.
 [103
 
@@ -2833,701 +2833,701 @@ Package pdftex.def Info: ANEXO Gen/8AnexGENFrecgen56.png  used on input line 21
 
 
 ]
-LaTeX Info: Redefining \. on input line 2183.
-LaTeX Info: Redefining \% on input line 2183.
+LaTeX Info: Redefining \. on input line 2188.
+LaTeX Info: Redefining \% on input line 2188.
  [104 <./ANEXO Gen/1AnexGENGen.png> <./ANEXO Gen/2AnexGENEdad.png>]
-LaTeX Info: Redefining \. on input line 2183.
-LaTeX Info: Redefining \% on input line 2183.
+LaTeX Info: Redefining \. on input line 2188.
+LaTeX Info: Redefining \% on input line 2188.
 
 [105 <./ANEXO Gen/3AnexGENFrecALL.png>]
-LaTeX Info: Redefining \. on input line 2183.
-LaTeX Info: Redefining \% on input line 2183.
+LaTeX Info: Redefining \. on input line 2188.
+LaTeX Info: Redefining \% on input line 2188.
  [106 <./ANEXO Gen/7AnexGENFrecgen.png>]
 <ANEXO Gen/9AnexGENMedios.png, id=2139, 427.488pt x 199.728pt>
 File: ANEXO Gen/9AnexGENMedios.png Graphic file (type png)
 <use ANEXO Gen/9AnexGENMedios.png>
-Package pdftex.def Info: ANEXO Gen/9AnexGENMedios.png  used on input line 2189.
+Package pdftex.def Info: ANEXO Gen/9AnexGENMedios.png  used on input line 2194.
 
 (pdftex.def)             Requested size: 412.56497pt x 192.76372pt.
 <ANEXO Gen/10AnexGENCon.png, id=2140, 512.679pt x 199.947pt>
 File: ANEXO Gen/10AnexGENCon.png Graphic file (type png)
 <use ANEXO Gen/10AnexGENCon.png>
-Package pdftex.def Info: ANEXO Gen/10AnexGENCon.png  used on input line 2197.
+Package pdftex.def Info: ANEXO Gen/10AnexGENCon.png  used on input line 2202.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 File: ANEXO Gen/11AnexGENCongfem.png Graphic file (type png)
 <use ANEXO Gen/11AnexGENCongfem.png>
 Package pdftex.def Info: ANEXO Gen/11AnexGENCongfem.png  used on input line 220
-4.
+9.
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 File: ANEXO Gen/12AnexGENCongmasc.png Graphic file (type png)
 <use ANEXO Gen/12AnexGENCongmasc.png>
 Package pdftex.def Info: ANEXO Gen/12AnexGENCongmasc.png  used on input line 22
-11.
+16.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 File: ANEXO Gen/13AnexGENConnb.png Graphic file (type png)
 <use ANEXO Gen/13AnexGENConnb.png>
-Package pdftex.def Info: ANEXO Gen/13AnexGENConnb.png  used on input line 2217.
+Package pdftex.def Info: ANEXO Gen/13AnexGENConnb.png  used on input line 2222.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO Gen/14AnexGENConvid.png, id=2141, 342.078pt x 199.728pt>
 File: ANEXO Gen/14AnexGENConvid.png Graphic file (type png)
 <use ANEXO Gen/14AnexGENConvid.png>
-Package pdftex.def Info: ANEXO Gen/14AnexGENConvid.png  used on input line 2226
+Package pdftex.def Info: ANEXO Gen/14AnexGENConvid.png  used on input line 2231
 .
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO Gen/15AnexGENEnfvid.png, id=2142, 427.269pt x 199.947pt>
 File: ANEXO Gen/15AnexGENEnfvid.png Graphic file (type png)
 <use ANEXO Gen/15AnexGENEnfvid.png>
-Package pdftex.def Info: ANEXO Gen/15AnexGENEnfvid.png  used on input line 2244
+Package pdftex.def Info: ANEXO Gen/15AnexGENEnfvid.png  used on input line 2249
 .
 (pdftex.def)             Requested size: 330.05322pt x 154.45695pt.
 <ANEXO Gen/16AnexGENEst.png, id=2143, 342.078pt x 199.947pt>
 File: ANEXO Gen/16AnexGENEst.png Graphic file (type png)
 <use ANEXO Gen/16AnexGENEst.png>
-Package pdftex.def Info: ANEXO Gen/16AnexGENEst.png  used on input line 2252.
+Package pdftex.def Info: ANEXO Gen/16AnexGENEst.png  used on input line 2257.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO Gen/17AnexGENCorr.png, id=2144, 208.269pt x 199.728pt>
 File: ANEXO Gen/17AnexGENCorr.png Graphic file (type png)
 <use ANEXO Gen/17AnexGENCorr.png>
-Package pdftex.def Info: ANEXO Gen/17AnexGENCorr.png  used on input line 2261.
+Package pdftex.def Info: ANEXO Gen/17AnexGENCorr.png  used on input line 2266.
 (pdftex.def)             Requested size: 195.96773pt x 187.93327pt.
 <ANEXO Gen/18AnexGENCorr56.png, id=2145, 208.269pt x 199.728pt>
 File: ANEXO Gen/18AnexGENCorr56.png Graphic file (type png)
 <use ANEXO Gen/18AnexGENCorr56.png>
-Package pdftex.def Info: ANEXO Gen/18AnexGENCorr56.png  used on input line 2267
+Package pdftex.def Info: ANEXO Gen/18AnexGENCorr56.png  used on input line 2272
 .
 (pdftex.def)             Requested size: 195.96773pt x 187.93327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2281--2347
+Underfull \hbox (badness 10000) in paragraph at lines 2286--2352
 
  []
 
-LaTeX Info: Redefining \. on input line 2347.
-LaTeX Info: Redefining \% on input line 2347.
+LaTeX Info: Redefining \. on input line 2352.
+LaTeX Info: Redefining \% on input line 2352.
 [107 <./ANEXO Gen/9AnexGENMedios.png> <./ANEXO Gen/10AnexGENCon.png>]
-LaTeX Info: Redefining \. on input line 2347.
-LaTeX Info: Redefining \% on input line 2347.
+LaTeX Info: Redefining \. on input line 2352.
+LaTeX Info: Redefining \% on input line 2352.
  [108]
-LaTeX Info: Redefining \. on input line 2347.
-LaTeX Info: Redefining \% on input line 2347.
+LaTeX Info: Redefining \. on input line 2352.
+LaTeX Info: Redefining \% on input line 2352.
 
 [109 <./ANEXO Gen/14AnexGENConvid.png> <./ANEXO Gen/15AnexGENEnfvid.png> <./ANE
 XO Gen/16AnexGENEst.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2347.
-LaTeX Info: Redefining \% on input line 2347.
+LaTeX Info: Redefining \. on input line 2352.
+LaTeX Info: Redefining \% on input line 2352.
  [110 <./ANEXO Gen/17AnexGENCorr.png> <./ANEXO Gen/18AnexGENCorr56.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2355.
-LaTeX Info: Redefining \% on input line 2355.
+LaTeX Info: Redefining \. on input line 2360.
+LaTeX Info: Redefining \% on input line 2360.
  [111]
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2380
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2385
 
  []
 
 <ANEXO Gen/19AnexGENFid.png, id=2188, 427.269pt x 199.728pt>
 File: ANEXO Gen/19AnexGENFid.png Graphic file (type png)
 <use ANEXO Gen/19AnexGENFid.png>
-Package pdftex.def Info: ANEXO Gen/19AnexGENFid.png  used on input line 2394.
+Package pdftex.def Info: ANEXO Gen/19AnexGENFid.png  used on input line 2399.
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 <ANEXO Gen/20AnexGENMejor.png, id=2189, 342.078pt x 199.728pt>
 File: ANEXO Gen/20AnexGENMejor.png Graphic file (type png)
 <use ANEXO Gen/20AnexGENMejor.png>
-Package pdftex.def Info: ANEXO Gen/20AnexGENMejor.png  used on input line 2401.
+Package pdftex.def Info: ANEXO Gen/20AnexGENMejor.png  used on input line 2406.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
-LaTeX Info: Redefining \. on input line 2414.
-LaTeX Info: Redefining \% on input line 2414.
+LaTeX Info: Redefining \. on input line 2419.
+LaTeX Info: Redefining \% on input line 2419.
 [112]
-LaTeX Info: Redefining \. on input line 2414.
-LaTeX Info: Redefining \% on input line 2414.
+LaTeX Info: Redefining \. on input line 2419.
+LaTeX Info: Redefining \% on input line 2419.
  [113 <./ANEXO Gen/19AnexGENFid.png> <./ANEXO Gen/20AnexGENMejor.png>]
 <ANEXO Gen/21AnexGENEnf.png, id=2206, 503.262pt x 605.754pt>
 File: ANEXO Gen/21AnexGENEnf.png Graphic file (type png)
 <use ANEXO Gen/21AnexGENEnf.png>
-Package pdftex.def Info: ANEXO Gen/21AnexGENEnf.png  used on input line 2419.
+Package pdftex.def Info: ANEXO Gen/21AnexGENEnf.png  used on input line 2424.
 (pdftex.def)             Requested size: 412.56497pt x 496.59209pt.
 <ANEXO Gen/22AnexGENDiag.png, id=2207, 502.167pt x 608.82pt>
 File: ANEXO Gen/22AnexGENDiag.png Graphic file (type png)
 <use ANEXO Gen/22AnexGENDiag.png>
-Package pdftex.def Info: ANEXO Gen/22AnexGENDiag.png  used on input line 2431.
+Package pdftex.def Info: ANEXO Gen/22AnexGENDiag.png  used on input line 2436.
 (pdftex.def)             Requested size: 412.56497pt x 500.19249pt.
 <ANEXO Gen/23AnexGENEnf.png, id=2208, 427.269pt x 199.728pt>
 File: ANEXO Gen/23AnexGENEnf.png Graphic file (type png)
 <use ANEXO Gen/23AnexGENEnf.png>
-Package pdftex.def Info: ANEXO Gen/23AnexGENEnf.png  used on input line 2438.
+Package pdftex.def Info: ANEXO Gen/23AnexGENEnf.png  used on input line 2443.
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 <ANEXO Gen/24AnexGENEnf.png, id=2209, 427.269pt x 256.668pt>
 File: ANEXO Gen/24AnexGENEnf.png Graphic file (type png)
 <use ANEXO Gen/24AnexGENEnf.png>
-Package pdftex.def Info: ANEXO Gen/24AnexGENEnf.png  used on input line 2444.
+Package pdftex.def Info: ANEXO Gen/24AnexGENEnf.png  used on input line 2449.
 (pdftex.def)             Requested size: 330.05322pt x 198.27333pt.
 <ANEXO Gen/25AnexGENEnffem.png, id=2210, 270.903pt x 199.728pt>
 File: ANEXO Gen/25AnexGENEnffem.png Graphic file (type png)
 <use ANEXO Gen/25AnexGENEnffem.png>
-Package pdftex.def Info: ANEXO Gen/25AnexGENEnffem.png  used on input line 2454
+Package pdftex.def Info: ANEXO Gen/25AnexGENEnffem.png  used on input line 2459
 .
 (pdftex.def)             Requested size: 195.96773pt x 144.4867pt.
 <ANEXO Gen/26AnexGENEnffem.png, id=2211, 270.903pt x 199.728pt>
 File: ANEXO Gen/26AnexGENEnffem.png Graphic file (type png)
 <use ANEXO Gen/26AnexGENEnffem.png>
-Package pdftex.def Info: ANEXO Gen/26AnexGENEnffem.png  used on input line 2459
+Package pdftex.def Info: ANEXO Gen/26AnexGENEnffem.png  used on input line 2464
 .
 (pdftex.def)             Requested size: 195.96773pt x 144.4867pt.
 <ANEXO Gen/27AnexGENEnf.png, id=2212, 534.141pt x 696.858pt>
 File: ANEXO Gen/27AnexGENEnf.png Graphic file (type png)
 <use ANEXO Gen/27AnexGENEnf.png>
-Package pdftex.def Info: ANEXO Gen/27AnexGENEnf.png  used on input line 2469.
+Package pdftex.def Info: ANEXO Gen/27AnexGENEnf.png  used on input line 2474.
 (pdftex.def)             Requested size: 412.56497pt x 538.25172pt.
 <ANEXO Gen/28AnexGENVidenf.png, id=2213, 342.078pt x 199.728pt>
 File: ANEXO Gen/28AnexGENVidenf.png Graphic file (type png)
 <use ANEXO Gen/28AnexGENVidenf.png>
-Package pdftex.def Info: ANEXO Gen/28AnexGENVidenf.png  used on input line 2476
+Package pdftex.def Info: ANEXO Gen/28AnexGENVidenf.png  used on input line 2481
 .
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO Gen/29AnexGENnivel.png, id=2223, 342.078pt x 199.728pt>
 File: ANEXO Gen/29AnexGENnivel.png Graphic file (type png)
 <use ANEXO Gen/29AnexGENnivel.png>
-Package pdftex.def Info: ANEXO Gen/29AnexGENnivel.png  used on input line 2506.
+Package pdftex.def Info: ANEXO Gen/29AnexGENnivel.png  used on input line 2511.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
 
 [114]
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
  [115 <./ANEXO Gen/21AnexGENEnf.png>]
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
  [116 <./ANEXO Gen/22AnexGENDiag.png>]
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
  [117 <./ANEXO Gen/23AnexGENEnf.png> <./ANEXO Gen/24AnexGENEnf.png> <./ANEXO Ge
 n/25AnexGENEnffem.png> <./ANEXO Gen/26AnexGENEnffem.png>]
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
  [118 <./ANEXO Gen/27AnexGENEnf.png>]
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
+LaTeX Info: Redefining \. on input line 2529.
+LaTeX Info: Redefining \% on input line 2529.
  [119 <./ANEXO Gen/28AnexGENVidenf.png> <./ANEXO Gen/29AnexGENnivel.png>]
 <ANEXO ESP/1AnexESPGen.png, id=2271, 342.078pt x 199.947pt>
 File: ANEXO ESP/1AnexESPGen.png Graphic file (type png)
 <use ANEXO ESP/1AnexESPGen.png>
-Package pdftex.def Info: ANEXO ESP/1AnexESPGen.png  used on input line 2545.
+Package pdftex.def Info: ANEXO ESP/1AnexESPGen.png  used on input line 2550.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO ESP/2AnexESP.png, id=2272, 342.078pt x 199.947pt>
 File: ANEXO ESP/2AnexESP.png Graphic file (type png)
 <use ANEXO ESP/2AnexESP.png>
-Package pdftex.def Info: ANEXO ESP/2AnexESP.png  used on input line 2553.
+Package pdftex.def Info: ANEXO ESP/2AnexESP.png  used on input line 2558.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO ESP/3AnexGENFrecALL.png, id=2273, 516.621pt x 629.187pt>
 File: ANEXO ESP/3AnexGENFrecALL.png Graphic file (type png)
 <use ANEXO ESP/3AnexGENFrecALL.png>
-Package pdftex.def Info: ANEXO ESP/3AnexGENFrecALL.png  used on input line 2561
+Package pdftex.def Info: ANEXO ESP/3AnexGENFrecALL.png  used on input line 2566
 .
 (pdftex.def)             Requested size: 412.56497pt x 502.47662pt.
 <ANEXO ESP/4AnexESPFrecgne.png, id=2274, 427.269pt x 199.728pt>
 File: ANEXO ESP/4AnexESPFrecgne.png Graphic file (type png)
 <use ANEXO ESP/4AnexESPFrecgne.png>
-Package pdftex.def Info: ANEXO ESP/4AnexESPFrecgne.png  used on input line 2570
+Package pdftex.def Info: ANEXO ESP/4AnexESPFrecgne.png  used on input line 2575
 .
 (pdftex.def)             Requested size: 412.56497pt x 192.86124pt.
 <ANEXO ESP/5AnexESPgen56.png, id=2275, 270.903pt x 199.728pt>
 File: ANEXO ESP/5AnexESPgen56.png Graphic file (type png)
 <use ANEXO ESP/5AnexESPgen56.png>
-Package pdftex.def Info: ANEXO ESP/5AnexESPgen56.png  used on input line 2581.
+Package pdftex.def Info: ANEXO ESP/5AnexESPgen56.png  used on input line 2586.
 (pdftex.def)             Requested size: 235.16365pt x 173.38403pt.
 <ANEXO ESP/6AnexESPgen56.png, id=2276, 199.728pt x 199.947pt>
 File: ANEXO ESP/6AnexESPgen56.png Graphic file (type png)
 <use ANEXO ESP/6AnexESPgen56.png>
-Package pdftex.def Info: ANEXO ESP/6AnexESPgen56.png  used on input line 2586.
+Package pdftex.def Info: ANEXO ESP/6AnexESPgen56.png  used on input line 2591.
 (pdftex.def)             Requested size: 156.77179pt x 156.94957pt.
 <ANEXO ESP/7AnexESPMedios.png, id=2277, 427.269pt x 199.947pt>
 File: ANEXO ESP/7AnexESPMedios.png Graphic file (type png)
 <use ANEXO ESP/7AnexESPMedios.png>
-Package pdftex.def Info: ANEXO ESP/7AnexESPMedios.png  used on input line 2603.
+Package pdftex.def Info: ANEXO ESP/7AnexESPMedios.png  used on input line 2608.
 
 (pdftex.def)             Requested size: 412.56497pt x 193.07272pt.
 <ANEXO ESP/8AnexESPCon.png, id=2278, 512.679pt x 199.728pt>
 File: ANEXO ESP/8AnexESPCon.png Graphic file (type png)
 <use ANEXO ESP/8AnexESPCon.png>
-Package pdftex.def Info: ANEXO ESP/8AnexESPCon.png  used on input line 2611.
+Package pdftex.def Info: ANEXO ESP/8AnexESPCon.png  used on input line 2616.
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO ESP/9AnexESPConfem.png, id=2279, 512.679pt x 199.728pt>
 File: ANEXO ESP/9AnexESPConfem.png Graphic file (type png)
 <use ANEXO ESP/9AnexESPConfem.png>
-Package pdftex.def Info: ANEXO ESP/9AnexESPConfem.png  used on input line 2618.
+Package pdftex.def Info: ANEXO ESP/9AnexESPConfem.png  used on input line 2623.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
-LaTeX Info: Redefining \. on input line 2631.
-LaTeX Info: Redefining \% on input line 2631.
+LaTeX Info: Redefining \. on input line 2636.
+LaTeX Info: Redefining \% on input line 2636.
  [120 <./ANEXO ESP/1AnexESPGen.png>]
 <ANEXO ESP/10AnexESPConmasc.png, id=2298, 512.679pt x 199.947pt>
 File: ANEXO ESP/10AnexESPConmasc.png Graphic file (type png)
 <use ANEXO ESP/10AnexESPConmasc.png>
-Package pdftex.def Info: ANEXO ESP/10AnexESPConmasc.png  used on input line 263
-7.
+Package pdftex.def Info: ANEXO ESP/10AnexESPConmasc.png  used on input line 264
+2.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 <ANEXO ESP/11AnexESPConnb.png, id=2299, 512.679pt x 199.728pt>
 File: ANEXO ESP/11AnexESPConnb.png Graphic file (type png)
 <use ANEXO ESP/11AnexESPConnb.png>
-Package pdftex.def Info: ANEXO ESP/11AnexESPConnb.png  used on input line 2643.
+Package pdftex.def Info: ANEXO ESP/11AnexESPConnb.png  used on input line 2648.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO ESP/12AnexESPVidenf.png, id=2300, 213.963pt x 199.728pt>
 File: ANEXO ESP/12AnexESPVidenf.png Graphic file (type png)
 <use ANEXO ESP/12AnexESPVidenf.png>
-Package pdftex.def Info: ANEXO ESP/12AnexESPVidenf.png  used on input line 2652
+Package pdftex.def Info: ANEXO ESP/12AnexESPVidenf.png  used on input line 2657
 .
 (pdftex.def)             Requested size: 288.79422pt x 269.612pt.
 <ANEXO ESP/13AnexESPConvid56.png, id=2301, 213.963pt x 199.947pt>
 File: ANEXO ESP/13AnexESPConvid56.png Graphic file (type png)
 <use ANEXO ESP/13AnexESPConvid56.png>
 Package pdftex.def Info: ANEXO ESP/13AnexESPConvid56.png  used on input line 26
-59.
+64.
 (pdftex.def)             Requested size: 288.79422pt x 269.90764pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2668--2725
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2730
 
  []
 
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
 [121 <./ANEXO ESP/2AnexESP.png>]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
  [122 <./ANEXO ESP/3AnexGENFrecALL.png>]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
 
 [123 <./ANEXO ESP/4AnexESPFrecgne.png> <./ANEXO ESP/5AnexESPgen56.png> <./ANEXO
  ESP/6AnexESPgen56.png>]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
  [124 <./ANEXO ESP/7AnexESPMedios.png> <./ANEXO ESP/8AnexESPCon.png> <./ANEXO E
 SP/9AnexESPConfem.png>]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
  [125 <./ANEXO ESP/10AnexESPConmasc.png> <./ANEXO ESP/11AnexESPConnb.png>]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2730.
+LaTeX Info: Redefining \% on input line 2730.
  [126 <./ANEXO ESP/12AnexESPVidenf.png> <./ANEXO ESP/13AnexESPConvid56.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2738.
-LaTeX Info: Redefining \% on input line 2738.
+LaTeX Info: Redefining \. on input line 2743.
+LaTeX Info: Redefining \% on input line 2743.
  [127]
-Underfull \hbox (badness 10000) in paragraph at lines 2758--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2777.
-LaTeX Info: Redefining \% on input line 2777.
+LaTeX Info: Redefining \. on input line 2782.
+LaTeX Info: Redefining \% on input line 2782.
  [128]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2803.
-LaTeX Info: Redefining \% on input line 2803.
+LaTeX Info: Redefining \. on input line 2808.
+LaTeX Info: Redefining \% on input line 2808.
  [129]
 <ANEXO ESP/14AnexESPEnfvid.png, id=2365, 427.269pt x 199.947pt>
 File: ANEXO ESP/14AnexESPEnfvid.png Graphic file (type png)
 <use ANEXO ESP/14AnexESPEnfvid.png>
-Package pdftex.def Info: ANEXO ESP/14AnexESPEnfvid.png  used on input line 2823
+Package pdftex.def Info: ANEXO ESP/14AnexESPEnfvid.png  used on input line 2828
 .
 (pdftex.def)             Requested size: 330.05322pt x 154.45695pt.
 <ANEXO ESP/15AnexESPEst.png, id=2366, 342.078pt x 199.947pt>
 File: ANEXO ESP/15AnexESPEst.png Graphic file (type png)
 <use ANEXO ESP/15AnexESPEst.png>
-Package pdftex.def Info: ANEXO ESP/15AnexESPEst.png  used on input line 2831.
+Package pdftex.def Info: ANEXO ESP/15AnexESPEst.png  used on input line 2836.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO ESP/16AnexESPCorr.png, id=2367, 213.963pt x 199.947pt>
 File: ANEXO ESP/16AnexESPCorr.png Graphic file (type png)
 <use ANEXO ESP/16AnexESPCorr.png>
-Package pdftex.def Info: ANEXO ESP/16AnexESPCorr.png  used on input line 2840.
+Package pdftex.def Info: ANEXO ESP/16AnexESPCorr.png  used on input line 2845.
 (pdftex.def)             Requested size: 195.96773pt x 183.1358pt.
 <ANEXO ESP/17AnexESPCorr56.png, id=2368, 213.963pt x 199.947pt>
 File: ANEXO ESP/17AnexESPCorr56.png Graphic file (type png)
 <use ANEXO ESP/17AnexESPCorr56.png>
-Package pdftex.def Info: ANEXO ESP/17AnexESPCorr56.png  used on input line 2845
+Package pdftex.def Info: ANEXO ESP/17AnexESPCorr56.png  used on input line 2850
 .
 (pdftex.def)             Requested size: 195.96773pt x 183.1358pt.
 <ANEXO ESP/18AnexESPDife.png, id=2369, 342.078pt x 199.947pt>
 File: ANEXO ESP/18AnexESPDife.png Graphic file (type png)
 <use ANEXO ESP/18AnexESPDife.png>
-Package pdftex.def Info: ANEXO ESP/18AnexESPDife.png  used on input line 2854.
+Package pdftex.def Info: ANEXO ESP/18AnexESPDife.png  used on input line 2859.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
 <ANEXO ESP/19AnexESPMejor.png, id=2370, 342.297pt x 199.947pt>
 File: ANEXO ESP/19AnexESPMejor.png Graphic file (type png)
 <use ANEXO ESP/19AnexESPMejor.png>
-Package pdftex.def Info: ANEXO ESP/19AnexESPMejor.png  used on input line 2861.
+Package pdftex.def Info: ANEXO ESP/19AnexESPMejor.png  used on input line 2866.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.8012pt.
 <ANEXO ESP/20AnexESPEnf.png, id=2372, 502.605pt x 607.944pt>
 File: ANEXO ESP/20AnexESPEnf.png Graphic file (type png)
 <use ANEXO ESP/20AnexESPEnf.png>
-Package pdftex.def Info: ANEXO ESP/20AnexESPEnf.png  used on input line 2880.
+Package pdftex.def Info: ANEXO ESP/20AnexESPEnf.png  used on input line 2885.
 (pdftex.def)             Requested size: 412.56497pt x 499.03677pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
+LaTeX Info: Redefining \. on input line 2894.
+LaTeX Info: Redefining \% on input line 2894.
  [130 <./ANEXO ESP/14AnexESPEnfvid.png>]
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
+LaTeX Info: Redefining \. on input line 2894.
+LaTeX Info: Redefining \% on input line 2894.
  [131 <./ANEXO ESP/15AnexESPEst.png> <./ANEXO ESP/16AnexESPCorr.png> <./ANEXO E
 SP/17AnexESPCorr56.png>]
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
+LaTeX Info: Redefining \. on input line 2894.
+LaTeX Info: Redefining \% on input line 2894.
  [132 <./ANEXO ESP/18AnexESPDife.png> <./ANEXO ESP/19AnexESPMejor.png>]
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
+LaTeX Info: Redefining \. on input line 2894.
+LaTeX Info: Redefining \% on input line 2894.
  [133 <./ANEXO ESP/20AnexESPEnf.png>]
 <ANEXO ESP/21AnexESPDiag.png, id=2404, 504.357pt x 605.973pt>
 File: ANEXO ESP/21AnexESPDiag.png Graphic file (type png)
 <use ANEXO ESP/21AnexESPDiag.png>
-Package pdftex.def Info: ANEXO ESP/21AnexESPDiag.png  used on input line 2901.
+Package pdftex.def Info: ANEXO ESP/21AnexESPDiag.png  used on input line 2906.
 (pdftex.def)             Requested size: 412.56497pt x 495.6898pt.
 <ANEXO ESP/22AnexESPEnf.png, id=2405, 427.488pt x 199.947pt>
 File: ANEXO ESP/22AnexESPEnf.png Graphic file (type png)
 <use ANEXO ESP/22AnexESPEnf.png>
-Package pdftex.def Info: ANEXO ESP/22AnexESPEnf.png  used on input line 2908.
+Package pdftex.def Info: ANEXO ESP/22AnexESPEnf.png  used on input line 2913.
 (pdftex.def)             Requested size: 330.05322pt x 154.38068pt.
 <ANEXO ESP/23AnexESPEnf.png, id=2406, 427.488pt x 256.668pt>
 File: ANEXO ESP/23AnexESPEnf.png Graphic file (type png)
 <use ANEXO ESP/23AnexESPEnf.png>
-Package pdftex.def Info: ANEXO ESP/23AnexESPEnf.png  used on input line 2914.
+Package pdftex.def Info: ANEXO ESP/23AnexESPEnf.png  used on input line 2919.
 (pdftex.def)             Requested size: 330.05322pt x 198.17543pt.
 <ANEXO ESP/24AnexESPEnfdiag.png, id=2407, 262.362pt x 199.728pt>
 File: ANEXO ESP/24AnexESPEnfdiag.png Graphic file (type png)
 <use ANEXO ESP/24AnexESPEnfdiag.png>
 Package pdftex.def Info: ANEXO ESP/24AnexESPEnfdiag.png  used on input line 292
-4.
+9.
 (pdftex.def)             Requested size: 195.96773pt x 149.18304pt.
 <ANEXO ESP/25AnexESPEnfnodiag.png, id=2408, 262.581pt x 199.947pt>
 File: ANEXO ESP/25AnexESPEnfnodiag.png Graphic file (type png)
 <use ANEXO ESP/25AnexESPEnfnodiag.png>
 Package pdftex.def Info: ANEXO ESP/25AnexESPEnfnodiag.png  used on input line 2
-929.
+934.
 (pdftex.def)             Requested size: 195.96773pt x 149.22154pt.
 <ANEXO ESP/26AnexESPEnf.png, id=2409, 529.542pt x 702.114pt>
 File: ANEXO ESP/26AnexESPEnf.png Graphic file (type png)
 <use ANEXO ESP/26AnexESPEnf.png>
-Package pdftex.def Info: ANEXO ESP/26AnexESPEnf.png  used on input line 2939.
+Package pdftex.def Info: ANEXO ESP/26AnexESPEnf.png  used on input line 2944.
 (pdftex.def)             Requested size: 412.56497pt x 547.01463pt.
 <ANEXO ESP/27AnexESPEnftenidas.png, id=2410, 342.078pt x 199.947pt>
 File: ANEXO ESP/27AnexESPEnftenidas.png Graphic file (type png)
 <use ANEXO ESP/27AnexESPEnftenidas.png>
 Package pdftex.def Info: ANEXO ESP/27AnexESPEnftenidas.png  used on input line 
-2946.
+2951.
 (pdftex.def)             Requested size: 330.05322pt x 192.92628pt.
-LaTeX Info: Redefining \. on input line 2971.
-LaTeX Info: Redefining \% on input line 2971.
+LaTeX Info: Redefining \. on input line 2976.
+LaTeX Info: Redefining \% on input line 2976.
  [134]
-LaTeX Info: Redefining \. on input line 2971.
-LaTeX Info: Redefining \% on input line 2971.
+LaTeX Info: Redefining \. on input line 2976.
+LaTeX Info: Redefining \% on input line 2976.
  [135 <./ANEXO ESP/21AnexESPDiag.png>]
-LaTeX Info: Redefining \. on input line 2971.
-LaTeX Info: Redefining \% on input line 2971.
+LaTeX Info: Redefining \. on input line 2976.
+LaTeX Info: Redefining \% on input line 2976.
  [136 <./ANEXO ESP/22AnexESPEnf.png> <./ANEXO ESP/23AnexESPEnf.png> <./ANEXO ES
 P/24AnexESPEnfdiag.png> <./ANEXO ESP/25AnexESPEnfnodiag.png>]
-LaTeX Info: Redefining \. on input line 2971.
-LaTeX Info: Redefining \% on input line 2971.
+LaTeX Info: Redefining \. on input line 2976.
+LaTeX Info: Redefining \% on input line 2976.
  [137 <./ANEXO ESP/26AnexESPEnf.png>]
 <ANEXO ESP/28AnexESPNivel.png, id=2438, 342.078pt x 199.728pt>
 File: ANEXO ESP/28AnexESPNivel.png Graphic file (type png)
 <use ANEXO ESP/28AnexESPNivel.png>
-Package pdftex.def Info: ANEXO ESP/28AnexESPNivel.png  used on input line 2985.
+Package pdftex.def Info: ANEXO ESP/28AnexESPNivel.png  used on input line 2990.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
-LaTeX Info: Redefining \. on input line 2996.
-LaTeX Info: Redefining \% on input line 2996.
+LaTeX Info: Redefining \. on input line 3001.
+LaTeX Info: Redefining \% on input line 3001.
  [138 <./ANEXO ESP/27AnexESPEnftenidas.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 3012.
-LaTeX Info: Redefining \% on input line 3012.
+LaTeX Info: Redefining \. on input line 3017.
+LaTeX Info: Redefining \% on input line 3017.
  [139 <./ANEXO ESP/28AnexESPNivel.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 3032.
-LaTeX Info: Redefining \% on input line 3032.
+LaTeX Info: Redefining \. on input line 3037.
+LaTeX Info: Redefining \% on input line 3037.
  [140]
-LaTeX Info: Redefining \. on input line 3050.
-LaTeX Info: Redefining \% on input line 3050.
+LaTeX Info: Redefining \. on input line 3055.
+LaTeX Info: Redefining \% on input line 3055.
 
 [141]
 <ANEXO ING/1AnexINGGen.png, id=2463, 342.078pt x 199.728pt>
 File: ANEXO ING/1AnexINGGen.png Graphic file (type png)
 <use ANEXO ING/1AnexINGGen.png>
-Package pdftex.def Info: ANEXO ING/1AnexINGGen.png  used on input line 3070.
+Package pdftex.def Info: ANEXO ING/1AnexINGGen.png  used on input line 3075.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO ING/2AnexINGAge.png, id=2464, 342.078pt x 199.728pt>
 File: ANEXO ING/2AnexINGAge.png Graphic file (type png)
 <use ANEXO ING/2AnexINGAge.png>
-Package pdftex.def Info: ANEXO ING/2AnexINGAge.png  used on input line 3078.
+Package pdftex.def Info: ANEXO ING/2AnexINGAge.png  used on input line 3083.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO ING/3AnexINGFrec.png, id=2465, 515.526pt x 623.493pt>
 File: ANEXO ING/3AnexINGFrec.png Graphic file (type png)
 <use ANEXO ING/3AnexINGFrec.png>
-Package pdftex.def Info: ANEXO ING/3AnexINGFrec.png  used on input line 3086.
+Package pdftex.def Info: ANEXO ING/3AnexINGFrec.png  used on input line 3091.
 (pdftex.def)             Requested size: 412.56497pt x 498.98535pt.
 <ANEXO ING/4AnexINGFrecgen.png, id=2466, 427.269pt x 199.728pt>
 File: ANEXO ING/4AnexINGFrecgen.png Graphic file (type png)
 <use ANEXO ING/4AnexINGFrecgen.png>
-Package pdftex.def Info: ANEXO ING/4AnexINGFrecgen.png  used on input line 3095
+Package pdftex.def Info: ANEXO ING/4AnexINGFrecgen.png  used on input line 3100
 .
 (pdftex.def)             Requested size: 412.56497pt x 192.86124pt.
 <ANEXO ING/5AnexINGFre56.png, id=2467, 270.903pt x 199.728pt>
 File: ANEXO ING/5AnexINGFre56.png Graphic file (type png)
 <use ANEXO ING/5AnexINGFre56.png>
-Package pdftex.def Info: ANEXO ING/5AnexINGFre56.png  used on input line 3106.
+Package pdftex.def Info: ANEXO ING/5AnexINGFre56.png  used on input line 3111.
 (pdftex.def)             Requested size: 235.16365pt x 173.38403pt.
 <ANEXO ING/6Anex56Gen.png, id=2468, 199.947pt x 199.728pt>
 File: ANEXO ING/6Anex56Gen.png Graphic file (type png)
 <use ANEXO ING/6Anex56Gen.png>
-Package pdftex.def Info: ANEXO ING/6Anex56Gen.png  used on input line 3111.
+Package pdftex.def Info: ANEXO ING/6Anex56Gen.png  used on input line 3116.
 (pdftex.def)             Requested size: 156.77179pt x 156.607pt.
-LaTeX Info: Redefining \. on input line 3132.
-LaTeX Info: Redefining \% on input line 3132.
+LaTeX Info: Redefining \. on input line 3137.
+LaTeX Info: Redefining \% on input line 3137.
  [142 <./ANEXO ING/1AnexINGGen.png>]
 <ANEXO ING/7AnexINGMedios.png, id=2488, 427.269pt x 199.728pt>
 File: ANEXO ING/7AnexINGMedios.png Graphic file (type png)
 <use ANEXO ING/7AnexINGMedios.png>
-Package pdftex.def Info: ANEXO ING/7AnexINGMedios.png  used on input line 3139.
+Package pdftex.def Info: ANEXO ING/7AnexINGMedios.png  used on input line 3144.
 
 (pdftex.def)             Requested size: 412.56497pt x 192.86124pt.
 <ANEXO ING/8AnexINGCon.png, id=2489, 512.679pt x 199.947pt>
 File: ANEXO ING/8AnexINGCon.png Graphic file (type png)
 <use ANEXO ING/8AnexINGCon.png>
-Package pdftex.def Info: ANEXO ING/8AnexINGCon.png  used on input line 3147.
+Package pdftex.def Info: ANEXO ING/8AnexINGCon.png  used on input line 3152.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 <ANEXO ING/9ANexINGConfem.png, id=2490, 512.679pt x 199.728pt>
 File: ANEXO ING/9ANexINGConfem.png Graphic file (type png)
 <use ANEXO ING/9ANexINGConfem.png>
-Package pdftex.def Info: ANEXO ING/9ANexINGConfem.png  used on input line 3154.
+Package pdftex.def Info: ANEXO ING/9ANexINGConfem.png  used on input line 3159.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO ING/10AnexINGConmasc.png, id=2491, 512.679pt x 199.947pt>
 File: ANEXO ING/10AnexINGConmasc.png Graphic file (type png)
 <use ANEXO ING/10AnexINGConmasc.png>
 Package pdftex.def Info: ANEXO ING/10AnexINGConmasc.png  used on input line 316
-1.
+6.
 (pdftex.def)             Requested size: 412.56497pt x 160.90665pt.
 <ANEXO ING/11AnexINGConnb.png, id=2492, 512.679pt x 199.728pt>
 File: ANEXO ING/11AnexINGConnb.png Graphic file (type png)
 <use ANEXO ING/11AnexINGConnb.png>
-Package pdftex.def Info: ANEXO ING/11AnexINGConnb.png  used on input line 3167.
+Package pdftex.def Info: ANEXO ING/11AnexINGConnb.png  used on input line 3172.
 
 (pdftex.def)             Requested size: 412.56497pt x 160.7304pt.
 <ANEXO ING/12AnexINGConvid.png, id=2493, 199.728pt x 199.728pt>
 File: ANEXO ING/12AnexINGConvid.png Graphic file (type png)
 <use ANEXO ING/12AnexINGConvid.png>
-Package pdftex.def Info: ANEXO ING/12AnexINGConvid.png  used on input line 3176
+Package pdftex.def Info: ANEXO ING/12AnexINGConvid.png  used on input line 3181
 .
 (pdftex.def)             Requested size: 288.79422pt x 288.80577pt.
 <ANEXO ING/123AnexINGConvid.png, id=2494, 199.728pt x 199.728pt>
 File: ANEXO ING/123AnexINGConvid.png Graphic file (type png)
 <use ANEXO ING/123AnexINGConvid.png>
 Package pdftex.def Info: ANEXO ING/123AnexINGConvid.png  used on input line 318
-3.
+8.
 (pdftex.def)             Requested size: 288.79422pt x 288.80577pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3194--3217
+Underfull \hbox (badness 10000) in paragraph at lines 3199--3222
 
  []
 
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
 [143 <./ANEXO ING/2AnexINGAge.png>]
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
  [144 <./ANEXO ING/3AnexINGFrec.png>]
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
 
 [145 <./ANEXO ING/4AnexINGFrecgen.png> <./ANEXO ING/5AnexINGFre56.png> <./ANEXO
  ING/6Anex56Gen.png>]
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
  [146 <./ANEXO ING/7AnexINGMedios.png> <./ANEXO ING/8AnexINGCon.png> <./ANEXO I
 NG/9ANexINGConfem.png>]
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
  [147 <./ANEXO ING/10AnexINGConmasc.png> <./ANEXO ING/11AnexINGConnb.png>]
-LaTeX Info: Redefining \. on input line 3217.
-LaTeX Info: Redefining \% on input line 3217.
+LaTeX Info: Redefining \. on input line 3222.
+LaTeX Info: Redefining \% on input line 3222.
  [148 <./ANEXO ING/12AnexINGConvid.png> <./ANEXO ING/123AnexINGConvid.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 3263.
-LaTeX Info: Redefining \% on input line 3263.
+LaTeX Info: Redefining \. on input line 3268.
+LaTeX Info: Redefining \% on input line 3268.
  [149]
-Underfull \hbox (badness 10000) in paragraph at lines 3269--3271
+Underfull \hbox (badness 10000) in paragraph at lines 3274--3276
 
  []
 
 <ANEXO ING/13AnexINGEnfvid.png, id=2546, 427.269pt x 199.728pt>
 File: ANEXO ING/13AnexINGEnfvid.png Graphic file (type png)
 <use ANEXO ING/13AnexINGEnfvid.png>
-Package pdftex.def Info: ANEXO ING/13AnexINGEnfvid.png  used on input line 3300
+Package pdftex.def Info: ANEXO ING/13AnexINGEnfvid.png  used on input line 3305
 .
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 <ANEXO ING/14AnexINGEst.png, id=2547, 342.078pt x 199.728pt>
 File: ANEXO ING/14AnexINGEst.png Graphic file (type png)
 <use ANEXO ING/14AnexINGEst.png>
-Package pdftex.def Info: ANEXO ING/14AnexINGEst.png  used on input line 3308.
+Package pdftex.def Info: ANEXO ING/14AnexINGEst.png  used on input line 3313.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO ING/15AnexINGCorr.png, id=2548, 213.963pt x 199.947pt>
 File: ANEXO ING/15AnexINGCorr.png Graphic file (type png)
 <use ANEXO ING/15AnexINGCorr.png>
-Package pdftex.def Info: ANEXO ING/15AnexINGCorr.png  used on input line 3317.
+Package pdftex.def Info: ANEXO ING/15AnexINGCorr.png  used on input line 3322.
 (pdftex.def)             Requested size: 195.96773pt x 183.1358pt.
 <ANEXO ING/16AnexINGCorr56.png, id=2549, 213.963pt x 199.728pt>
 File: ANEXO ING/16AnexINGCorr56.png Graphic file (type png)
 <use ANEXO ING/16AnexINGCorr56.png>
-Package pdftex.def Info: ANEXO ING/16AnexINGCorr56.png  used on input line 3322
+Package pdftex.def Info: ANEXO ING/16AnexINGCorr56.png  used on input line 3327
 .
 (pdftex.def)             Requested size: 195.96773pt x 182.93521pt.
 <ANEXO ING/17AnexINGFid.png, id=2550, 342.078pt x 199.728pt>
 File: ANEXO ING/17AnexINGFid.png Graphic file (type png)
 <use ANEXO ING/17AnexINGFid.png>
-Package pdftex.def Info: ANEXO ING/17AnexINGFid.png  used on input line 3331.
+Package pdftex.def Info: ANEXO ING/17AnexINGFid.png  used on input line 3336.
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO ING/18AnexINGMejor.png, id=2551, 342.078pt x 199.728pt>
 File: ANEXO ING/18AnexINGMejor.png Graphic file (type png)
 <use ANEXO ING/18AnexINGMejor.png>
-Package pdftex.def Info: ANEXO ING/18AnexINGMejor.png  used on input line 3338.
+Package pdftex.def Info: ANEXO ING/18AnexINGMejor.png  used on input line 3343.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
 <ANEXO ING/19AnexINGEnf.png, id=2553, 502.167pt x 605.316pt>
 File: ANEXO ING/19AnexINGEnf.png Graphic file (type png)
 <use ANEXO ING/19AnexINGEnf.png>
-Package pdftex.def Info: ANEXO ING/19AnexINGEnf.png  used on input line 3358.
+Package pdftex.def Info: ANEXO ING/19AnexINGEnf.png  used on input line 3363.
 (pdftex.def)             Requested size: 412.56497pt x 497.31367pt.
-LaTeX Info: Redefining \. on input line 3367.
-LaTeX Info: Redefining \% on input line 3367.
+LaTeX Info: Redefining \. on input line 3372.
+LaTeX Info: Redefining \% on input line 3372.
 [150]
-LaTeX Info: Redefining \. on input line 3367.
-LaTeX Info: Redefining \% on input line 3367.
+LaTeX Info: Redefining \. on input line 3372.
+LaTeX Info: Redefining \% on input line 3372.
  [151 <./ANEXO ING/13AnexINGEnfvid.png> <./ANEXO ING/14AnexINGEst.png>]
-LaTeX Info: Redefining \. on input line 3367.
-LaTeX Info: Redefining \% on input line 3367.
+LaTeX Info: Redefining \. on input line 3372.
+LaTeX Info: Redefining \% on input line 3372.
 
 [152 <./ANEXO ING/15AnexINGCorr.png> <./ANEXO ING/16AnexINGCorr56.png> <./ANEXO
  ING/17AnexINGFid.png>]
 <ANEXO ING/20AnexINGDiag.png, id=2581, 503.481pt x 606.192pt>
 File: ANEXO ING/20AnexINGDiag.png Graphic file (type png)
 <use ANEXO ING/20AnexINGDiag.png>
-Package pdftex.def Info: ANEXO ING/20AnexINGDiag.png  used on input line 3379.
+Package pdftex.def Info: ANEXO ING/20AnexINGDiag.png  used on input line 3384.
 (pdftex.def)             Requested size: 412.56497pt x 496.7384pt.
 <ANEXO ING/21AnexINGEng.png, id=2582, 427.269pt x 199.728pt>
 File: ANEXO ING/21AnexINGEng.png Graphic file (type png)
 <use ANEXO ING/21AnexINGEng.png>
-Package pdftex.def Info: ANEXO ING/21AnexINGEng.png  used on input line 3386.
+Package pdftex.def Info: ANEXO ING/21AnexINGEng.png  used on input line 3391.
 (pdftex.def)             Requested size: 330.05322pt x 154.28778pt.
 <ANEXO ING/22AnexINGEnf.png, id=2583, 427.269pt x 256.668pt>
 File: ANEXO ING/22AnexINGEnf.png Graphic file (type png)
 <use ANEXO ING/22AnexINGEnf.png>
-Package pdftex.def Info: ANEXO ING/22AnexINGEnf.png  used on input line 3392.
+Package pdftex.def Info: ANEXO ING/22AnexINGEnf.png  used on input line 3397.
 (pdftex.def)             Requested size: 330.05322pt x 198.27333pt.
 <ANEXO ING/23AnexINGEnfdiag.png, id=2584, 270.903pt x 199.728pt>
 File: ANEXO ING/23AnexINGEnfdiag.png Graphic file (type png)
 <use ANEXO ING/23AnexINGEnfdiag.png>
 Package pdftex.def Info: ANEXO ING/23AnexINGEnfdiag.png  used on input line 340
-2.
+7.
 (pdftex.def)             Requested size: 195.96773pt x 144.4867pt.
 <ANEXO ING/24AnexINGEnfnodiag.png, id=2585, 270.903pt x 199.728pt>
 File: ANEXO ING/24AnexINGEnfnodiag.png Graphic file (type png)
 <use ANEXO ING/24AnexINGEnfnodiag.png>
 Package pdftex.def Info: ANEXO ING/24AnexINGEnfnodiag.png  used on input line 3
-407.
+412.
 (pdftex.def)             Requested size: 195.96773pt x 144.4867pt.
 <ANEXO ING/25AnexINGEnfgene.png, id=2586, 527.79pt x 701.457pt>
 File: ANEXO ING/25AnexINGEnfgene.png Graphic file (type png)
 <use ANEXO ING/25AnexINGEnfgene.png>
-Package pdftex.def Info: ANEXO ING/25AnexINGEnfgene.png  used on input line 341
-7.
+Package pdftex.def Info: ANEXO ING/25AnexINGEnfgene.png  used on input line 342
+2.
 (pdftex.def)             Requested size: 412.56497pt x 548.32234pt.
 <ANEXO ING/25AnexINGEnften.png, id=2587, 342.078pt x 199.728pt>
 File: ANEXO ING/25AnexINGEnften.png Graphic file (type png)
 <use ANEXO ING/25AnexINGEnften.png>
-Package pdftex.def Info: ANEXO ING/25AnexINGEnften.png  used on input line 3424
+Package pdftex.def Info: ANEXO ING/25AnexINGEnften.png  used on input line 3429
 .
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
-LaTeX Info: Redefining \. on input line 3446.
-LaTeX Info: Redefining \% on input line 3446.
+LaTeX Info: Redefining \. on input line 3451.
+LaTeX Info: Redefining \% on input line 3451.
  [153 <./ANEXO ING/18AnexINGMejor.png>]
-LaTeX Info: Redefining \. on input line 3446.
-LaTeX Info: Redefining \% on input line 3446.
+LaTeX Info: Redefining \. on input line 3451.
+LaTeX Info: Redefining \% on input line 3451.
  [154 <./ANEXO ING/19AnexINGEnf.png>]
-LaTeX Info: Redefining \. on input line 3446.
-LaTeX Info: Redefining \% on input line 3446.
+LaTeX Info: Redefining \. on input line 3451.
+LaTeX Info: Redefining \% on input line 3451.
  [155 <./ANEXO ING/20AnexINGDiag.png>]
-LaTeX Info: Redefining \. on input line 3446.
-LaTeX Info: Redefining \% on input line 3446.
+LaTeX Info: Redefining \. on input line 3451.
+LaTeX Info: Redefining \% on input line 3451.
  [156 <./ANEXO ING/21AnexINGEng.png> <./ANEXO ING/22AnexINGEnf.png> <./ANEXO IN
 G/23AnexINGEnfdiag.png> <./ANEXO ING/24AnexINGEnfnodiag.png>]
-LaTeX Info: Redefining \. on input line 3446.
-LaTeX Info: Redefining \% on input line 3446.
+LaTeX Info: Redefining \. on input line 3451.
+LaTeX Info: Redefining \% on input line 3451.
  [157 <./ANEXO ING/25AnexINGEnfgene.png>]
 <ANEXO ING/26AnexINGNivel.png, id=2622, 342.078pt x 199.728pt>
 File: ANEXO ING/26AnexINGNivel.png Graphic file (type png)
 <use ANEXO ING/26AnexINGNivel.png>
-Package pdftex.def Info: ANEXO ING/26AnexINGNivel.png  used on input line 3459.
+Package pdftex.def Info: ANEXO ING/26AnexINGNivel.png  used on input line 3464.
 
 (pdftex.def)             Requested size: 330.05322pt x 192.71497pt.
-LaTeX Info: Redefining \. on input line 3476.
-LaTeX Info: Redefining \% on input line 3476.
+LaTeX Info: Redefining \. on input line 3481.
+LaTeX Info: Redefining \% on input line 3481.
  [158 <./ANEXO ING/25AnexINGEnften.png>]
-LaTeX Info: Redefining \. on input line 3489.
-LaTeX Info: Redefining \% on input line 3489.
+LaTeX Info: Redefining \. on input line 3494.
+LaTeX Info: Redefining \% on input line 3494.
  [159 <./ANEXO ING/26AnexINGNivel.png>]
-LaTeX Info: Redefining \. on input line 3498.
-LaTeX Info: Redefining \% on input line 3498.
+LaTeX Info: Redefining \. on input line 3503.
+LaTeX Info: Redefining \% on input line 3503.
  [160]
 Ap\'{e}ndice B.
 <Anexo Demo/1AnexDem_enten.png, id=2638, 362.226pt x 214.401pt>
 File: Anexo Demo/1AnexDem_enten.png Graphic file (type png)
 <use Anexo Demo/1AnexDem_enten.png>
-Package pdftex.def Info: Anexo Demo/1AnexDem_enten.png  used on input line 3508
+Package pdftex.def Info: Anexo Demo/1AnexDem_enten.png  used on input line 3513
 .
 (pdftex.def)             Requested size: 330.05322pt x 195.36038pt.
 <Anexo Demo/2AnexDem_controles.png, id=2640, 362.445pt x 214.401pt>
 File: Anexo Demo/2AnexDem_controles.png Graphic file (type png)
 <use Anexo Demo/2AnexDem_controles.png>
 Package pdftex.def Info: Anexo Demo/2AnexDem_controles.png  used on input line 
-3516.
+3521.
 (pdftex.def)             Requested size: 330.05322pt x 195.2426pt.
 <Anexo Demo/3AnexDem_musi.png, id=2642, 362.226pt x 214.182pt>
 File: Anexo Demo/3AnexDem_musi.png Graphic file (type png)
 <use Anexo Demo/3AnexDem_musi.png>
-Package pdftex.def Info: Anexo Demo/3AnexDem_musi.png  used on input line 3525.
+Package pdftex.def Info: Anexo Demo/3AnexDem_musi.png  used on input line 3530.
 
 (pdftex.def)             Requested size: 330.05322pt x 195.16083pt.
 <Anexo Demo/4AnexDemo_razonmusi.png, id=2644, 362.007pt x 214.182pt>
 File: Anexo Demo/4AnexDemo_razonmusi.png Graphic file (type png)
 <use Anexo Demo/4AnexDemo_razonmusi.png>
 Package pdftex.def Info: Anexo Demo/4AnexDemo_razonmusi.png  used on input line
- 3533.
+ 3538.
 (pdftex.def)             Requested size: 330.05322pt x 195.27849pt.
 <Anexo Demo/5AnexDemo_HUD.png, id=2646, 362.007pt x 214.182pt>
 File: Anexo Demo/5AnexDemo_HUD.png Graphic file (type png)
 <use Anexo Demo/5AnexDemo_HUD.png>
-Package pdftex.def Info: Anexo Demo/5AnexDemo_HUD.png  used on input line 3542.
+Package pdftex.def Info: Anexo Demo/5AnexDemo_HUD.png  used on input line 3547.
 
 (pdftex.def)             Requested size: 330.05322pt x 195.27849pt.
 <Anexo Demo/6AnexDemo_perdido.png, id=2648, 362.007pt x 214.182pt>
 File: Anexo Demo/6AnexDemo_perdido.png Graphic file (type png)
 <use Anexo Demo/6AnexDemo_perdido.png>
 Package pdftex.def Info: Anexo Demo/6AnexDemo_perdido.png  used on input line 3
-554.
+559.
 (pdftex.def)             Requested size: 330.05322pt x 195.27849pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3536,33 +3536,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Info: Redefining \. on input line 3569.
-LaTeX Info: Redefining \% on input line 3569.
+LaTeX Info: Redefining \. on input line 3574.
+LaTeX Info: Redefining \% on input line 3574.
 
 [162 <./Anexo Demo/1AnexDem_enten.png> <./Anexo Demo/2AnexDem_controles.png>]
 [163 <./Anexo Demo/3AnexDem_musi.png> <./Anexo Demo/4AnexDemo_razonmusi.png>]
-LaTeX Info: Redefining \. on input line 3569.
-LaTeX Info: Redefining \% on input line 3569.
+LaTeX Info: Redefining \. on input line 3574.
+LaTeX Info: Redefining \% on input line 3574.
 
 [164 <./Anexo Demo/5AnexDemo_HUD.png> <./Anexo Demo/6AnexDemo_perdido.png>]
 <Anexo Demo/7AnexDemo_estetic.png, id=2682, 362.226pt x 214.401pt>
 File: Anexo Demo/7AnexDemo_estetic.png Graphic file (type png)
 <use Anexo Demo/7AnexDemo_estetic.png>
 Package pdftex.def Info: Anexo Demo/7AnexDemo_estetic.png  used on input line 3
-589.
+594.
 (pdftex.def)             Requested size: 330.05322pt x 195.36038pt.
 <Anexo Demo/8AnexDemo_repres.png, id=2684, 671.235pt x 242.214pt>
 File: Anexo Demo/8AnexDemo_repres.png Graphic file (type png)
 <use Anexo Demo/8AnexDemo_repres.png>
-Package pdftex.def Info: Anexo Demo/8AnexDemo_repres.png  used on input line 35
-98.
+Package pdftex.def Info: Anexo Demo/8AnexDemo_repres.png  used on input line 36
+03.
 (pdftex.def)             Requested size: 330.05322pt x 119.09982pt.
 
 Underfull \vbox (badness 2781) has occurred while \output is active []
 
  [165 <./Anexo Demo/7AnexDemo_estetic.png>]
-LaTeX Info: Redefining \. on input line 3646.
-LaTeX Info: Redefining \% on input line 3646.
+LaTeX Info: Redefining \. on input line 3651.
+LaTeX Info: Redefining \% on input line 3651.
  [166 <./Anexo Demo/8AnexDemo_repres.png>]
 [167] (0410.aux
 LaTeX Info: Redefining \sptext on input line 32.
@@ -3578,7 +3578,7 @@ Package logreq Info: Writing requests to '0410.run.xml'.
 Here is how much of TeX's memory you used:
  36493 strings out of 479334
  688111 string characters out of 2850910
- 1378942 words of memory out of 3000000
+ 1379968 words of memory out of 3000000
  52513 multiletter control sequences out of 15000+200000
  484767 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3592,7 +3592,7 @@ uezgo.2016/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/
 Users/a.rodriguezgo.2016/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mr8a.pfb><C:/Users/a.rodriguezgo.2016/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on 0410.pdf (185 pages, 47611892 bytes).
+Output written on 0410.pdf (185 pages, 47613090 bytes).
 PDF statistics:
  3002 PDF objects out of 3580 (max. 8388607)
  619 named destinations out of 1000 (max. 500000)
